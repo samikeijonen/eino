@@ -456,7 +456,9 @@ body {
 .taxonomy-portfolio .hentry:before,
 .taxonomy-portfolio .hentry:after,
 .page-template-portfolio-page .hentry:before,
-.page-template-portfolio-page .hentry:after {
+.page-template-portfolio-page .hentry:after,
+#buddypress #register-page:before,
+#buddypress #register-page:after {
 	content: " "; /* 1 */
 	display: table; /* 2 */
 }
@@ -468,7 +470,8 @@ body {
 .page-template-download-page .hentry:after,
 .archive-portfolio_item .hentry:after,
 .taxonomy-portfolio .hentry:after,
-.page-template-portfolio-page .hentry:after {
+.page-template-portfolio-page .hentry:after,
+#buddypress #register-page:after {
 	clear: both;
 }
 
