@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>A guide to the Eino theme</title>
+
+<style type="text/css">body{max-width:750px;margin:36px auto 60px auto;font:16px/25px Georgia,Times,'Times New Roman',serif;padding: 0 4%;}a:link,a:visited{color:#2f6eb9;text-decoration:none}a:hover,a:active{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin:40px 0 30px 0;color:#000;font-weight:bold;font-family:Arial,sans-serif}h1{margin-top:80px;font-size:2.2em}code{padding:0 3px;background:#eee}pre code{padding:0}pre{padding:9px;background:#eee;border:1px solid #ccc}ul{list-style:square}p.first{font-size:21px}p.second{font-size:15px}ul.space li{margin-bottom:10px}.section{overflow:hidden}.columns-2{float:left;width:350px;margin:0 0 21px 25px}.columns-3{float:left;width:230px;margin:0 0 21px 20px}</style>
+
+</head>
+<body>
+
+<h1>Eino WordPress theme</h1>
+
+<p class="first"><em>Eino</em> is about rocking your site.</p>
+
+<p class="second">This theme is a parent theme. <strong>All modification</strong> should be made via a child theme. Note! Eino only works with WordPress 3.6 or later.</p>
+
+<h2>Features</h2>
+
+<p><em>Eino</em> is built on <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core theme framework">Hybrid Core</a> framework. There is a brilliant minded man called <a href="http://justintadlock.com" title="Justin Tadlock">Justin Tadlock</a> who has created it. So remember to check out all the <a href="http://themehybrid.com/themes" title="Hybrid Themes">Hybrid Themes</a>.</p>
+
+<ul>
+	<li>Per-post layouts which means that you can choose one, two or three column layout. Content on the left, center or right. Default is one column layout.</li>
+	<li>Post setting that allows you to add a custom stylesheet for individual posts.</li>
+	<li>A smart breadcrumb system.</li>
+	<li>Built-in pagination.</li>
+	<li>Post thumbnails that work with WordPress featured image functionality and provide extra features.</li>
+	<li>Multiple and flexible sidebars areas: Header, Primary, Secondary, Subsidiary and Front Page template widgets.</li>
+	<li>Dynamic body, post, and comment CSS classes.</li>
+	<li>Fully internationalized, so you can translate the theme in any language. You should place your translations files to child theme <code>languages</code> folder.</li>
+	<li>Built-in WordPress menu system. There are three menus in the theme: Primary, Secondary and Subsidiary. Note! Secondary and Subsidiary menus only support for one level menu items.</li>
+	<li>Context-aware action and filter hooks.</li>
+	<li>Some of the most-used filter hooks are shortcode-ready and have accompanying shortcodes.</li>
+	<li>Global layout can be changed under Appearance &raquo;&raquo; Customize &raquo;&raquo; Layout.</li>
+	<li>Base font (size and font family) can be changed under Appearance &raquo;&raquo; Customize &raquo;&raquo; Fonts.</li>
+	<li>Base font family for headings can be changed under Appearance &raquo;&raquo; Customize &raquo;&raquo; Fonts.</li>
+	<li>There are several Color Schemes build in to the theme. You can set them under Appearance &raquo;&raquo; Customize &raquo;&raquo; Colors.</li>
+	<li>Set logo under Appearance &raquo;&raquo; Customize &raquo;&raquo; Logo Upload.</li>
+	<li>Set Social links under Appearance &raquo;&raquo; Customize &raquo;&raquo; Social Links.</li>
+	<li>Set Front Page Callout text and link under Appearance &raquo;&raquo; Customize &raquo;&raquo; Front Page Callout.</li>
+	<li>Set background under Appearance &raquo;&raquo; Background.</li>
+	<li>Set header image under Appearance &raquo;&raquo; Header.</li>
+	<li>Ability to create custom templates for any post type in multiple ways.</li>
+	<li>Highly-configurable widgets that give you full control over their display.</li>
+	<li>Widget areas are content-aware, meaning that they only appear if they contain active widgets.</li>
+	<li>Support for all Post Formats.</li>
+	<li>Theme was designed with <a href="http://www.lukew.com/ff/entry.asp?933" title="Mobile First">Mobile First</a> attitude. It uses so called toggle menu for "mobile" devices, <a href="https://github.com/scottjehl/Respond" title="Respond.js">Respond.js</a> for legacy browsers and <a href="http://fitvidsjs.com/" title="Fit Vids">Fit Vids</a> for videos.</li>
+</ul>
+
+<h2>Child themes</h2>
+
+<p><em>Eino</em> is a parent theme, so use a child theme for any customizations. You can also download blank child theme in theme page. If you want do it yourself, here is how to get started.</p>
+
+<ul>
+	<li>Create a theme folder in your <code>/wp-content/themes</code> directory called <code>eino-child</code>.</li>
+	<li>After that create a <code>style.css</code> file in <code>/wp-content/themes/eino-child</code> folder.</li>
+	<li>At the top of your <code>style.css</code> file, add the below information.</li>
+</ul>
+
+<pre><code>/**
+ * Theme Name: Eino Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: Describe your child theme.
+ * Version: 0.1
+ * Author: Your Name
+ * Author URI: http://link-to-your-site.com
+ * Tags: Some, Tags
+ * Template: eino
+ */</code></pre>
+
+<p>There is no reason to import parent theme styles, because they are loaded automatically. Note! If you compress your <code>style.css</code> and copy your styles to a file called <code>style.min.css</code>, it will be used automatically.</p>
+
+<p>Using <a href="http://codex.wordpress.org/Child_Themes" title="Child Themes">child theme</a> is officially-supported way of modifying themes in WordPress.</p>
+
+<h2>Supported plugins</h2>
+
+<p><strong>Custom Content Portfolio</strong></p>
+
+<p>If you need to show off your portfolios, install <a href="http://wordpress.org/extend/plugins/custom-content-portfolio/" title="Custom Content Portfolio">Custom Content Portfolio</a> Plugin and you're good to go.</p>
+<p>Your portfolios will appear in URL <em>domain.com/portfolio</em>. Remember to flush rewrite rules first by going Settings &raquo;&raquo; Permalinks.</p>
+
+<p><strong>bbPress</strong></p>
+
+<p>If you need Forums install <a href="http://wordpress.org/extend/plugins/bbpress/" title="bbPress">bbPress Plugin</a>. I have made bbPress to fit in the theme responsive design.</p>
+
+<p><strong>Easy Digital Download</strong></p>
+
+<p>If you need to sell your digital downloads <a href="http://wordpress.org/extend/plugins/easy-digital-downloads/" title="Easy Digital Download">Easy Digital Download</a> is the best plugin for that.</p>
+
+<p><strong>Woocommerce</strong></p>
+
+<p>If you need to sell your just about anything, <a href="http://wordpress.org/extend/plugins/woocommerce/" title="Woocommerce">Woocommerce</a> is the best plugin for that.</p>
+
+<p></p>
+
+<p><strong>Gravity Forms</strong></p>
+<p>Eino includes base CSS for <a href="http://www.gravityforms.com/" title="Gravity Forms">Gravity Forms</a> plugin.</p>
+
+<h2>Theme Settings (Appearance &raquo;&raquo; Customize)</h2>
+
+<p>All of the theme setting is under Appearance &raquo;&raquo; Customize.</p>
+
+<p><strong>Fonts</strong></p>
+
+Set base font (size and font family) under Appearance &raquo;&raquo; Customize &raquo;&raquo; Fonts. You can also choose font family for headings. 
+
+<p><strong>Colors</strong></p>
+
+<p>There are several premade Color Schemes in the theme and you can pick them in Appearance &raquo;&raquo; Customize &raquo;&raquo; Colors. You can even pick custom colors but if you do play around with them it's best that you have Default Color Scheme "activated" first.</p>
+
+<p><strong>Set logo</strong></p>
+
+<p>Set logo under Appearance &raquo;&raquo; Customize &raquo;&raquo; Logo Upload. Suggested logo size is 300 x 79 (in pixels). Image size is flexible so you can try different image size. Of course Blog name will be displayed if there is no logo set.</p>
+
+<p><strong>Background Image</strong></p>
+
+<p>Theme is designed to have full screen background but can also disable it under Appearance &raquo;&raquo; Customize &raquo;&raquo; Background Image. You can also use random backgrounds and this feature is meant to be used with full screen backgrounds and default settings in repeat, attachment and position. Random background means that all the backgrounds you have loaded will be used randomly. If you want to remove backgrounds, go to Media Library and delete Background images you want. You can notice them from the label <em>Background Image</em>.</p>
+
+<p><strong>Change default layout</strong></p>
+
+<p>
+Eino theme has three column layout by default. You can change this default layout under Appearance &raquo;&raquo; Customize &raquo;&raquo; Layout. You can overwrite this in post
+editor by choosing layout for that certain post:
+</p>
+<ul>
+	<li>One Column (theme default)</li>
+	<li>Two Columns, Left ( content / sidebar )</li>
+	<li>Two Columns, Right ( sidebar / content )</li>
+	<li>Three Columns, Left ( content / sidebar / sidebar )</li>
+	<li>Three Columns, Right ( content / sidebar / sidebar )</li>
+	<li>Three Columns, Center ( sidebar / content / sidebar )</li>
+</ul>
+
+<p>You can also choose Content width or full screen width Header image in here. Dimensions are 1520 x 379 pixels for the Content width and 1920 x 379 pixels for full width.</p>
+
+<p><strong>Footer text</strong></p>
+
+<p>You can change Footer text in Footer section.</p>
+
+<p><strong>Social links</strong></p>
+
+<p>Set Social links URLs under Appearance &raquo;&raquo; Customize &raquo;&raquo; Social Links. You can set social links to Twitter, Facebook, RSS, Linkedin, Google+, Github and Pinterest. Theme is using <a href="http://fortawesome.github.com/Font-Awesome/" title="Font Awesome">Font Awesome</a> fonts for social links.</p>
+
+
+<p><strong>Front Page Callout</strong></p>
+
+<p>Theme has page template called Front page. Under Appearance &raquo;&raquo; Customize &raquo;&raquo; Front Page Callout you can add callout text and link.</p>
+
+<h2>Header Image</h2>
+
+<p>There is a Content width or full screen Header image in the theme. Set the header image under Appearance &raquo;&raquo; Header. You can overwrite default header image in singular post/page by setting large enough featured image. Feature header size is 1920 x 379 pixels or 1520 x 379 pixels.</p>
+
+<h2>Page Templates</h2>
+
+<p>There is couple of page templates in this theme. It's located in <code>page-templates</code> folder. If you need to overwrite page templates in a child theme, create subfolder <code>page-templates</code> in child theme and copy certain page template in that folder and start modifying.</p>
+
+<ul>
+	<li>Front Page (front-page.php): This is for showing your Callout link and Callout image. There is also Front page widget area for this page template.</li>
+	<li>Members (members.php): It lists users that are at least authors and user data can be added in user profile page. Twitter Username, Google+ URL, Facebook URL and Biographical Info.</li>
+	<li>Download Page (download.php): This is for showing your latest downloads. There is also Front page widget area for this page template.</li>
+	<li>Portfolio Page (download.php): This is for showing your latest portfolios. There is also Front page widget area for this page template.</li>
+</ul>
+
+<p>
+You can select a page template from the "Template" section of the "Attributes" meta box when writing or editing a page.
+</p>
+
+<p>
+If you want to use Front Page template as a front page for your site instead of the standard blog post view, follow these instructions.
+</p>
+
+<h3>Creating the front page</h3>
+
+<ul>
+	<li>First create a new page. You can name it anything. For example "Home" or "Portfolio".</li>
+	<li>When creating this page, select "Front Page" from the "Template" drop-down inside of the "Attributes" meta box.</li>
+	<li>Click the "Publish" button.</li>
+</ul>
+
+<h3>Change site front page</h3>
+
+<ul>
+	<li>Go to the "Settings &raquo;&raquo; Reading" screen in the admin to adjust the page shown on the front of the site.</li>
+	<li>Locate the section labeled "Front page displays".</li>
+	<li>Select "A static page".</li>
+	<li>In the "Front Page" drop-down, select the page you created earlier that has the "Front Page" template.</li>
+	<li>Click the "Save Changes" button.</li>
+</ul>
+
+<h2>Flexible subsidiary and front page widgets</h2>
+
+<p>You can use 1, 2, 3 or 4 widgets in subsidiary and front page widgets areas and the layout is still gonna look nice. The original idea having flexible and responsive widget areas is from <a href="http://themehybrid.com/themes/sukelius-magazine" title="Sukelius">Sukelius Theme</a>.</p>
+
+<h2>Theme support</h2>
+
+<p>Support for the <em>Eino</em> theme is not offered on the WordPress support forums.  There is a site called <a href="https://foxnet-themes.fi" title="Foxnet Themes">Foxnet Themes</a> where support is offered for this theme.</p>
+
+<h2>Credits</h2>
+
+<p>Eino is build on <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core">Hybrid Core</a> framework by <a href="http://justintadlock.com/" title="Justin Tadlock">Justin Tadlock</a>.</p>
+
+<p>Theme uses</p>
+
+<ul>
+	<li><a href="http://www.google.com/webfonts/specimen/Arvo">Arvo</a> (<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Muli">Muli</a> (<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Open+Sans">Open Sans</a> (<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Open+Sans+Condensed">Open Sans Condensed</a> (<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>)</li>	
+	<li><a href="http://www.google.com/fonts/specimen/Merriweather+Sans">Merriweather+Sans</a> (<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>)</li>
+	<li><a href="http://fortawesome.github.com/Font-Awesome/" title="Font Awesome">Font Awesome</a>, (<a href="http://scripts.sil.org/OFL" title="OFL">OFL</a>)</li>
+	<li><a href="http://fitvidsjs.com" title="FitVids">FitVids</a>, (<a href="http://sam.zoy.org/wtfpl/" title="WTFPL">WTFPL</a>)</li>
+	<li><a href="https://github.com/scottjehl/Respond" title="Respond.js">Respond.js</a>, (<a href="http://www.opensource.org/licenses/mit-license.php" title="MIT">MIT</a>)</li>
+	<li><a href="http://code.google.com/p/html5shiv/" title="html5shiv">html5shiv</a>, (<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GPLv2">GPLv2</a>)</li>
+</ul>
+
+
+<h2>Copyright &amp; license</h2>
+
+<p><em>Eino</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 or later (<abbr title="GNU General Public License">GPL</abbr>).</p>
+
+<p>This theme is copyrighted to <a href="https://foxnet-themes.fi" title="Sami Keijonen">Sami Keijonen</a>.</p>
+
+<p>2013 &copy; Sami Keijonen.  All rights reserved.</p>
+
+</body>
+</html>
