@@ -30,7 +30,7 @@
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
 		</header><!-- .entry-header -->
 
-		<?php if ( post_format_tools_post_has_content() || has_excerpt() ) { ?>
+		<?php if ( hybrid_post_has_content() || has_excerpt() ) { ?>
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
