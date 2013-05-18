@@ -377,7 +377,7 @@ body.activity-permalink #buddypress div.activity-comments ul li {
 	margin-bottom: 0;
 }
 #buddypress div.activity-comments ul li > ul {
-	margin-left: 30px;
+	margin-left: 1%;
 	margin-top: 0;
 	padding-left: 10px;
 }
