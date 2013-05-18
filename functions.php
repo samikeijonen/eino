@@ -246,11 +246,6 @@ function eino_theme_setup() {
 	remove_action( 'woocommerce_after_shop_loop', 'woocommerce_pagination', 10 );
 	add_action( 'woocommerce_after_shop_loop', 'eino_woocommerce_pagination', 11 );
 
-	/* Hybrid Core 1.6 changes */
-	add_filter( "{$prefix}_sidebar_defaults", 'eino_sidebar_defaults' );
-	add_filter( 'cleaner_gallery_defaults',   'eino_gallery_defaults' );
-	/****************************/
-
 }
 
 /**
@@ -905,78 +900,5 @@ function eino_get_portfolio_item_link() {
 		return '<span class="eino-project-url"><a class="eino-portfolio-item-link" href="' . esc_url( $eino_portfolio_url ) . '" title="' . the_title( '','', false ) . '">' . __( 'Visit site', 'eino' ) . '</a></span>';
 	
 }
-
-/* === HYBRID CORE 1.6 CHANGES. === 
- *
- * The following changes are slated for Hybrid Core version 1.6 to make it easier for 
- * theme developers to build awesome HTML5 themes. The code will be removed once 1.6 
- * is released.
- */
-
-	/**
-	 * Content template.  This is an early version of what a content template function will look like
-	 * in future versions of Hybrid Core.
-	 *
-	 * @since  0.1.0
-	 * @access public
-	 * @return void
-	 */
-	function eino_get_content_template() {
-
-		$templates = array();
-		$post_type = get_post_type();
-
-		if ( post_type_supports( $post_type, 'post-formats' ) ) {
-
-			$post_format = get_post_format() ? get_post_format() : 'standard';
-
-			$templates[] = "content-{$post_type}-{$post_format}.php";
-			$templates[] = "content-{$post_format}.php";
-		}
-
-		$templates[] = "content-{$post_type}.php";
-		$templates[] = 'content.php';
-
-		return locate_template( $templates, true, false );
-	}
-
-	/**
-	 * Sidebar parameter defaults.
-	 *
-	 * @since  0.1.0
-	 * @access public
-	 * @param  array  $defaults
-	 * @return array
-	 */
-	function eino_sidebar_defaults( $defaults ) {
-
-		$defaults = array(
-			'before_widget' => '<section id="%1$s" class="widget %2$s widget-%2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>'
-		);
-
-		return $defaults;
-	}
-
-	/**
-	 * Gallery defaults for the Cleaner Gallery extension.
-	 *
-	 * @since  0.1.0
-	 * @access public
-	 * @param  array  $defaults
-	 * @return array
-	 */
-	function eino_gallery_defaults( $defaults ) {
-
-		$defaults['itemtag']    = 'figure';
-		$defaults['icontag']    = 'div';
-		$defaults['captiontag'] = 'figcaption';
-
-		return $defaults;
-	}
-
-/* End Hybrid Core 1.6 section. */
 
 ?>
