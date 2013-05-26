@@ -43,21 +43,6 @@ get_header(); // Loads the header.php template. ?>
 						<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
 						<?php the_excerpt(); ?>
 						<p class="eino-download"><?php echo __( 'Price:', 'eino' ) . ' ' . eino_edd_the_price( get_the_ID() ) ?></p>
-						
-						<?php
-						/* Display purchase button or checkout link. */
-						if ( ! edd_item_in_cart( get_the_ID() ) ) {
-							if ( edd_has_variable_prices( get_the_ID() ) ) {
-								echo '<a href="' . get_permalink() . '" class="button edd_button">' . __( 'View Details', 'eino' ) . '</a>';
-							} else {
-								echo edd_get_purchase_link();
-							}
-						} else {
-							echo '<a href="' . get_permalink( $edd_options['purchase_page'] ) . '" class="edd_go_to_checkout edd_button">' . __( 'Checkout', 'eino' ) . '</a>';
-						}
-						
-						?>
-						
 						<?php wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) ); ?>
 					</div><!-- .entry-summary -->
 
