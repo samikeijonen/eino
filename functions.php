@@ -23,7 +23,7 @@
  * @version    0.1.0
  * @since      0.1.0
  * @author     Sami Keijonen <sami.keijonen@foxnet.fi>
- * @copyright  Copyright (c) 2013, Justin Tadlock
+ * @copyright  Copyright (c) 2013, Sami Keijonen
  * @link       https://foxnet-themes.fi/downloads/eino
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
@@ -140,15 +140,9 @@ function eino_theme_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	/* Post formats. */
-	
 	add_theme_support( 
 		'structured-post-formats',
-		array( 'link' ) 
-	);
-		
-	add_theme_support( 
-		'post-formats', 
-		array( 'aside', 'audio', 'chat', 'image', 'gallery', 'quote', 'status', 'video' ) 
+		array( 'audio', 'image', 'link', 'video' ) 
 	);
 
 	/* Add support for a custom header image. */
