@@ -496,7 +496,7 @@ function eino_customize_register_stuff( $wp_customize ) {
 		)
 	);
 	
-	/* Add color scheme control. */
+	/* Add header image control. */
 	$wp_customize->add_control(
 		'header-image-width',
 		array(
@@ -509,6 +509,34 @@ function eino_customize_register_stuff( $wp_customize ) {
 				'content-width'   => esc_html__( 'Use Content width header image.', 'eino' ),
 				'full-width'      => esc_html__( 'Use full width header image.', 'eino' )
 			)
+		)
+	);
+	
+	/* == Add the Soliloque Slider setting. == */
+	
+	/* Get Slider choices. */
+	$eino_soliloquy_slider_choices = eino_get_soliloquy_slider_choices();
+	
+	$wp_customize->add_setting(
+		'soliloquy_slider',
+		array(
+			'default'           => 'default',
+			'type'              => 'theme_mod',
+			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'absint',
+			//'transport'         => 'postMessage'
+		)
+	);
+	
+	/* Add the Soliloque Slider control. */
+	$wp_customize->add_control(
+		'soliloquy-slider-control',
+		array(
+			'label'    => esc_html__( 'Select Soliloquy Slider', 'eino' ),
+			'section'  => 'layout',
+			'settings' => 'soliloquy_slider',
+			'type'     => 'select',
+			'choices'  => $eino_soliloquy_slider_choices
 		)
 	);
 	
@@ -630,6 +658,36 @@ function eino_print_font_size() {
 	
 	}
 
+}
+
+/**
+* Return Soliloque Slider choices.
+*
+* @since 0.1.0
+*/
+function eino_get_soliloquy_slider_choices() {
+	
+	/* Set an array. */
+	$eino_slider_data = array(
+		'default' => __( 'Select Slider', 'eino' )
+	);
+	
+	/* Get Soliloquy Sliders. */
+	$eino_soliloquy_args = array(
+		'post_type' 		=> 'soliloquy',
+		'posts_per_page' 	=> -1
+	);
+	
+	$eino_sliders = get_posts( $eino_soliloquy_args );
+	
+	/* Loop sliders data. */
+	foreach ( $eino_sliders as $eino_slider ) {
+		$eino_slider_data[$eino_slider->ID] = $eino_slider->post_title;
+	}
+	
+	/* Return array. */
+	return $eino_slider_data;
+	
 }
 
 /**
