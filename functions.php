@@ -359,7 +359,7 @@ function eino_one_column() {
 	elseif ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/portfolio-page.php' ) || is_page_template( 'page-templates/download-page.php' ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
 		
-	elseif ( is_shop() || is_product_category() || is_product_tag() )
+	elseif ( function_exists( 'woocommerce_list_pages' ) && ( is_shop() || is_product_category() || is_product_tag() ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
 
 }
@@ -409,7 +409,7 @@ function eino_subsidiary_classes( $classes ) {
  */
 function eino_front_page_classes( $classes ) {
 	
-	if ( is_active_sidebar( 'front-page' ) && ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/portfolio-page.php' ) || is_page_template( 'page-templates/download-page.php' ) ) ) {
+	if ( is_active_sidebar( 'front-page' ) && ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/portfolio-page.php') || is_page_template( 'page-templates/slider.php' ) || is_page_template( 'page-templates/download-page.php' ) ) ) {
 		
 		$the_sidebars = wp_get_sidebars_widgets();
 		$num = count( $the_sidebars['front-page'] );
