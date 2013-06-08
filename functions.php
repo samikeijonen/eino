@@ -141,8 +141,8 @@ function eino_theme_setup() {
 
 	/* Post formats. */
 	add_theme_support( 
-		'structured-post-formats',
-		array( 'audio', 'image', 'link', 'video' ) 
+		'post-formats',
+		array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) 
 	);
 
 	/* Add support for a custom header image. */
@@ -214,7 +214,10 @@ function eino_theme_setup() {
 	add_action( 'widgets_init', 'eino_register_sidebars' );
 	
 	/* Remove the "Theme Settings" submenu. */
-	add_action( 'admin_menu', 'eino_remove_theme_settings_submenu', 11 );	
+	add_action( 'admin_menu', 'eino_remove_theme_settings_submenu', 11 );
+	
+	/* Filter no_id string in soliloquy slider. */
+	add_filter( 'tgmsp_strings', 'eino_soliloquy_no_id_string' );
 	
 	/* Disable bbPress breadcrumb. */
 	add_filter( 'bbp_no_breadcrumb', '__return_true' );
@@ -356,7 +359,7 @@ function eino_one_column() {
 	elseif ( is_attachment() && wp_attachment_is_image() && 'default' == get_post_layout( get_queried_object_id() ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
 		
-	elseif ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/portfolio-page.php' ) || is_page_template( 'page-templates/download-page.php' ) )
+	elseif ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/portfolio-page.php' ) || is_page_template( 'page-templates/slider.php' ) || is_page_template( 'page-templates/download-page.php' ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
 		
 	elseif ( function_exists( 'woocommerce_list_pages' ) && ( is_shop() || is_product_category() || is_product_tag() ) )
@@ -861,6 +864,18 @@ function eino_remove_theme_settings_submenu() {
 }
 
 /**
+ * Change no_id text in Soliloquy Slider.
+ *
+ * @since  0.1.0
+ */
+function eino_soliloquy_no_id_string( $strings ) {
+
+	$strings['no_id'] = sprintf( __( 'No slider was selected. Please enter a slider ID or select a Slider under <a href="%s"> Appearance &gt; Customize &gt; Layout</a>.', 'eino' ), admin_url( 'customize.php' ) );
+		
+	return $strings;
+}
+
+/**
  * Returns the URL from the post.
  *
  * @uses get_the_post_format_url() to get the URL in the post meta (if it exists) or
@@ -875,7 +890,9 @@ function eino_remove_theme_settings_submenu() {
  */
 function eino_get_link_url() {
 
-	$eino_url = get_the_post_format_url();
+	$eino_content = get_the_content();
+
+	$eino_url = get_content_url( $eino_content );
 
 	return ( $eino_url ) ? $eino_url : apply_filters( 'the_permalink', get_permalink() );
 
