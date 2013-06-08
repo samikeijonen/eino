@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-08 18:55+0200\n"
-"PO-Revision-Date: 2013-06-08 18:55+0200\n"
+"POT-Creation-Date: 2013-06-08 20:09+0200\n"
+"PO-Revision-Date: 2013-06-08 20:09+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -40,8 +40,8 @@ msgstr ""
 #: content-page.php:27 content-portfolio_item.php:17
 #: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
 #: content-status.php:13 content-status.php:30 content-video.php:23
-#: content.php:12 content.php:29 page-templates/download-page.php:46
-#: page-templates/members.php:30 page-templates/portfolio-page.php:47
+#: content.php:12 content.php:29 page-templates/download-page.php:42
+#: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
 msgid "Pages:"
 msgstr "Sivut:"
@@ -153,7 +153,7 @@ msgstr ""
 "\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:45
+#: page-templates/download-page.php:41
 msgid "Price:"
 msgstr "Hinta:"
 
@@ -173,7 +173,7 @@ msgstr ""
 "\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
-#: page-templates/portfolio-page.php:45
+#: page-templates/portfolio-page.php:41
 msgid "Work:"
 msgstr "Tehdyt työt:"
 
@@ -319,10 +319,6 @@ msgstr "Vieraile sivulla"
 #: header.php:68
 msgid "&#8764;"
 msgstr "&#8764;"
-
-#: header.php:68
-msgid "You are here:"
-msgstr "Olet täällä:"
 
 #: loop-error.php:4
 msgid "Nothing found"
@@ -1217,7 +1213,7 @@ msgstr "Pad lukumäärä?"
 
 #: library/extensions/breadcrumb-trail.php:175
 msgid "Browse:"
-msgstr "Navigointi:"
+msgstr "Olet täällä:"
 
 #: library/extensions/breadcrumb-trail.php:176
 msgid "Home"
@@ -1662,18 +1658,21 @@ msgstr ""
 msgid "(Untitled)"
 msgstr "(Ei otsikkoa)"
 
-#: page-templates/download-page.php:28
+#: page-templates/download-page.php:24
 msgid "Latest Downloads"
 msgstr "Viimeisimmät lataukset"
 
-#: page-templates/download-page.php:30 page-templates/portfolio-page.php:30
+#: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
 #, php-format
 msgid "%1$s"
 msgstr "%1$s"
 
-#: page-templates/portfolio-page.php:28
+#: page-templates/portfolio-page.php:24
 msgid "Latest Portfolios"
 msgstr "Viimeisimmät portfoliot"
+
+#~ msgid "You are here:"
+#~ msgstr "Olet täällä:"
 
 #~ msgid "View Details"
 #~ msgstr "Näytä lisää"

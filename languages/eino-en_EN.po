@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino WordPress Theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-08 18:55+0200\n"
+"POT-Creation-Date: 2013-06-08 20:08+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team:  <sami.keijonen@foxnet.fi>\n"
@@ -36,8 +36,8 @@ msgstr ""
 #: content-page.php:27 content-portfolio_item.php:17
 #: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
 #: content-status.php:13 content-status.php:30 content-video.php:23
-#: content.php:12 content.php:29 page-templates/download-page.php:46
-#: page-templates/members.php:30 page-templates/portfolio-page.php:47
+#: content.php:12 content.php:29 page-templates/download-page.php:42
+#: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
 msgid "Pages:"
 msgstr ""
@@ -133,7 +133,7 @@ msgid ""
 msgstr ""
 
 #: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:45
+#: page-templates/download-page.php:41
 msgid "Price:"
 msgstr ""
 
@@ -151,7 +151,7 @@ msgid ""
 msgstr ""
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
-#: page-templates/portfolio-page.php:45
+#: page-templates/portfolio-page.php:41
 msgid "Work:"
 msgstr ""
 
@@ -287,10 +287,6 @@ msgstr ""
 
 #: header.php:68
 msgid "&#8764;"
-msgstr ""
-
-#: header.php:68
-msgid "You are here:"
 msgstr ""
 
 #: loop-error.php:4
@@ -1619,15 +1615,15 @@ msgstr ""
 msgid "(Untitled)"
 msgstr ""
 
-#: page-templates/download-page.php:28
+#: page-templates/download-page.php:24
 msgid "Latest Downloads"
 msgstr ""
 
-#: page-templates/download-page.php:30 page-templates/portfolio-page.php:30
+#: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
 #, php-format
 msgid "%1$s"
 msgstr ""
 
-#: page-templates/portfolio-page.php:28
+#: page-templates/portfolio-page.php:24
 msgid "Latest Portfolios"
 msgstr ""
