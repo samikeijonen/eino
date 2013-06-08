@@ -10,20 +10,20 @@
 get_header(); // Loads the header.php template. ?>
 
 	<div id="content" class="hfeed" role="main">
-	
-		<?php if ( function_exists( 'soliloquy_slider' ) ) { ?>
-							
-			<div id="eino-slider">
-				<?php soliloquy_slider( absint( get_theme_mod( 'soliloquy_slider', 'default' ) ) ); ?>
-			</div><!-- #eino-slider -->
-							
-		<?php } ?>
 
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
+				
+				<?php if ( function_exists( 'soliloquy_slider' ) ) { ?>
+							
+					<div id="eino-slider">
+						<?php soliloquy_slider( absint( get_theme_mod( 'soliloquy_slider', 'default' ) ) ); ?>
+					</div><!-- #eino-slider -->
+							
+				<?php } ?>
 
 					<header class="entry-header">
 						<h1 class="entry-title"><?php single_post_title(); ?></h1>

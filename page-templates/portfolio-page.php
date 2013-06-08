@@ -11,9 +11,7 @@ get_header(); // Loads the header.php template. ?>
 
 	<div id="content" class="hfeed" role="main">
 	
-	<?php get_sidebar( 'front-page' ); // Loads the sidebar-front-page.php template. ?>
-	
-		<?php
+	<?php get_sidebar( 'front-page' ); // Loads the sidebar-front-page.php template.
 	
 		/* Set custom query to show portfolio items. */
 		$eino_portfolio_args = apply_filters( 'eino_front_page_portfolio_arguments', array(
@@ -23,9 +21,7 @@ get_header(); // Loads the header.php template. ?>
 			
 		$eino_portfolios = new WP_Query( $eino_portfolio_args );
 	
-		?>
-
-		<?php $eino_latest_portfolio = esc_attr( apply_filters( 'eino_front_page_latest_portfolio', __( 'Latest Portfolios', 'eino' ) ) ); ?>
+		$eino_latest_portfolio = esc_attr( apply_filters( 'eino_front_page_latest_portfolio', __( 'Latest Portfolios', 'eino' ) ) ); ?>
 			
 		<h3 id="eino-latest-portfolio"><?php printf( __( '%1$s', 'eino' ), $eino_latest_portfolio ); ?></h3>
 	
@@ -43,7 +39,6 @@ get_header(); // Loads the header.php template. ?>
 						<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
 						<?php the_excerpt(); ?>
 						<p class="eino-portfolio-item"><?php echo hybrid_entry_terms_shortcode( array( 'taxonomy' => 'portfolio', 'before' => __( 'Work:', 'eino' ) . ' ' ) ); ?></p>
-						<?php echo eino_get_portfolio_item_link(); // echo portfolio link ?>
 						<?php wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) ); ?>
 					</div><!-- .entry-summary -->
 

@@ -58,8 +58,6 @@ get_header(); // Loads the header.php template. ?>
 
 				</article><!-- .hentry -->
 
-				<?php comments_template( '/comments.php', true ); // Loads the comments.php template. ?>
-
 			<?php endwhile; ?>
 
 		<?php else : ?>

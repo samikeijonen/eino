@@ -11,9 +11,7 @@ get_header(); // Loads the header.php template. ?>
 
 	<div id="content" class="hfeed" role="main">
 	
-	<?php get_sidebar( 'front-page' ); // Loads the sidebar-front-page.php template. ?>
-	
-		<?php
+	<?php get_sidebar( 'front-page' ); // Loads the sidebar-front-page.php template.
 	
 		/* Set custom query to show download items. */
 		$eino_download_args = apply_filters( 'eino_front_page_download_arguments', array(
@@ -23,9 +21,7 @@ get_header(); // Loads the header.php template. ?>
 			
 		$eino_downloads = new WP_Query( $eino_download_args );
 	
-		?>
-
-		<?php $eino_latest_download = esc_attr( apply_filters( 'eino_front_page_latest_download', __( 'Latest Downloads', 'eino' ) ) ); ?>
+		$eino_latest_download = esc_attr( apply_filters( 'eino_front_page_latest_download', __( 'Latest Downloads', 'eino' ) ) ); ?>
 			
 		<h3 id="eino-latest-download"><?php printf( __( '%1$s', 'eino' ), $eino_latest_download ); ?></h3>
 	
