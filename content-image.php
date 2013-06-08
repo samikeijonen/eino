@@ -2,9 +2,11 @@
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
 	
-		<div class="entry-media">
-			<?php the_post_format_image( 'full' ); ?>
-		</div><!-- .entry-media -->
+		<?php if ( function_exists( 'the_remaining_content' ) ) { ?>
+			<div class="entry-media">
+				<?php the_post_format_image( 'full' ); ?>
+			</div><!-- .entry-media -->
+		<?php } ?>
 
 		<header class="entry-header">
 			<h1 class="entry-title"><?php single_post_title(); ?></h1>
@@ -12,7 +14,12 @@
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<?php the_remaining_content(); ?>
+			<?php 
+			if ( function_exists( 'the_remaining_content' ) ) 
+				the_remaining_content();
+			else
+				the_content();
+			?>
 			<?php wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) ); ?>
 		</div><!-- .entry-content -->
 
@@ -30,7 +37,7 @@
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
 		</header><!-- .entry-header -->
 
-		<?php if ( hybrid_post_has_content() || has_excerpt() ) { ?>
+		<?php if ( has_excerpt() ) { ?>
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
