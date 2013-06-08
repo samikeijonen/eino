@@ -1,10 +1,10 @@
 <?php get_header(); // Loads the header.php template. ?>
 
-	<div id="content" class="hfeed">
+	<div id="content" class="hfeed" role="main">
 
-		<?php if ( have_posts() ) { ?>
+		<?php if ( have_posts() ) : ?>
 
-			<?php while ( have_posts() ) { ?>
+			<?php while ( have_posts() ) : ?>
 
 				<?php the_post(); // Loads the post data. ?>
 
@@ -45,9 +45,9 @@
 
 				<?php comments_template(); // Loads the comments.php template. ?>
 
-			<?php } // End while loop. ?>
+			<?php endwhile; // End while loop. ?>
 
-		<?php } // End if check. ?>
+		<?php endif; // End if check. ?>
 
 	</div><!-- #content -->
 
