@@ -7,6 +7,8 @@
 	<ol class="comment-list">
 		<?php wp_list_comments( hybrid_list_comments_args() ); ?>
 	</ol><!-- .comment-list -->
+	
+	<?php get_template_part( 'comments-loop-nav' ); // Loads the comment-loop-nav.php template. ?>
 
 <?php } // End check for comments. ?>
 
