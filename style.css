@@ -1827,24 +1827,24 @@ ul.icons li [class*=" icon-"] {
 	margin-left: .2em;
 }
 
-.icon-right-hand:before { content: '\261e'; } /* '☞' */
-.icon-mail:before { content: '\2709'; } /* '✉' */
-.icon-chat:before { content: '\e720'; } /* '' */
-.icon-chevron-left:before { content: '\e75d'; } /* '' */
-.icon-chevron-right:before { content: '\e75e'; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-github:before { content: '\f09b'; } /* '' */
-.icon-rss:before { content: '\f09e'; } /* '' */
-.icon-pinterest:before { content: '\f0d2'; } /* '' */
-.icon-google-plus:before { content: '\f0d5'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-menu:before { content: '\f0c9'; } /* '' */
-.icon-comment-empty:before { content: '\f0e5'; } /* '' */
-.icon-angle-right:before { content: '\f105'; } /* '' */
-.icon-picture:before { content: '\1f304'; } /* '\1f304' */
-.icon-user:before { content: '\1f464'; } /* '\1f464' */
-.icon-phone:before { content: '\1f4de'; } /* '\1f4de' */
+.icon-right-hand:before { content: '\261e'; }
+.icon-mail:before { content: '\2709'; }
+.icon-chat:before { content: '\e720'; }
+.icon-chevron-left:before { content: '\e75d'; }
+.icon-chevron-right:before { content: '\e75e'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-github:before { content: '\f09b'; }
+.icon-rss:before { content: '\f09e'; }
+.icon-pinterest:before { content: '\f0d2'; }
+.icon-google-plus:before { content: '\f0d5'; }
+.icon-linkedin:before { content: '\f0e1'; }
+.icon-menu:before { content: '\f0c9'; }
+.icon-comment-empty:before { content: '\f0e5'; }
+.icon-angle-right:before { content: '\f105'; }
+.icon-picture:before { content: '\1f304'; }
+.icon-user:before { content: '\1f464'; }
+.icon-phone:before { content: '\1f4de'; }
 
 
 /* =Woocommerce CSS.
