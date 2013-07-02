@@ -33,11 +33,9 @@
 				wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) );
 			} ?>
 
-			<?php if ( function_exists( 'hybrid_get_gallery_image_count' ) ) { 
-				$count = hybrid_get_gallery_image_count(); ?>
-				<p class="eino-image-count"><?php printf( _n( 'This gallery contains %d image.', 'This gallery contains %d images.', $count, 'eino' ), $count ); ?></p>
-			<?php } // end if ?>
-			
+			<?php $count = hybrid_get_gallery_image_count(); ?>
+			<p class="eino-image-count"><?php printf( _n( 'This gallery contains %d image.', 'This gallery contains %d images.', $count, 'eino' ), $count ); ?></p>
+
 		</div><!-- .entry-summary -->
 
 		<footer class="entry-footer">
