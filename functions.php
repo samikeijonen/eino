@@ -170,7 +170,7 @@ function eino_theme_setup() {
 	add_theme_support( 'custom-header', $eino_header_args );
 
 	/* Handle content width for embeds and images. */
-	hybrid_set_content_width( 770 );
+	hybrid_set_content_width( 800 );
 	
 	/* Add respond.js and  html5shiv.js for unsupported browsers. */
 	add_action( 'wp_head', 'eino_respond_html5shiv' );
