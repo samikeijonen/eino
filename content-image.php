@@ -2,7 +2,7 @@
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
 	
-		<?php if ( function_exists( 'the_remaining_content' ) ) { ?>
+		<?php if ( function_exists( 'the_post_format_image' ) && function_exists( 'the_remaining_content' ) ) { ?>
 			<div class="entry-media">
 				<?php the_post_format_image( 'full' ); ?>
 			</div><!-- .entry-media -->
@@ -29,18 +29,29 @@
 
 	<?php } else { ?>
 	
-		<div class="entry-media">
-			<?php the_post_format_image( 'full' ); ?>
-		</div><!-- .entry-media -->
+		<?php if ( function_exists( 'the_post_format_image' ) && function_exists( 'the_remaining_content' ) ) { ?>
+			<div class="entry-media">
+				<?php the_post_format_image( 'full' ); ?>
+			</div><!-- .entry-media -->
+		<?php } ?>
 		
 		<header class="entry-header">
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
 		</header><!-- .entry-header -->
 
-		<?php if ( has_excerpt() ) { ?>
+		<?php if ( function_exists( 'the_post_format_image' ) && function_exists( 'the_remaining_content' ) && has_excerpt() ) { ?>
+		
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
+			
+		<?php } else { ?>
+			
+			<div class="entry-content">
+				<?php the_content(); ?>
+				<?php wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) ); ?>
+			</div><!-- .entry-content -->
+			
 		<?php } // end if ?>
 
 		<footer class="entry-footer">
