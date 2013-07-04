@@ -178,6 +178,9 @@ function eino_theme_setup() {
 	/* Add custom image sizes. */
 	add_action( 'init', 'eino_add_image_sizes' );
 	
+	/* Add custom names for custom image sizes. */
+	add_filter( 'image_size_names_choose', 'eino_custom_name_image_sizes' );
+	
 	/* Enqueue styles and scripts. */
 	add_action( 'wp_enqueue_scripts', 'eino_enqueue_scripts' );
 
@@ -303,6 +306,18 @@ function eino_add_image_sizes() {
 
 	add_image_size( 'eino-thumbnail-download', 330, 330, true );
 	
+}
+
+/**
+ * Adds custom names for custom image sizes.
+ *
+ * @since 0.1.0
+ */
+function eino_custom_name_image_sizes( $sizes ) {
+
+    $sizes['eino-thumbnail-download'] = __( 'Download Thumbnail', 'kalervo' );
+	
+    return $sizes;
 }
 
 /**
