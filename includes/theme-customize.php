@@ -11,7 +11,10 @@
 add_action( 'customize_register', 'eino_customize_register_stuff' );
 
 /* Print font size in header. */
-add_action( 'wp_head', 'eino_print_font_size' ) ;
+add_action( 'wp_head', 'eino_print_font_size' );
+
+/* Delete the cached data for font size feature. */
+add_action( 'update_option_theme_mods_' . get_stylesheet(), 'eino_font_size_cache_delete' );
 
 /**
  * Add logo upload, portfolio layout and social links in theme customizer screen
@@ -635,6 +638,15 @@ function eino_customize_register_stuff( $wp_customize ) {
 function eino_print_font_size() {
 
 	if ( get_theme_mod( 'font_size' ) ) {
+	
+		/* Get the cached font size. */
+		$eino_cached_font_size = wp_cache_get( 'eino_font_size_cache' );
+
+		/* If the style is available, output it and return. */
+		if ( !empty( $eino_cached_font_size ) ) {
+			echo $eino_cached_font_size;
+			return;
+		}
 		
 		/* Get font size. */
 		$eino_font_size_px = absint( get_theme_mod( 'font_size', 16 ) );
@@ -654,7 +666,13 @@ function eino_print_font_size() {
 		/* Minimum width of 1952 pixels. */
 		$eino_font_size .= " @media screen and (min-width: 122em) { html { font-size: {$eino_font_size_procent_8}%; } } ";
 		
-		echo "\n" . '<style type="text/css" id="font-size-css">' . trim( $eino_font_size ) . '</style>' . "\n";
+		$eino_font_size_echo = "\n" . '<style type="text/css" id="font-size-css">' . trim( $eino_font_size ) . '</style>' . "\n";
+		
+		/* Cache the font size, so we don't have to process this on each page load. */
+		wp_cache_set( 'eino_font_size_cache', $eino_font_size_echo );
+
+		/* Output the custom style. */
+		echo $eino_font_size_echo;
 	
 	}
 
