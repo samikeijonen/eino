@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino WordPress Theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-02 16:31+0200\n"
+"POT-Creation-Date: 2013-07-04 23:40+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team:  <sami.keijonen@foxnet.fi>\n"
@@ -29,16 +29,17 @@ msgstr ""
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
 #: content-aside.php:12 content-aside.php:23 content-attachment.php:12
-#: content-attachment.php:28 content-audio.php:25 content-chat.php:18
-#: content-chat.php:41 content-download.php:12 content-download.php:29
-#: content-gallery.php:12 content-gallery.php:33 content-image.php:23
-#: content-link.php:12 content-link.php:31 content-page.php:11
-#: content-page.php:27 content-portfolio_item.php:17
-#: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
-#: content-status.php:13 content-status.php:30 content-video.php:23
-#: content.php:12 content.php:29 page-templates/download-page.php:42
-#: page-templates/members.php:30 page-templates/portfolio-page.php:42
-#: page-templates/slider.php:34
+#: content-attachment.php:28 content-audio.php:25 content-audio.php:56
+#: content-chat.php:18 content-chat.php:41 content-download.php:12
+#: content-download.php:29 content-gallery.php:12 content-gallery.php:33
+#: content-image.php:23 content-image.php:52 content-link.php:12
+#: content-link.php:31 content-page.php:11 content-page.php:27
+#: content-portfolio_item.php:17 content-portfolio_item.php:31
+#: content-quote.php:12 content-quote.php:23 content-status.php:13
+#: content-status.php:30 content-video.php:23 content-video.php:52
+#: content.php:12 content.php:29 page-templates/download-page.php:45
+#: page-templates/members.php:33 page-templates/portfolio-page.php:45
+#: page-templates/slider.php:37
 msgid "Pages:"
 msgstr ""
 
@@ -114,7 +115,7 @@ msgid ""
 "before=\"Tagged \"]"
 msgstr ""
 
-#: content-audio.php:53
+#: content-audio.php:62
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -126,14 +127,14 @@ msgid ""
 "before=\" | \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
-#: content-chat.php:47 content-gallery.php:42 content-image.php:47
+#: content-chat.php:47 content-gallery.php:42 content-image.php:58
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:41
+#: page-templates/download-page.php:44
 msgid "Price:"
 msgstr ""
 
@@ -144,14 +145,14 @@ msgid_plural "This gallery contains %d images."
 msgstr[0] ""
 msgstr[1] ""
 
-#: content-link.php:37 content-quote.php:27 content-video.php:49
+#: content-link.php:37 content-quote.php:27 content-video.php:58
 msgid ""
 "[post-format-link] published on [entry-published] [entry-permalink before="
 "\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
-#: page-templates/portfolio-page.php:41
+#: page-templates/portfolio-page.php:44
 msgid "Work:"
 msgstr ""
 
@@ -174,114 +175,118 @@ msgid ""
 "\" | \"] [entry-edit-link before=\" | \"]"
 msgstr ""
 
-#: functions.php:503
+#: functions.php:318
+msgid "Download Thumbnail"
+msgstr ""
+
+#: functions.php:518
 msgid "Twitter Username"
 msgstr ""
 
-#: functions.php:506
+#: functions.php:521
 msgid "Google+ URL"
 msgstr ""
 
-#: functions.php:509 includes/theme-customize.php:326
+#: functions.php:524 includes/theme-customize.php:329
 msgid "Facebook URL"
 msgstr ""
 
-#: functions.php:559
+#: functions.php:574
 msgid "Body Font"
 msgstr ""
 
-#: functions.php:569
+#: functions.php:584
 msgid "Headline Font"
 msgstr ""
 
-#: functions.php:580
+#: functions.php:595
 msgid "Trebuchet (font stack)"
 msgstr ""
 
-#: functions.php:588
+#: functions.php:603
 msgid "Arial (font stack)"
 msgstr ""
 
-#: functions.php:596
+#: functions.php:611
 msgid "Lucida Sans Unicode (font stack)"
 msgstr ""
 
-#: functions.php:604
+#: functions.php:619
 msgid "Georgia (font stack)"
 msgstr ""
 
-#: functions.php:612
+#: functions.php:627
 msgid "Helvetica (font stack)"
 msgstr ""
 
-#: functions.php:620
+#: functions.php:635
 msgid "Merriweather Sans"
 msgstr ""
 
-#: functions.php:630
+#: functions.php:645
 msgid "Roboto Condensed"
 msgstr ""
 
-#: functions.php:640
+#: functions.php:655
 msgid "Arvo"
 msgstr ""
 
-#: functions.php:650
+#: functions.php:665
 msgid "Muli"
 msgstr ""
 
-#: functions.php:660
+#: functions.php:675
 msgid "Open Sans"
 msgstr ""
 
-#: functions.php:670
+#: functions.php:685
 msgid "Open Sans Condensed (700)"
 msgstr ""
 
-#: functions.php:693
+#: functions.php:708
 msgid "Body Color"
 msgstr ""
 
-#: functions.php:696
+#: functions.php:711
 msgid "Entry Color"
 msgstr ""
 
-#: functions.php:699
+#: functions.php:714
 msgid "Link Color"
 msgstr ""
 
-#: functions.php:702
+#: functions.php:717
 msgid "Link Color Hover"
 msgstr ""
 
-#: functions.php:705
+#: functions.php:720
 msgid "Light Color"
 msgstr ""
 
-#: functions.php:708
+#: functions.php:723
 msgid "Dark Color"
 msgstr ""
 
-#: functions.php:711
+#: functions.php:726
 msgid "Dark Color 1"
 msgstr ""
 
-#: functions.php:789
+#: functions.php:804 page-templates/front-page.php:11
 msgid "Front Page"
 msgstr ""
 
-#: functions.php:790
+#: functions.php:805
 msgid "Front Page widget area."
 msgstr ""
 
-#: functions.php:873
+#: functions.php:888
 #, php-format
 msgid ""
 "No slider was selected. Please enter a slider ID or select a Slider under <a "
 "href=\"%s\"> Appearance &gt; Customize &gt; Layout</a>."
 msgstr ""
 
-#: functions.php:911
+#: functions.php:926
 msgid "Visit site"
 msgstr ""
 
@@ -445,222 +450,222 @@ msgstr ""
 msgid "Eino Theme Color"
 msgstr ""
 
-#: includes/theme-customize.php:29
+#: includes/theme-customize.php:32
 msgid "Logo Upload"
 msgstr ""
 
-#: includes/theme-customize.php:52
+#: includes/theme-customize.php:55
 msgid "Upload custom logo. Recommended max width is 300px."
 msgstr ""
 
-#: includes/theme-customize.php:78
+#: includes/theme-customize.php:81
 msgid "Choose whether to show Logo or Avatar in Header?"
 msgstr ""
 
-#: includes/theme-customize.php:84
+#: includes/theme-customize.php:87
 msgid "Show Logo"
 msgstr ""
 
-#: includes/theme-customize.php:85
+#: includes/theme-customize.php:88
 msgid "Show Avatar"
 msgstr ""
 
-#: includes/theme-customize.php:86
+#: includes/theme-customize.php:89
 msgid "Do not show Logo nor Avatar"
 msgstr ""
 
-#: includes/theme-customize.php:107
+#: includes/theme-customize.php:110
 msgid "Avatar Email"
 msgstr ""
 
-#: includes/theme-customize.php:133
+#: includes/theme-customize.php:136
 msgid "Choose Color Scheme"
 msgstr ""
 
-#: includes/theme-customize.php:139 library/extensions/theme-layouts.php:337
+#: includes/theme-customize.php:142 library/extensions/theme-layouts.php:337
 msgid "Default"
 msgstr ""
 
-#: includes/theme-customize.php:140
+#: includes/theme-customize.php:143
 msgid "Color Scheme 1"
 msgstr ""
 
-#: includes/theme-customize.php:141
+#: includes/theme-customize.php:144
 msgid "Color Scheme 2"
 msgstr ""
 
-#: includes/theme-customize.php:142
+#: includes/theme-customize.php:145
 msgid "Color Scheme 3"
 msgstr ""
 
-#: includes/theme-customize.php:143
+#: includes/theme-customize.php:146
 msgid "Color Scheme 4"
 msgstr ""
 
-#: includes/theme-customize.php:144
+#: includes/theme-customize.php:147
 msgid "Color Scheme 5"
 msgstr ""
 
-#: includes/theme-customize.php:145
+#: includes/theme-customize.php:148
 msgid "Color Scheme 6"
 msgstr ""
 
-#: includes/theme-customize.php:168
+#: includes/theme-customize.php:171
 msgid ""
 "Choose whether to use premade color schemes or custom ones. If you choose "
 "Custom Colors pick Default Color Scheme above. Then click Save/Publish and "
 "refresh this page to see live preview."
 msgstr ""
 
-#: includes/theme-customize.php:174
+#: includes/theme-customize.php:177
 msgid "Use premade color scheme"
 msgstr ""
 
-#: includes/theme-customize.php:175
+#: includes/theme-customize.php:178
 msgid "Use Custom Colors"
 msgstr ""
 
-#: includes/theme-customize.php:198
+#: includes/theme-customize.php:201
 msgid "Choose whether to use full screen background or not."
 msgstr ""
 
-#: includes/theme-customize.php:204
+#: includes/theme-customize.php:207
 msgid "Use full screen background"
 msgstr ""
 
-#: includes/theme-customize.php:205
+#: includes/theme-customize.php:208
 msgid "Do not use full screen background"
 msgstr ""
 
-#: includes/theme-customize.php:228
+#: includes/theme-customize.php:231
 msgid "Choose whether to use random background or not."
 msgstr ""
 
-#: includes/theme-customize.php:234
+#: includes/theme-customize.php:237
 msgid "Do not use random background"
 msgstr ""
 
-#: includes/theme-customize.php:235
+#: includes/theme-customize.php:238
 msgid "Use random background"
 msgstr ""
 
-#: includes/theme-customize.php:258
+#: includes/theme-customize.php:261
 msgid "Choose Body Font Size (pixels)"
 msgstr ""
 
-#: includes/theme-customize.php:263
+#: includes/theme-customize.php:266
 msgid "13"
 msgstr ""
 
-#: includes/theme-customize.php:264
+#: includes/theme-customize.php:267
 msgid "14"
 msgstr ""
 
-#: includes/theme-customize.php:265
+#: includes/theme-customize.php:268
 msgid "15"
 msgstr ""
 
-#: includes/theme-customize.php:266
+#: includes/theme-customize.php:269
 msgid "16"
 msgstr ""
 
-#: includes/theme-customize.php:267
+#: includes/theme-customize.php:270
 msgid "17"
 msgstr ""
 
-#: includes/theme-customize.php:268
+#: includes/theme-customize.php:271
 msgid "18"
 msgstr ""
 
-#: includes/theme-customize.php:269
+#: includes/theme-customize.php:272
 msgid "19"
 msgstr ""
 
-#: includes/theme-customize.php:280
+#: includes/theme-customize.php:283
 msgid "Social Links"
 msgstr ""
 
-#: includes/theme-customize.php:302
+#: includes/theme-customize.php:305
 msgid "Twitter URL"
 msgstr ""
 
-#: includes/theme-customize.php:350
+#: includes/theme-customize.php:353
 msgid "RSS URL"
 msgstr ""
 
-#: includes/theme-customize.php:374
+#: includes/theme-customize.php:377
 msgid "Linkedin URL"
 msgstr ""
 
-#: includes/theme-customize.php:398
+#: includes/theme-customize.php:401
 msgid "Google Plus URL"
 msgstr ""
 
-#: includes/theme-customize.php:422
+#: includes/theme-customize.php:425
 msgid "Github URL"
 msgstr ""
 
-#: includes/theme-customize.php:446
+#: includes/theme-customize.php:449
 msgid "Pinterest URL"
 msgstr ""
 
-#: includes/theme-customize.php:470
+#: includes/theme-customize.php:473
 msgid "Choose icon size"
 msgstr ""
 
-#: includes/theme-customize.php:476
+#: includes/theme-customize.php:479
 msgid "Normal"
 msgstr ""
 
-#: includes/theme-customize.php:477
+#: includes/theme-customize.php:480
 msgid "Icon large"
 msgstr ""
 
-#: includes/theme-customize.php:478
+#: includes/theme-customize.php:481
 msgid "Icon 2x"
 msgstr ""
 
-#: includes/theme-customize.php:479
+#: includes/theme-customize.php:482
 msgid "Icon 3x"
 msgstr ""
 
-#: includes/theme-customize.php:480
+#: includes/theme-customize.php:483
 msgid "Icon 4x"
 msgstr ""
 
-#: includes/theme-customize.php:503
+#: includes/theme-customize.php:506
 msgid "Choose whether to use full width header image or not."
 msgstr ""
 
-#: includes/theme-customize.php:509
+#: includes/theme-customize.php:512
 msgid "Use Content width header image."
 msgstr ""
 
-#: includes/theme-customize.php:510
+#: includes/theme-customize.php:513
 msgid "Use full width header image."
 msgstr ""
 
-#: includes/theme-customize.php:535
+#: includes/theme-customize.php:538
 msgid "Select Soliloquy Slider"
 msgstr ""
 
-#: includes/theme-customize.php:549
+#: includes/theme-customize.php:552
 msgid "Front Page Callout"
 msgstr ""
 
-#: includes/theme-customize.php:571
+#: includes/theme-customize.php:574
 msgid "Callout URL"
 msgstr ""
 
-#: includes/theme-customize.php:595
+#: includes/theme-customize.php:598
 msgid "Callout URL text"
 msgstr ""
 
-#: includes/theme-customize.php:620
+#: includes/theme-customize.php:623
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr ""
 
-#: includes/theme-customize.php:672
+#: includes/theme-customize.php:690
 msgid "Select Slider"
 msgstr ""
 
@@ -1615,15 +1620,31 @@ msgstr ""
 msgid "(Untitled)"
 msgstr ""
 
-#: page-templates/download-page.php:24
+#: page-templates/download-page.php:11
+msgid "Download Page"
+msgstr ""
+
+#: page-templates/download-page.php:27
 msgid "Latest Downloads"
 msgstr ""
 
-#: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
+#: page-templates/download-page.php:29 page-templates/portfolio-page.php:29
 #, php-format
 msgid "%1$s"
 msgstr ""
 
-#: page-templates/portfolio-page.php:24
+#: page-templates/members.php:11
+msgid "Members"
+msgstr ""
+
+#: page-templates/portfolio-page.php:11
+msgid "Portfolio Page"
+msgstr ""
+
+#: page-templates/portfolio-page.php:27
 msgid "Latest Portfolios"
+msgstr ""
+
+#: page-templates/slider.php:11
+msgid "Slider"
 msgstr ""
