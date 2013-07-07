@@ -679,6 +679,17 @@ function eino_print_font_size() {
 }
 
 /**
+* Delete cache for font size.
+*
+* @since 0.1.0
+*/
+function eino_font_size_cache_delete() {
+
+	wp_cache_delete( 'eino_font_size_cache' );
+	
+}
+
+/**
 * Return Soliloque Slider choices.
 *
 * @since 0.1.0
