@@ -1,30 +1,23 @@
+# Copyright (C) 2013 Sami Keijonen
+# This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Eino WordPress Theme\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-04 23:40+0200\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
-"Language-Team:  <sami.keijonen@foxnet.fi>\n"
-"Language: en_EN\n"
+"Project-Id-Version: Eino 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
+"POT-Creation-Date: 2013-07-07 19:08:11+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_x;"
-"_n;_x:1,2c;_n:1,2\n"
-"X-Poedit-Basepath: ../\n"
-"X-Generator: Poedit 1.5.5\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SearchPath-0: .\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: 404.php:22
 msgid "What happened!?"
 msgstr ""
 
 #: 404.php:28
-#, php-format
-msgid ""
-"You tried going to %s, which doesn't exist. You can try navigate or search."
+msgid "You tried going to %s, which doesn't exist. You can try navigate or search."
 msgstr ""
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
@@ -37,9 +30,9 @@ msgstr ""
 #: content-portfolio_item.php:17 content-portfolio_item.php:31
 #: content-quote.php:12 content-quote.php:23 content-status.php:13
 #: content-status.php:30 content-video.php:23 content-video.php:52
-#: content.php:12 content.php:29 page-templates/download-page.php:45
-#: page-templates/members.php:33 page-templates/portfolio-page.php:45
-#: page-templates/slider.php:37
+#: content.php:12 content.php:29 page-templates/download-page.php:42
+#: page-templates/members.php:30 page-templates/portfolio-page.php:42
+#: page-templates/slider.php:34
 msgid "Pages:"
 msgstr ""
 
@@ -47,11 +40,49 @@ msgstr ""
 msgid "Gallery"
 msgstr ""
 
+#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
+#: library/classes/widget-pages.php:157
+msgid "Author"
+msgstr ""
+
+#: bbpress/loop-replies.php:32 bbpress/loop-replies.php:62
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:38
+msgid "Topics: "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:40 bbpress/loop-single-topic.php:84
+msgid "Posts: "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:46 bbpress/loop-single-topic.php:90
+msgid "Last post: "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:54 bbpress/loop-single-topic.php:94
+msgid " by "
+msgstr ""
+
+#: bbpress/loop-single-reply.php:19
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:60
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:68
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:82
+msgid "Voices: "
+msgstr ""
+
 #: comments-loop-error.php:4
-#, php-format
-msgid ""
-"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
-"\">trackbacks</a> and pingbacks are open."
+msgid "Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
 msgstr ""
 
 #: comments-loop-error.php:10
@@ -63,7 +94,6 @@ msgid "&larr; Previous"
 msgstr ""
 
 #: comments-loop-nav.php:5
-#, php-format
 msgid "Page %1$s of %2$s"
 msgstr ""
 
@@ -81,15 +111,11 @@ msgstr ""
 
 #: content-aside.php:7 content-gallery.php:7 content-image.php:13
 #: content-link.php:7 content-video.php:13
-msgid ""
-"[post-format-link] published on [entry-published] [entry-comments-link "
-"before=\" | \"] [entry-edit-link before=\" | \"]"
+msgid "[post-format-link] published on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
 msgstr ""
 
 #: content-aside.php:16 content-download.php:16 content.php:16 content.php:33
-msgid ""
-"[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms "
-"before=\"| Tagged \"]"
+msgid "[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms before=\"| Tagged \"]"
 msgstr ""
 
 #: content-aside.php:22 content-chat.php:40 content-link.php:30
@@ -102,77 +128,57 @@ msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-audio.php:15
-msgid ""
-"[post-format-link] file published on [entry-published] [entry-comments-link "
-"before=\" | \"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] file published on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-audio.php:29 content-chat.php:22 content-gallery.php:16
 #: content-image.php:27 content-link.php:16 content-quote.php:16
 #: content-video.php:27
-msgid ""
-"[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
-"before=\"Tagged \"]"
+msgid "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
 msgstr ""
 
 #: content-audio.php:62
-msgid ""
-"[post-format-link] file published on [entry-published] [entry-comments-link "
-"before=\"| \"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] file published on [entry-published] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-chat.php:7 content-quote.php:7
-msgid ""
-"[post-format-link] published on [entry-published] [entry-comments-link "
-"before=\" | \"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] published on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-chat.php:47 content-gallery.php:42 content-image.php:58
-msgid ""
-"[post-format-link] published on [entry-published] [entry-comments-link "
-"before=\"| \"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] published on [entry-published] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:44
+#: page-templates/download-page.php:41
 msgid "Price:"
 msgstr ""
 
 #: content-gallery.php:37
-#, php-format
 msgid "This gallery contains %d image."
 msgid_plural "This gallery contains %d images."
 msgstr[0] ""
 msgstr[1] ""
 
 #: content-link.php:37 content-quote.php:27 content-video.php:58
-msgid ""
-"[post-format-link] published on [entry-published] [entry-permalink before="
-"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] published on [entry-published] [entry-permalink before=\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
-#: page-templates/portfolio-page.php:44
+#: page-templates/portfolio-page.php:41
 msgid "Work:"
 msgstr ""
 
 #: content-status.php:17
-msgid ""
-"[post-format-link] updated on [entry-published] [entry-edit-link before=\"| "
-"\"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-"
-"terms before=\"Tagged \"]"
+msgid "[post-format-link] updated on [entry-published] [entry-edit-link before=\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
 msgstr ""
 
 #: content-status.php:34
-msgid ""
-"[post-format-link] updated on [entry-published] [entry-permalink before=\"| "
-"\"] [entry-edit-link before=\"| \"]"
+msgid "[post-format-link] updated on [entry-published] [entry-permalink before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
 
 #: content.php:7 content.php:23
-msgid ""
-"Published by [entry-author] on [entry-published] [entry-comments-link before="
-"\" | \"] [entry-edit-link before=\" | \"]"
+msgid "Published by [entry-author] on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
 msgstr ""
 
 #: functions.php:318
@@ -271,8 +277,8 @@ msgstr ""
 msgid "Dark Color 1"
 msgstr ""
 
-#: functions.php:804 page-templates/front-page.php:11
-msgid "Front Page"
+#: functions.php:804
+msgid "Front Page Widget"
 msgstr ""
 
 #: functions.php:805
@@ -280,10 +286,7 @@ msgid "Front Page widget area."
 msgstr ""
 
 #: functions.php:888
-#, php-format
-msgid ""
-"No slider was selected. Please enter a slider ID or select a Slider under <a "
-"href=\"%s\"> Appearance &gt; Customize &gt; Layout</a>."
+msgid "No slider was selected. Please enter a slider ID or select a Slider under <a href=\"%s\"> Appearance &gt; Customize &gt; Layout</a>."
 msgstr ""
 
 #: functions.php:926
@@ -292,158 +295,6 @@ msgstr ""
 
 #: header.php:68
 msgid "&#8764;"
-msgstr ""
-
-#: loop-error.php:4
-msgid "Nothing found"
-msgstr ""
-
-#: loop-error.php:8
-msgid "Apologies, but no entries were found."
-msgstr ""
-
-#: loop-meta.php:54
-#, php-format
-msgid "You are browsing the search results for \"%s\""
-msgstr ""
-
-#: loop-meta.php:71
-msgid "F d, Y"
-msgstr ""
-
-#: loop-meta.php:73 library/extensions/breadcrumb-trail.php:1024
-#: library/functions/core-seo.php:90
-msgid "F Y"
-msgstr ""
-
-#: loop-meta.php:75 library/extensions/breadcrumb-trail.php:750
-#: library/extensions/breadcrumb-trail.php:779
-#: library/extensions/breadcrumb-trail.php:806
-#: library/extensions/breadcrumb-trail.php:833
-#: library/extensions/breadcrumb-trail.php:1020
-#: library/functions/context.php:565 library/functions/context.php:571
-#: library/functions/core-seo.php:94 library/functions/shortcodes.php:137
-msgid "Y"
-msgstr ""
-
-#: loop-meta.php:81
-#, php-format
-msgid "You are browsing the site archives for %s."
-msgstr ""
-
-#: loop-meta.php:86 library/classes/widget-archives.php:44
-#: library/classes/widget-archives.php:142
-#: library/extensions/breadcrumb-trail.php:180
-#: library/functions/context.php:576
-msgid "Archives"
-msgstr ""
-
-#: loop-meta.php:89
-msgid "You are browsing the site archives."
-msgstr ""
-
-#: loop-nav.php:4
-msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
-msgstr ""
-
-#: loop-nav.php:10 loop-nav.php:14 loop-nav.php:16
-msgid "<span class=\"meta-nav\"></span> Previous"
-msgstr ""
-
-#: loop-nav.php:11 loop-nav.php:14 loop-nav.php:16
-msgid "Next <span class=\"meta-nav\"></span>"
-msgstr ""
-
-#: members-loop.php:21
-#, php-format
-msgid "%s on Twitter"
-msgstr ""
-
-#: members-loop.php:21
-msgid "Twitter"
-msgstr ""
-
-#: members-loop.php:25
-#, php-format
-msgid "%s on Facebook"
-msgstr ""
-
-#: members-loop.php:25
-msgid "Facebook"
-msgstr ""
-
-#: members-loop.php:29
-#, php-format
-msgid "%s on Google+"
-msgstr ""
-
-#: members-loop.php:29
-msgid "Google+"
-msgstr ""
-
-#: members-loop.php:32
-#, php-format
-msgid "Subscribe to the feed for %s"
-msgstr ""
-
-#: members-loop.php:32
-msgid "Subscribe"
-msgstr ""
-
-#: menu-primary.php:12 menu-secondary.php:13
-msgid "Skip to content"
-msgstr ""
-
-#: menu-primary.php:12
-msgid "Menu"
-msgstr ""
-
-#: search.php:22
-#, php-format
-msgid "[entry-published] &mdash; <code>%s</code>"
-msgstr ""
-
-#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
-#: library/classes/widget-pages.php:157
-msgid "Author"
-msgstr ""
-
-#: bbpress/loop-replies.php:32 bbpress/loop-replies.php:62
-msgid "Replies"
-msgstr ""
-
-#: bbpress/loop-single-forum.php:38
-msgid "Topics: "
-msgstr ""
-
-#: bbpress/loop-single-forum.php:40 bbpress/loop-single-topic.php:84
-msgid "Posts: "
-msgstr ""
-
-#: bbpress/loop-single-forum.php:46 bbpress/loop-single-topic.php:90
-msgid "Last post: "
-msgstr ""
-
-#: bbpress/loop-single-forum.php:54 bbpress/loop-single-topic.php:94
-msgid " by "
-msgstr ""
-
-#: bbpress/loop-single-reply.php:19
-msgid "in reply to: "
-msgstr ""
-
-#: bbpress/loop-single-topic.php:60
-#, php-format
-msgid "Started by: %1$s"
-msgstr ""
-
-#: bbpress/loop-single-topic.php:68
-#, php-format
-msgid "in: <a href=\"%1$s\">%2$s</a>"
-msgstr ""
-
-#: bbpress/loop-single-topic.php:82
-msgid "Voices: "
 msgstr ""
 
 #: includes/edd-functions.php:14
@@ -511,10 +362,7 @@ msgid "Color Scheme 6"
 msgstr ""
 
 #: includes/theme-customize.php:171
-msgid ""
-"Choose whether to use premade color schemes or custom ones. If you choose "
-"Custom Colors pick Default Color Scheme above. Then click Save/Publish and "
-"refresh this page to see live preview."
+msgid "Choose whether to use premade color schemes or custom ones. If you choose Custom Colors pick Default Color Scheme above. Then click Save/Publish and refresh this page to see live preview."
 msgstr ""
 
 #: includes/theme-customize.php:177
@@ -665,7 +513,7 @@ msgstr ""
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr ""
 
-#: includes/theme-customize.php:690
+#: includes/theme-customize.php:701
 msgid "Select Slider"
 msgstr ""
 
@@ -691,7 +539,6 @@ msgstr ""
 
 #: library/admin/meta-box-theme-about.php:31
 #: library/admin/meta-box-theme-about.php:36
-#, php-format
 msgid "About %s"
 msgstr ""
 
@@ -716,14 +563,10 @@ msgid "Footer settings"
 msgstr ""
 
 #: library/admin/meta-box-theme-footer.php:52
-msgid ""
-"You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
-"acronym> and/or shortcodes, which will be automatically inserted into your "
-"theme."
+msgid "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</acronym> and/or shortcodes, which will be automatically inserted into your theme."
 msgstr ""
 
 #: library/admin/theme-settings.php:47 library/admin/theme-settings.php:171
-#, php-format
 msgid "%s Theme Settings"
 msgstr ""
 
@@ -748,9 +591,14 @@ msgid "Support"
 msgstr ""
 
 #: library/classes/widget-archives.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"archives."
+msgid "An advanced widget that gives you total control over the output of your archives."
+msgstr ""
+
+#: library/classes/widget-archives.php:44
+#: library/classes/widget-archives.php:142
+#: library/extensions/breadcrumb-trail.php:180
+#: library/functions/context.php:576 loop-meta.php:86
+msgid "Archives"
 msgstr ""
 
 #: library/classes/widget-archives.php:79
@@ -832,9 +680,8 @@ msgstr ""
 #: library/classes/widget-bookmarks.php:217
 #: library/classes/widget-calendar.php:108
 #: library/classes/widget-categories.php:195
-#: library/classes/widget-nav-menu.php:131
-#: library/classes/widget-pages.php:178 library/classes/widget-search.php:144
-#: library/classes/widget-tags.php:207
+#: library/classes/widget-nav-menu.php:131 library/classes/widget-pages.php:178
+#: library/classes/widget-search.php:144 library/classes/widget-tags.php:207
 msgid "Title:"
 msgstr ""
 
@@ -844,13 +691,10 @@ msgid "Show post count?"
 msgstr ""
 
 #: library/classes/widget-authors.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"author lists."
+msgid "An advanced widget that gives you total control over the output of your author lists."
 msgstr ""
 
-#: library/classes/widget-authors.php:44
-#: library/classes/widget-authors.php:123
+#: library/classes/widget-authors.php:44 library/classes/widget-authors.php:123
 msgid "Authors"
 msgstr ""
 
@@ -921,9 +765,7 @@ msgid "Hide empty?"
 msgstr ""
 
 #: library/classes/widget-bookmarks.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"bookmarks (links)."
+msgid "An advanced widget that gives you total control over the output of your bookmarks (links)."
 msgstr ""
 
 #: library/classes/widget-bookmarks.php:44
@@ -967,8 +809,7 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: library/classes/widget-bookmarks.php:205
-#: library/classes/widget-tags.php:188
+#: library/classes/widget-bookmarks.php:205 library/classes/widget-tags.php:188
 msgid "Random"
 msgstr ""
 
@@ -1026,9 +867,7 @@ msgid "Show private?"
 msgstr ""
 
 #: library/classes/widget-calendar.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"calendar."
+msgid "An advanced widget that gives you total control over the output of your calendar."
 msgstr ""
 
 #: library/classes/widget-calendar.php:44
@@ -1041,9 +880,7 @@ msgid "One-letter abbreviation?"
 msgstr ""
 
 #: library/classes/widget-categories.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"category links."
+msgid "An advanced widget that gives you total control over the output of your category links."
 msgstr ""
 
 #: library/classes/widget-categories.php:44
@@ -1081,9 +918,7 @@ msgid "Show count?"
 msgstr ""
 
 #: library/classes/widget-nav-menu.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"menus."
+msgid "An advanced widget that gives you total control over the output of your menus."
 msgstr ""
 
 #: library/classes/widget-nav-menu.php:44
@@ -1095,9 +930,7 @@ msgid "Navigation"
 msgstr ""
 
 #: library/classes/widget-pages.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your page "
-"links."
+msgid "An advanced widget that gives you total control over the output of your page links."
 msgstr ""
 
 #: library/classes/widget-pages.php:44 library/classes/widget-pages.php:125
@@ -1125,9 +958,7 @@ msgid "Created"
 msgstr ""
 
 #: library/classes/widget-search.php:33
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"search form."
+msgid "An advanced widget that gives you total control over the output of your search form."
 msgstr ""
 
 #: library/classes/widget-search.php:45 library/classes/widget-search.php:132
@@ -1151,8 +982,7 @@ msgid "Use theme's <code>searchform.php</code>?"
 msgstr ""
 
 #: library/classes/widget-tags.php:32
-msgid ""
-"An advanced widget that gives you total control over the output of your tags."
+msgid "An advanced widget that gives you total control over the output of your tags."
 msgstr ""
 
 #: library/classes/widget-tags.php:44 library/classes/widget-tags.php:146
@@ -1189,7 +1019,6 @@ msgid "Home"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:177
-#, php-format
 msgid "Search results for \"%s\""
 msgstr ""
 
@@ -1199,7 +1028,6 @@ msgid "404 Not Found"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:179
-#, php-format
 msgid "Page %d"
 msgstr ""
 
@@ -1209,13 +1037,23 @@ msgid "g:i a"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:717
-#, php-format
 msgid "Minute %s"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:734
 #: library/functions/context.php:559
 msgid "g a"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:750
+#: library/extensions/breadcrumb-trail.php:779
+#: library/extensions/breadcrumb-trail.php:806
+#: library/extensions/breadcrumb-trail.php:833
+#: library/extensions/breadcrumb-trail.php:1020
+#: library/functions/context.php:565 library/functions/context.php:571
+#: library/functions/core-seo.php:94 library/functions/shortcodes.php:137
+#: loop-meta.php:75
+msgid "Y"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:751
@@ -1230,8 +1068,12 @@ msgid "d"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:780
-#, php-format
 msgid "Week %s"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:1024
+#: library/functions/core-seo.php:90 loop-meta.php:73
+msgid "F Y"
 msgstr ""
 
 #: library/extensions/breadcrumb-trail.php:1028
@@ -1313,14 +1155,10 @@ msgid "Comment"
 msgstr ""
 
 #: library/functions/comments.php:196
-#, php-format
-msgid ""
-"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
-"comment."
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
 msgstr ""
 
 #: library/functions/comments.php:197
-#, php-format
 msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 msgstr ""
 
@@ -1337,7 +1175,6 @@ msgid "Leave a Reply"
 msgstr ""
 
 #: library/functions/comments.php:203
-#, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
@@ -1352,12 +1189,10 @@ msgstr ""
 #: library/functions/context.php:553 library/functions/context.php:559
 #: library/functions/context.php:562 library/functions/context.php:568
 #: library/functions/context.php:571
-#, php-format
 msgid "Archive for %1$s"
 msgstr ""
 
 #: library/functions/context.php:556
-#, php-format
 msgid "Archive for minute %1$s"
 msgstr ""
 
@@ -1370,7 +1205,6 @@ msgid "F jS, Y"
 msgstr ""
 
 #: library/functions/context.php:565
-#, php-format
 msgid "Archive for week %1$s of %2$s"
 msgstr ""
 
@@ -1379,17 +1213,14 @@ msgid "W"
 msgstr ""
 
 #: library/functions/context.php:582
-#, php-format
 msgid "Search results for &quot;%1$s&quot;"
 msgstr ""
 
 #: library/functions/context.php:590
-#, php-format
 msgid "%1$s Page %2$s"
 msgstr ""
 
 #: library/functions/core-seo.php:97
-#, php-format
 msgid "Copyright (c) %1$s"
 msgstr ""
 
@@ -1403,10 +1234,7 @@ msgid "Footer"
 msgstr ""
 
 #: library/functions/deprecated.php:684
-#, php-format
-msgid ""
-"<code>%1$s</code> &mdash; This function has been removed or replaced by "
-"another function."
+msgid "<code>%1$s</code> &mdash; This function has been removed or replaced by another function."
 msgstr ""
 
 #: library/functions/menus.php:38
@@ -1481,7 +1309,6 @@ msgid "WordPress"
 msgstr ""
 
 #: library/functions/shortcodes.php:173
-#, php-format
 msgid "%s WordPress Theme"
 msgstr ""
 
@@ -1494,12 +1321,10 @@ msgid "Log in"
 msgstr ""
 
 #: library/functions/shortcodes.php:218
-#, php-format
 msgid "This page loaded in %1$s seconds with %2$s database queries."
 msgstr ""
 
 #: library/functions/shortcodes.php:272 library/functions/shortcodes.php:594
-#, php-format
 msgid "Edit %1$s"
 msgstr ""
 
@@ -1508,18 +1333,15 @@ msgid "Leave a response"
 msgstr ""
 
 #: library/functions/shortcodes.php:325
-#, php-format
 msgid "%1$s Response"
 msgstr ""
 
 #: library/functions/shortcodes.php:326
-#, php-format
 msgid "%1$s Responses"
 msgstr ""
 
 #: library/functions/shortcodes.php:341 library/functions/shortcodes.php:343
 #: library/functions/shortcodes.php:345
-#, php-format
 msgid "Comment on %1$s"
 msgstr ""
 
@@ -1532,12 +1354,10 @@ msgid "Permalink"
 msgstr ""
 
 #: library/functions/shortcodes.php:522
-#, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
 #: library/functions/shortcodes.php:573
-#, php-format
 msgid "Permalink to comment %1$s"
 msgstr ""
 
@@ -1564,9 +1384,7 @@ msgid "Secondary"
 msgstr ""
 
 #: library/functions/sidebars.php:92
-msgid ""
-"The second most important widget area, most often used as a secondary "
-"sidebar."
+msgid "The second most important widget area, most often used as a secondary sidebar."
 msgstr ""
 
 #: library/functions/sidebars.php:95
@@ -1611,40 +1429,140 @@ msgid "After Singular"
 msgstr ""
 
 #: library/functions/sidebars.php:112
-msgid ""
-"Loaded on singular post (page, attachment, etc.) views before the comments "
-"area."
+msgid "Loaded on singular post (page, attachment, etc.) views before the comments area."
 msgstr ""
 
 #: library/functions/utility.php:227
 msgid "(Untitled)"
 msgstr ""
 
-#: page-templates/download-page.php:11
-msgid "Download Page"
+#: loop-error.php:4
+msgid "Nothing found"
 msgstr ""
 
-#: page-templates/download-page.php:27
+#: loop-error.php:8
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: loop-meta.php:54
+msgid "You are browsing the search results for \"%s\""
+msgstr ""
+
+#: loop-meta.php:71
+msgid "F d, Y"
+msgstr ""
+
+#: loop-meta.php:81
+msgid "You are browsing the site archives for %s."
+msgstr ""
+
+#: loop-meta.php:89
+msgid "You are browsing the site archives."
+msgstr ""
+
+#: loop-nav.php:4
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+#: loop-nav.php:10 loop-nav.php:14 loop-nav.php:16
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: loop-nav.php:11 loop-nav.php:14 loop-nav.php:16
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: members-loop.php:21
+msgid "%s on Twitter"
+msgstr ""
+
+#: members-loop.php:21
+msgid "Twitter"
+msgstr ""
+
+#: members-loop.php:25
+msgid "%s on Facebook"
+msgstr ""
+
+#: members-loop.php:25
+msgid "Facebook"
+msgstr ""
+
+#: members-loop.php:29
+msgid "%s on Google+"
+msgstr ""
+
+#: members-loop.php:29
+msgid "Google+"
+msgstr ""
+
+#: members-loop.php:32
+msgid "Subscribe to the feed for %s"
+msgstr ""
+
+#: members-loop.php:32
+msgid "Subscribe"
+msgstr ""
+
+#: menu-primary.php:12 menu-secondary.php:13
+msgid "Skip to content"
+msgstr ""
+
+#: menu-primary.php:12
+msgid "Menu"
+msgstr ""
+
+#: page-templates/download-page.php:24
 msgid "Latest Downloads"
 msgstr ""
 
-#: page-templates/download-page.php:29 page-templates/portfolio-page.php:29
-#, php-format
+#: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
 msgid "%1$s"
 msgstr ""
 
-#: page-templates/members.php:11
-msgid "Members"
-msgstr ""
-
-#: page-templates/portfolio-page.php:11
-msgid "Portfolio Page"
-msgstr ""
-
-#: page-templates/portfolio-page.php:27
+#: page-templates/portfolio-page.php:24
 msgid "Latest Portfolios"
 msgstr ""
 
-#: page-templates/slider.php:11
+#: search.php:22
+msgid "[entry-published] &mdash; <code>%s</code>"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Eino"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/eino"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Some kind of Franter."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet-themes.fi/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Download Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Members"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Portfolio Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
 msgid "Slider"
 msgstr ""

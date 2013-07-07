@@ -3,16 +3,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-04 23:40+0200\n"
-"PO-Revision-Date: 2013-07-04 23:40+0200\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
+"POT-Creation-Date: 2013-07-07 19:08:11+00:00\n"
+"PO-Revision-Date: 2013-07-07 22:09+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
 "_x;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ../\n"
@@ -24,7 +24,6 @@ msgid "What happened!?"
 msgstr "Mitä tapahtui!?"
 
 #: 404.php:28
-#, php-format
 msgid ""
 "You tried going to %s, which doesn't exist. You can try navigate or search."
 msgstr ""
@@ -41,9 +40,9 @@ msgstr ""
 #: content-portfolio_item.php:17 content-portfolio_item.php:31
 #: content-quote.php:12 content-quote.php:23 content-status.php:13
 #: content-status.php:30 content-video.php:23 content-video.php:52
-#: content.php:12 content.php:29 page-templates/download-page.php:45
-#: page-templates/members.php:33 page-templates/portfolio-page.php:45
-#: page-templates/slider.php:37
+#: content.php:12 content.php:29 page-templates/download-page.php:42
+#: page-templates/members.php:30 page-templates/portfolio-page.php:42
+#: page-templates/slider.php:34
 msgid "Pages:"
 msgstr "Sivut:"
 
@@ -51,8 +50,48 @@ msgstr "Sivut:"
 msgid "Gallery"
 msgstr "Kuvagalleria"
 
+#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
+#: library/classes/widget-pages.php:157
+msgid "Author"
+msgstr "Tekijä"
+
+#: bbpress/loop-replies.php:32 bbpress/loop-replies.php:62
+msgid "Replies"
+msgstr "Vastauksia"
+
+#: bbpress/loop-single-forum.php:38
+msgid "Topics: "
+msgstr "Aiheet:"
+
+#: bbpress/loop-single-forum.php:40 bbpress/loop-single-topic.php:84
+msgid "Posts: "
+msgstr "Viestejä:"
+
+#: bbpress/loop-single-forum.php:46 bbpress/loop-single-topic.php:90
+msgid "Last post: "
+msgstr "Viimeisin "
+
+#: bbpress/loop-single-forum.php:54 bbpress/loop-single-topic.php:94
+msgid " by "
+msgstr "&middot;"
+
+#: bbpress/loop-single-reply.php:19
+msgid "in reply to: "
+msgstr "vastauksena:"
+
+#: bbpress/loop-single-topic.php:60
+msgid "Started by: %1$s"
+msgstr "Kirjoittaja: %1$s"
+
+#: bbpress/loop-single-topic.php:68
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "Foorumi: <a href=\"%1$s\">%2$s</a>"
+
+#: bbpress/loop-single-topic.php:82
+msgid "Voices: "
+msgstr "Osallistujia:"
+
 #: comments-loop-error.php:4
-#, php-format
 msgid ""
 "Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
 "\">trackbacks</a> and pingbacks are open."
@@ -69,7 +108,6 @@ msgid "&larr; Previous"
 msgstr "&larr; Edellinen"
 
 #: comments-loop-nav.php:5
-#, php-format
 msgid "Page %1$s of %2$s"
 msgstr "Sivu %1$s / %2$s"
 
@@ -154,12 +192,11 @@ msgstr ""
 "\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:44
+#: page-templates/download-page.php:41
 msgid "Price:"
 msgstr "Hinta:"
 
 #: content-gallery.php:37
-#, php-format
 msgid "This gallery contains %d image."
 msgid_plural "This gallery contains %d images."
 msgstr[0] "Kuvagalleriassa on %d kuva."
@@ -174,7 +211,7 @@ msgstr ""
 "\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
-#: page-templates/portfolio-page.php:44
+#: page-templates/portfolio-page.php:41
 msgid "Work:"
 msgstr "Tehdyt työt:"
 
@@ -300,16 +337,15 @@ msgstr "Tumma väri"
 msgid "Dark Color 1"
 msgstr "Tumma väri 1"
 
-#: functions.php:804 page-templates/front-page.php:11
-msgid "Front Page"
-msgstr "Etusivu"
+#: functions.php:804
+msgid "Front Page Widget"
+msgstr "Etusivun vimpaimet."
 
 #: functions.php:805
 msgid "Front Page widget area."
 msgstr "Etusivun vimpainalue."
 
 #: functions.php:888
-#, php-format
 msgid ""
 "No slider was selected. Please enter a slider ID or select a Slider under <a "
 "href=\"%s\"> Appearance &gt; Customize &gt; Layout</a>."
@@ -324,158 +360,6 @@ msgstr "Vieraile sivulla"
 #: header.php:68
 msgid "&#8764;"
 msgstr "&#8764;"
-
-#: loop-error.php:4
-msgid "Nothing found"
-msgstr "Mitään ei löytynyt"
-
-#: loop-error.php:8
-msgid "Apologies, but no entries were found."
-msgstr "Pahoittelut, mutta yhtään artikkelia ei löytynyt."
-
-#: loop-meta.php:54
-#, php-format
-msgid "You are browsing the search results for \"%s\""
-msgstr "Hakutulokset haulle  \"%s\""
-
-#: loop-meta.php:71
-msgid "F d, Y"
-msgstr "d.j.Y"
-
-#: loop-meta.php:73 library/extensions/breadcrumb-trail.php:1024
-#: library/functions/core-seo.php:90
-msgid "F Y"
-msgstr "F Y"
-
-#: loop-meta.php:75 library/extensions/breadcrumb-trail.php:750
-#: library/extensions/breadcrumb-trail.php:779
-#: library/extensions/breadcrumb-trail.php:806
-#: library/extensions/breadcrumb-trail.php:833
-#: library/extensions/breadcrumb-trail.php:1020
-#: library/functions/context.php:565 library/functions/context.php:571
-#: library/functions/core-seo.php:94 library/functions/shortcodes.php:137
-msgid "Y"
-msgstr "Y"
-
-#: loop-meta.php:81
-#, php-format
-msgid "You are browsing the site archives for %s."
-msgstr "Sivun arkistot %s."
-
-#: loop-meta.php:86 library/classes/widget-archives.php:44
-#: library/classes/widget-archives.php:142
-#: library/extensions/breadcrumb-trail.php:180
-#: library/functions/context.php:576
-msgid "Archives"
-msgstr "Arkistot"
-
-#: loop-meta.php:89
-msgid "You are browsing the site archives."
-msgstr "Sivun arkistot."
-
-#: loop-nav.php:4
-msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
-msgstr "<span class=\"meta-nav\">&larr;</span> Palaa takaisin"
-
-#: loop-nav.php:10 loop-nav.php:14 loop-nav.php:16
-msgid "<span class=\"meta-nav\"></span> Previous"
-msgstr "<span class=\"meta-nav\"></span> Edellinen"
-
-#: loop-nav.php:11 loop-nav.php:14 loop-nav.php:16
-msgid "Next <span class=\"meta-nav\"></span>"
-msgstr "Seuraava <span class=\"meta-nav\"></span>"
-
-#: members-loop.php:21
-#, php-format
-msgid "%s on Twitter"
-msgstr "%s Twitter"
-
-#: members-loop.php:21
-msgid "Twitter"
-msgstr "Twitter"
-
-#: members-loop.php:25
-#, php-format
-msgid "%s on Facebook"
-msgstr "%s Facebook"
-
-#: members-loop.php:25
-msgid "Facebook"
-msgstr "Facebook"
-
-#: members-loop.php:29
-#, php-format
-msgid "%s on Google+"
-msgstr "%s Google+"
-
-#: members-loop.php:29
-msgid "Google+"
-msgstr "Google+"
-
-#: members-loop.php:32
-#, php-format
-msgid "Subscribe to the feed for %s"
-msgstr "Tilaa RSS-syöte %s"
-
-#: members-loop.php:32
-msgid "Subscribe"
-msgstr "Liity"
-
-#: menu-primary.php:12 menu-secondary.php:13
-msgid "Skip to content"
-msgstr "Hyppää sisältöön"
-
-#: menu-primary.php:12
-msgid "Menu"
-msgstr "Valikko"
-
-#: search.php:22
-#, php-format
-msgid "[entry-published] &mdash; <code>%s</code>"
-msgstr "[entry-published] &mdash; <code>%s</code>"
-
-#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
-#: library/classes/widget-pages.php:157
-msgid "Author"
-msgstr "Tekijä"
-
-#: bbpress/loop-replies.php:32 bbpress/loop-replies.php:62
-msgid "Replies"
-msgstr "Vastauksia"
-
-#: bbpress/loop-single-forum.php:38
-msgid "Topics: "
-msgstr "Aiheet:"
-
-#: bbpress/loop-single-forum.php:40 bbpress/loop-single-topic.php:84
-msgid "Posts: "
-msgstr "Viestejä:"
-
-#: bbpress/loop-single-forum.php:46 bbpress/loop-single-topic.php:90
-msgid "Last post: "
-msgstr "Viimeisin "
-
-#: bbpress/loop-single-forum.php:54 bbpress/loop-single-topic.php:94
-msgid " by "
-msgstr "&middot;"
-
-#: bbpress/loop-single-reply.php:19
-msgid "in reply to: "
-msgstr "vastauksena:"
-
-#: bbpress/loop-single-topic.php:60
-#, php-format
-msgid "Started by: %1$s"
-msgstr "Kirjoittaja: %1$s"
-
-#: bbpress/loop-single-topic.php:68
-#, php-format
-msgid "in: <a href=\"%1$s\">%2$s</a>"
-msgstr "Foorumi: <a href=\"%1$s\">%2$s</a>"
-
-#: bbpress/loop-single-topic.php:82
-msgid "Voices: "
-msgstr "Osallistujia:"
 
 #: includes/edd-functions.php:14
 msgid "Eino Theme Color"
@@ -699,7 +583,7 @@ msgstr "Callout URL-linkin teksti"
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
 
-#: includes/theme-customize.php:690
+#: includes/theme-customize.php:701
 msgid "Select Slider"
 msgstr "Valitse Slider"
 
@@ -725,7 +609,6 @@ msgstr "Sivupohja"
 
 #: library/admin/meta-box-theme-about.php:31
 #: library/admin/meta-box-theme-about.php:36
-#, php-format
 msgid "About %s"
 msgstr "Tiedot %s"
 
@@ -759,7 +642,6 @@ msgstr ""
 "acronym> ja/tai lyhytkoodeja, jotka lisätään automaattisesti teemaan."
 
 #: library/admin/theme-settings.php:47 library/admin/theme-settings.php:171
-#, php-format
 msgid "%s Theme Settings"
 msgstr "%s  Teeman asetukset"
 
@@ -788,6 +670,13 @@ msgid ""
 "An advanced widget that gives you total control over the output of your "
 "archives."
 msgstr "Vimpain, jolla hallitaan arkistoja."
+
+#: library/classes/widget-archives.php:44
+#: library/classes/widget-archives.php:142
+#: library/extensions/breadcrumb-trail.php:180
+#: library/functions/context.php:576 loop-meta.php:86
+msgid "Archives"
+msgstr "Arkistot"
 
 #: library/classes/widget-archives.php:79
 msgid "Select Year"
@@ -1225,7 +1114,6 @@ msgid "Home"
 msgstr "Etusivu"
 
 #: library/extensions/breadcrumb-trail.php:177
-#, php-format
 msgid "Search results for \"%s\""
 msgstr "Hakutulokset haulle: \"%s\""
 
@@ -1235,7 +1123,6 @@ msgid "404 Not Found"
 msgstr "404 Sivua ei löytynyt"
 
 #: library/extensions/breadcrumb-trail.php:179
-#, php-format
 msgid "Page %d"
 msgstr "Sivu %d"
 
@@ -1245,7 +1132,6 @@ msgid "g:i a"
 msgstr "G:i"
 
 #: library/extensions/breadcrumb-trail.php:717
-#, php-format
 msgid "Minute %s"
 msgstr "Minuutti %s"
 
@@ -1253,6 +1139,17 @@ msgstr "Minuutti %s"
 #: library/functions/context.php:559
 msgid "g a"
 msgstr "g a"
+
+#: library/extensions/breadcrumb-trail.php:750
+#: library/extensions/breadcrumb-trail.php:779
+#: library/extensions/breadcrumb-trail.php:806
+#: library/extensions/breadcrumb-trail.php:833
+#: library/extensions/breadcrumb-trail.php:1020
+#: library/functions/context.php:565 library/functions/context.php:571
+#: library/functions/core-seo.php:94 library/functions/shortcodes.php:137
+#: loop-meta.php:75
+msgid "Y"
+msgstr "Y"
 
 #: library/extensions/breadcrumb-trail.php:751
 #: library/extensions/breadcrumb-trail.php:807
@@ -1266,9 +1163,13 @@ msgid "d"
 msgstr "d"
 
 #: library/extensions/breadcrumb-trail.php:780
-#, php-format
 msgid "Week %s"
 msgstr "Viikko %s"
+
+#: library/extensions/breadcrumb-trail.php:1024
+#: library/functions/core-seo.php:90 loop-meta.php:73
+msgid "F Y"
+msgstr "F Y"
 
 #: library/extensions/breadcrumb-trail.php:1028
 msgid "F j, Y"
@@ -1349,7 +1250,6 @@ msgid "Comment"
 msgstr "Kommentti"
 
 #: library/functions/comments.php:196
-#, php-format
 msgid ""
 "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
 "comment."
@@ -1358,7 +1258,6 @@ msgstr ""
 "kirjoittaaksesi kommentin."
 
 #: library/functions/comments.php:197
-#, php-format
 msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 msgstr "Kirjautuneena nimellä <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 
@@ -1375,7 +1274,6 @@ msgid "Leave a Reply"
 msgstr "Jätä kommentti"
 
 #: library/functions/comments.php:203
-#, php-format
 msgid "Leave a Reply to %s"
 msgstr "Jätä kommentti %s"
 
@@ -1390,12 +1288,10 @@ msgstr "Lähetä  kommentti"
 #: library/functions/context.php:553 library/functions/context.php:559
 #: library/functions/context.php:562 library/functions/context.php:568
 #: library/functions/context.php:571
-#, php-format
 msgid "Archive for %1$s"
 msgstr "Arkisto: %1$s"
 
 #: library/functions/context.php:556
-#, php-format
 msgid "Archive for minute %1$s"
 msgstr "Minuuttiarkisto %1$s"
 
@@ -1408,7 +1304,6 @@ msgid "F jS, Y"
 msgstr "F jS, Y"
 
 #: library/functions/context.php:565
-#, php-format
 msgid "Archive for week %1$s of %2$s"
 msgstr "Viikkoarkisto %1$s of %2$s"
 
@@ -1417,17 +1312,14 @@ msgid "W"
 msgstr "W"
 
 #: library/functions/context.php:582
-#, php-format
 msgid "Search results for &quot;%1$s&quot;"
 msgstr "Hakutulokset haulle: &quot;%1$s&quot;"
 
 #: library/functions/context.php:590
-#, php-format
 msgid "%1$s Page %2$s"
 msgstr "%1$s Sivu %2$s"
 
 #: library/functions/core-seo.php:97
-#, php-format
 msgid "Copyright (c) %1$s"
 msgstr "Copyright (c) %1$s"
 
@@ -1441,7 +1333,6 @@ msgid "Footer"
 msgstr "Alapalkki"
 
 #: library/functions/deprecated.php:684
-#, php-format
 msgid ""
 "<code>%1$s</code> &mdash; This function has been removed or replaced by "
 "another function."
@@ -1521,7 +1412,6 @@ msgid "WordPress"
 msgstr "WordPress"
 
 #: library/functions/shortcodes.php:173
-#, php-format
 msgid "%s WordPress Theme"
 msgstr "%s WordPress teema"
 
@@ -1534,13 +1424,11 @@ msgid "Log in"
 msgstr "Kirjaudu sisään"
 
 #: library/functions/shortcodes.php:218
-#, php-format
 msgid "This page loaded in %1$s seconds with %2$s database queries."
 msgstr ""
 "Sivu ladattiin %1$s sekunnissa, aikaa meni %2$s tietokannan kyselyihin."
 
 #: library/functions/shortcodes.php:272 library/functions/shortcodes.php:594
-#, php-format
 msgid "Edit %1$s"
 msgstr "Editoi %1$s"
 
@@ -1549,18 +1437,15 @@ msgid "Leave a response"
 msgstr "Jätä kommentti"
 
 #: library/functions/shortcodes.php:325
-#, php-format
 msgid "%1$s Response"
 msgstr "%1$s Kommentti"
 
 #: library/functions/shortcodes.php:326
-#, php-format
 msgid "%1$s Responses"
 msgstr "%1$s Kommenttia"
 
 #: library/functions/shortcodes.php:341 library/functions/shortcodes.php:343
 #: library/functions/shortcodes.php:345
-#, php-format
 msgid "Comment on %1$s"
 msgstr "Kommentti %1$s"
 
@@ -1573,12 +1458,10 @@ msgid "Permalink"
 msgstr "Pikalinkki"
 
 #: library/functions/shortcodes.php:522
-#, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s / %2$s"
 
 #: library/functions/shortcodes.php:573
-#, php-format
 msgid "Permalink to comment %1$s"
 msgstr "Pikalinkki kommenttiin %1$s"
 
@@ -1663,32 +1546,135 @@ msgstr ""
 msgid "(Untitled)"
 msgstr "(Ei otsikkoa)"
 
-#: page-templates/download-page.php:11
-msgid "Download Page"
-msgstr "Latauksien sivu"
+#: loop-error.php:4
+msgid "Nothing found"
+msgstr "Mitään ei löytynyt"
 
-#: page-templates/download-page.php:27
+#: loop-error.php:8
+msgid "Apologies, but no entries were found."
+msgstr "Pahoittelut, mutta yhtään artikkelia ei löytynyt."
+
+#: loop-meta.php:54
+msgid "You are browsing the search results for \"%s\""
+msgstr "Hakutulokset haulle  \"%s\""
+
+#: loop-meta.php:71
+msgid "F d, Y"
+msgstr "d.j.Y"
+
+#: loop-meta.php:81
+msgid "You are browsing the site archives for %s."
+msgstr "Sivun arkistot %s."
+
+#: loop-meta.php:89
+msgid "You are browsing the site archives."
+msgstr "Sivun arkistot."
+
+#: loop-nav.php:4
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr "<span class=\"meta-nav\">&larr;</span> Palaa takaisin"
+
+#: loop-nav.php:10 loop-nav.php:14 loop-nav.php:16
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr "<span class=\"meta-nav\"></span> Edellinen"
+
+#: loop-nav.php:11 loop-nav.php:14 loop-nav.php:16
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr "Seuraava <span class=\"meta-nav\"></span>"
+
+#: members-loop.php:21
+msgid "%s on Twitter"
+msgstr "%s Twitter"
+
+#: members-loop.php:21
+msgid "Twitter"
+msgstr "Twitter"
+
+#: members-loop.php:25
+msgid "%s on Facebook"
+msgstr "%s Facebook"
+
+#: members-loop.php:25
+msgid "Facebook"
+msgstr "Facebook"
+
+#: members-loop.php:29
+msgid "%s on Google+"
+msgstr "%s Google+"
+
+#: members-loop.php:29
+msgid "Google+"
+msgstr "Google+"
+
+#: members-loop.php:32
+msgid "Subscribe to the feed for %s"
+msgstr "Tilaa RSS-syöte %s"
+
+#: members-loop.php:32
+msgid "Subscribe"
+msgstr "Liity"
+
+#: menu-primary.php:12 menu-secondary.php:13
+msgid "Skip to content"
+msgstr "Hyppää sisältöön"
+
+#: menu-primary.php:12
+msgid "Menu"
+msgstr "Valikko"
+
+#: page-templates/download-page.php:24
 msgid "Latest Downloads"
 msgstr "Viimeisimmät lataukset"
 
-#: page-templates/download-page.php:29 page-templates/portfolio-page.php:29
-#, php-format
+#: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
 msgid "%1$s"
 msgstr "%1$s"
 
-#: page-templates/members.php:11
-msgid "Members"
-msgstr "Jäsenet"
-
-#: page-templates/portfolio-page.php:11
-msgid "Portfolio Page"
-msgstr "Portfolio sivu"
-
-#: page-templates/portfolio-page.php:27
+#: page-templates/portfolio-page.php:24
 msgid "Latest Portfolios"
 msgstr "Viimeisimmät portfoliot"
 
-#: page-templates/slider.php:11
+#: search.php:22
+msgid "[entry-published] &mdash; <code>%s</code>"
+msgstr "[entry-published] &mdash; <code>%s</code>"
+
+#. Theme Name of the plugin/theme
+msgid "Eino"
+msgstr "Eino"
+
+#. Theme URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/eino"
+msgstr "https://foxnet-themes.fi/downloads/eino"
+
+#. Description of the plugin/theme
+msgid "Some kind of Franter."
+msgstr "Monipuolinen teema, joka tukee monia lisäosia. Lempinimi Franter."
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr "Sami Keijonen"
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet-themes.fi/"
+msgstr "https://foxnet-themes.fi/"
+
+#. Template Name of the plugin/theme
+msgid "Download Page"
+msgstr "Latauksien sivu"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Etusivu"
+
+#. Template Name of the plugin/theme
+msgid "Members"
+msgstr "Jäsenet"
+
+#. Template Name of the plugin/theme
+msgid "Portfolio Page"
+msgstr "Portfolio sivu"
+
+#. Template Name of the plugin/theme
 msgid "Slider"
 msgstr "Kuvaslider"
 
