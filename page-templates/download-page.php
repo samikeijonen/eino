@@ -6,9 +6,6 @@
  * @subpackage Template
  * @since 0.1.0
  */
- 
- /* For translating page template name. */
-__( 'Download Page', 'eino' ); 
 
 get_header(); // Loads the header.php template. ?>
 

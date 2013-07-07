@@ -6,9 +6,6 @@
  * @subpackage Template
  * @since 0.1.0
  */
- 
-  /* For translating page template name. */
-__( 'Slider', 'eino' ); 
 
 get_header(); // Loads the header.php template. ?>
 
