@@ -315,7 +315,7 @@ function eino_add_image_sizes() {
  */
 function eino_custom_name_image_sizes( $sizes ) {
 
-    $sizes['eino-thumbnail-download'] = __( 'Download Thumbnail', 'kalervo' );
+    $sizes['eino-thumbnail-download'] = __( 'Download Thumbnail', 'eino' );
 	
     return $sizes;
 }
@@ -801,7 +801,7 @@ function eino_register_sidebars() {
 	register_sidebar(
 		array(
 			'id' => 'front-page',
-			'name' => __( 'Front Page', 'eino' ),
+			'name' => __( 'Front Page Widget', 'eino' ),
 			'description' => __( 'Front Page widget area.', 'eino' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s widget-%2$s"><div class="widget-wrap widget-inside">',
 			'after_widget' => '</div></section>',
