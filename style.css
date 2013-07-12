@@ -1602,15 +1602,9 @@ body #ui-datepicker-div {
 body .edd-submit.button {
 	border: none;
 }
-body.eino-color-scheme-0 #edd_checkout_cart th,
-body.eino-color-scheme-0 #edd_checkout_cart td,
-body.eino-color-scheme-1 #edd_checkout_cart th,
-body.eino-color-scheme-1 #edd_checkout_cart td {
-	border-bottom-style: dashed;
-}
-body.eino-color-scheme-0 #edd_checkout_cart,
-body.eino-color-scheme-1 #edd_checkout_cart {
-	border-top-style: dashed;
+body #edd_checkout_cart td,
+body #edd_checkout_cart .edd_cart_header_row th {
+	background: none;
 }
 body #edd_checkout_form_wrap input[type="text"],
 body #edd_checkout_form_wrap input[type="email"],

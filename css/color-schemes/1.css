@@ -152,7 +152,8 @@ body .gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield div.ginput_comple
 body .gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield div.ginput_complex span.ginput_right select, 
 body .gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield select,
 body #gforms_confirmation_message,
-#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
+body #edd_checkout_form_wrap #edd_final_total_wrap {
 	background: #000;
 	background: rgba(0,0,0,0.88);
 }
