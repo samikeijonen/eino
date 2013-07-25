@@ -1,6 +1,12 @@
 <article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
+	
+		<div class="entry-media">
+			<div class="audio-content">
+				<?php echo hybrid_media_grabber( array( 'split_media' => true, 'type' => 'audio' ) ); ?>
+			</div><!-- .audio-content -->
+		</div><!-- .entry-media -->
 
 		<header class="entry-header">
 			<h1 class="entry-title"><?php single_post_title(); ?></h1>
