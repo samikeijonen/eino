@@ -319,7 +319,8 @@ function eino_add_image_sizes() {
  */
 function eino_custom_name_image_sizes( $sizes ) {
 
-    $sizes['eino-thumbnail-download'] = __( 'Download Thumbnail', 'eino' );
+    $sizes['eino-thumbnail-download'] = __( 'Eino Download Thumbnail', 'eino' );
+	$sizes['eino-bigger-image'] = __( 'Eino Bigger Image', 'eino' );
 	
     return $sizes;
 }
