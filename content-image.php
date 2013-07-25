@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
-
+	
 		<header class="entry-header">
 			<h1 class="entry-title"><?php single_post_title(); ?></h1>
 			<?php echo apply_atomic_shortcode( 'entry_byline', '<div class="entry-byline">' . __( '[post-format-link] published on [entry-published] [entry-comments-link before=" | "] [entry-edit-link before=" | "]', 'eino' ) . '</div>' ); ?>
