@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-07 19:08:11+00:00\n"
-"PO-Revision-Date: 2013-07-09 11:15+0200\n"
+"POT-Creation-Date: 2013-07-25 16:33:50+00:00\n"
+"PO-Revision-Date: 2013-07-25 19:34+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -30,14 +30,13 @@ msgstr ""
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
 #: content-aside.php:12 content-aside.php:23 content-attachment.php:12
-#: content-attachment.php:28 content-audio.php:25 content-audio.php:56
-#: content-chat.php:18 content-chat.php:41 content-download.php:12
-#: content-download.php:29 content-gallery.php:12 content-gallery.php:33
-#: content-image.php:23 content-image.php:52 content-link.php:12
-#: content-link.php:31 content-page.php:11 content-page.php:27
-#: content-portfolio_item.php:17 content-portfolio_item.php:31
-#: content-quote.php:12 content-quote.php:23 content-status.php:13
-#: content-status.php:30 content-video.php:23 content-video.php:52
+#: content-attachment.php:28 content-audio.php:25 content-chat.php:18
+#: content-chat.php:41 content-download.php:12 content-download.php:29
+#: content-gallery.php:12 content-gallery.php:33 content-image.php:23
+#: content-link.php:12 content-link.php:31 content-page.php:11
+#: content-page.php:27 content-portfolio_item.php:17
+#: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
+#: content-status.php:13 content-status.php:30 content-video.php:23
 #: content.php:12 content.php:29 page-templates/download-page.php:42
 #: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
@@ -165,7 +164,7 @@ msgstr ""
 "[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
 "[entry-terms before=\"Avainsanat \"]"
 
-#: content-audio.php:62
+#: content-audio.php:53
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -181,7 +180,7 @@ msgstr ""
 "[post-format-link] julkaistu [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-chat.php:47 content-gallery.php:42 content-image.php:58
+#: content-chat.php:47 content-gallery.php:42 content-image.php:47
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -200,7 +199,7 @@ msgid_plural "This gallery contains %d images."
 msgstr[0] "Kuvagalleriassa on %d kuva."
 msgstr[1] "Kuvagalleriassa on %d kuvaa."
 
-#: content-link.php:37 content-quote.php:27 content-video.php:58
+#: content-link.php:37 content-quote.php:27 content-video.php:49
 msgid ""
 "[post-format-link] published on [entry-published] [entry-permalink before="
 "\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -239,119 +238,119 @@ msgstr ""
 "[entry-author]  [entry-published] [entry-comments-link before=\" | \"] "
 "[entry-edit-link before=\" | \"]"
 
-#: functions.php:318
+#: functions.php:322
 msgid "Download Thumbnail"
 msgstr "Latauksien pikkukuva"
 
-#: functions.php:518
+#: functions.php:522
 msgid "Twitter Username"
 msgstr "Twitterin käyttäjänimi"
 
-#: functions.php:521
+#: functions.php:525
 msgid "Google+ URL"
 msgstr "Google+ URL-linkki"
 
-#: functions.php:524 includes/theme-customize.php:329
+#: functions.php:528 includes/theme-customize.php:329
 msgid "Facebook URL"
 msgstr "Facebook URL-linkki"
 
-#: functions.php:574
+#: functions.php:578
 msgid "Body Font"
 msgstr "Fontti"
 
-#: functions.php:584
+#: functions.php:588
 msgid "Headline Font"
 msgstr "Otsikon fontti"
 
-#: functions.php:595
+#: functions.php:599
 msgid "Trebuchet (font stack)"
 msgstr "Trebuchet"
 
-#: functions.php:603
+#: functions.php:607
 msgid "Arial (font stack)"
 msgstr "Arial"
 
-#: functions.php:611
+#: functions.php:615
 msgid "Lucida Sans Unicode (font stack)"
 msgstr "Lucida Sans Unicode"
 
-#: functions.php:619
+#: functions.php:623
 msgid "Georgia (font stack)"
 msgstr "Georgia"
 
-#: functions.php:627
+#: functions.php:631
 msgid "Helvetica (font stack)"
 msgstr "Helvetica"
 
-#: functions.php:635
+#: functions.php:639
 msgid "Merriweather Sans"
 msgstr "Merriweather Sans"
 
-#: functions.php:645
+#: functions.php:649
 msgid "Roboto Condensed"
 msgstr "Roboto Condensed"
 
-#: functions.php:655
+#: functions.php:659
 msgid "Arvo"
 msgstr "Arvo"
 
-#: functions.php:665
+#: functions.php:669
 msgid "Muli"
 msgstr "Muli"
 
-#: functions.php:675
+#: functions.php:679
 msgid "Open Sans"
 msgstr "Open Sans"
 
-#: functions.php:685
+#: functions.php:689
 msgid "Open Sans Condensed (700)"
 msgstr "Open Sans Condensed (700)"
 
-#: functions.php:708
+#: functions.php:712
 msgid "Body Color"
 msgstr "Sivuston väri"
 
-#: functions.php:711
+#: functions.php:715
 msgid "Entry Color"
 msgstr "Sisällön väri"
 
-#: functions.php:714
+#: functions.php:718
 msgid "Link Color"
 msgstr "Linkin väri"
 
-#: functions.php:717
+#: functions.php:721
 msgid "Link Color Hover"
 msgstr "Vaalea väri \"hover\""
 
-#: functions.php:720
+#: functions.php:724
 msgid "Light Color"
 msgstr "Vaalea väri"
 
-#: functions.php:723
+#: functions.php:727
 msgid "Dark Color"
 msgstr "Tumma väri"
 
-#: functions.php:726
+#: functions.php:730
 msgid "Dark Color 1"
 msgstr "Tumma väri 1"
 
-#: functions.php:804
+#: functions.php:808
 msgid "Front Page Widget"
 msgstr "Etusivun vimpaimet."
 
-#: functions.php:805
+#: functions.php:809
 msgid "Front Page widget area."
 msgstr "Etusivun vimpainalue."
 
-#: functions.php:888
+#: functions.php:894
 msgid ""
-"No slider was selected. Please enter a slider ID or select a Slider under <a "
-"href=\"%s\"> Appearance &gt; Customize &gt; Layout</a>."
+"No slider was selected. Please select a Slider under <a href=\"%s\"> "
+"Appearance &gt; Customize &gt; Layout</a>."
 msgstr ""
 "Yhtäkään Slideria ei ole valittu. Anna Sliderin ID-numero tai valitse Slider "
 "kohdasta <a href=\"%s\"> Ulkoasu &gt; Mukauta &gt; Ulkoasu</a>."
 
-#: functions.php:926
+#: functions.php:932
 msgid "Visit site"
 msgstr "Vieraile sivulla"
 
@@ -1353,39 +1352,39 @@ msgctxt "nav menu location"
 msgid "Subsidiary"
 msgstr "Kolmas menu"
 
-#: library/functions/post-formats.php:119
+#: library/functions/post-formats.php:111
 msgid "Asides"
 msgstr "Sivuhuomautukset"
 
-#: library/functions/post-formats.php:120
+#: library/functions/post-formats.php:112
 msgid "Audio"
 msgstr "Audio"
 
-#: library/functions/post-formats.php:121
+#: library/functions/post-formats.php:113
 msgid "Chats"
 msgstr "Keskustelut"
 
-#: library/functions/post-formats.php:122
+#: library/functions/post-formats.php:114
 msgid "Images"
 msgstr "Kuvat"
 
-#: library/functions/post-formats.php:123
+#: library/functions/post-formats.php:115
 msgid "Galleries"
 msgstr "Galleriat"
 
-#: library/functions/post-formats.php:124
+#: library/functions/post-formats.php:116
 msgid "Links"
 msgstr "Linkit"
 
-#: library/functions/post-formats.php:125
+#: library/functions/post-formats.php:117
 msgid "Quotes"
 msgstr "Lainaukset"
 
-#: library/functions/post-formats.php:126
+#: library/functions/post-formats.php:118
 msgid "Status Updates"
 msgstr "Tilapäivitykset"
 
-#: library/functions/post-formats.php:127
+#: library/functions/post-formats.php:119
 msgid "Videos"
 msgstr "Videot"
 
