@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-25 16:33:50+00:00\n"
-"PO-Revision-Date: 2013-07-25 19:34+0200\n"
+"POT-Creation-Date: 2013-07-25 17:13:32+00:00\n"
+"PO-Revision-Date: 2013-07-25 20:14+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -30,13 +30,13 @@ msgstr ""
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
 #: content-aside.php:12 content-aside.php:23 content-attachment.php:12
-#: content-attachment.php:28 content-audio.php:25 content-chat.php:18
+#: content-attachment.php:28 content-audio.php:12 content-chat.php:18
 #: content-chat.php:41 content-download.php:12 content-download.php:29
-#: content-gallery.php:12 content-gallery.php:33 content-image.php:23
+#: content-gallery.php:12 content-gallery.php:33 content-image.php:12
 #: content-link.php:12 content-link.php:31 content-page.php:11
 #: content-page.php:27 content-portfolio_item.php:17
 #: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
-#: content-status.php:13 content-status.php:30 content-video.php:23
+#: content-status.php:13 content-status.php:30 content-video.php:12
 #: content.php:12 content.php:29 page-templates/download-page.php:42
 #: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
@@ -120,8 +120,8 @@ msgstr "Yksi Kommentti"
 msgid "% Responses"
 msgstr "% Kommenttia"
 
-#: content-aside.php:7 content-gallery.php:7 content-image.php:13
-#: content-link.php:7 content-video.php:13
+#: content-aside.php:7 content-gallery.php:7 content-image.php:7
+#: content-link.php:7 content-video.php:7
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\" | \"]"
@@ -146,7 +146,7 @@ msgstr "Lue lisää &rarr;"
 msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
 msgstr "Julkaistu [entry-published] [entry-edit-link before=\"| \"]"
 
-#: content-audio.php:15
+#: content-audio.php:7
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\"| \"]"
@@ -154,9 +154,9 @@ msgstr ""
 "[post-format-link] julkaistu [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-audio.php:29 content-chat.php:22 content-gallery.php:16
-#: content-image.php:27 content-link.php:16 content-quote.php:16
-#: content-video.php:27
+#: content-audio.php:16 content-chat.php:22 content-gallery.php:16
+#: content-image.php:16 content-link.php:16 content-quote.php:16
+#: content-video.php:16
 msgid ""
 "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
 "before=\"Tagged \"]"
@@ -164,7 +164,7 @@ msgstr ""
 "[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
 "[entry-terms before=\"Avainsanat \"]"
 
-#: content-audio.php:53
+#: content-audio.php:40
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -180,7 +180,7 @@ msgstr ""
 "[post-format-link] julkaistu [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-chat.php:47 content-gallery.php:42 content-image.php:47
+#: content-chat.php:47 content-gallery.php:42 content-image.php:36
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -199,7 +199,7 @@ msgid_plural "This gallery contains %d images."
 msgstr[0] "Kuvagalleriassa on %d kuva."
 msgstr[1] "Kuvagalleriassa on %d kuvaa."
 
-#: content-link.php:37 content-quote.php:27 content-video.php:49
+#: content-link.php:37 content-quote.php:27 content-video.php:38
 msgid ""
 "[post-format-link] published on [entry-published] [entry-permalink before="
 "\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -239,110 +239,114 @@ msgstr ""
 "[entry-edit-link before=\" | \"]"
 
 #: functions.php:322
-msgid "Download Thumbnail"
-msgstr "Latauksien pikkukuva"
+msgid "Eino Download Thumbnail"
+msgstr "Eino-teeman latauksien pikkukuva"
 
-#: functions.php:522
+#: functions.php:323
+msgid "Eino Bigger Image"
+msgstr "Eino-teeman isompi kuva"
+
+#: functions.php:523
 msgid "Twitter Username"
 msgstr "Twitterin käyttäjänimi"
 
-#: functions.php:525
+#: functions.php:526
 msgid "Google+ URL"
 msgstr "Google+ URL-linkki"
 
-#: functions.php:528 includes/theme-customize.php:329
+#: functions.php:529 includes/theme-customize.php:329
 msgid "Facebook URL"
 msgstr "Facebook URL-linkki"
 
-#: functions.php:578
+#: functions.php:579
 msgid "Body Font"
 msgstr "Fontti"
 
-#: functions.php:588
+#: functions.php:589
 msgid "Headline Font"
 msgstr "Otsikon fontti"
 
-#: functions.php:599
+#: functions.php:600
 msgid "Trebuchet (font stack)"
 msgstr "Trebuchet"
 
-#: functions.php:607
+#: functions.php:608
 msgid "Arial (font stack)"
 msgstr "Arial"
 
-#: functions.php:615
+#: functions.php:616
 msgid "Lucida Sans Unicode (font stack)"
 msgstr "Lucida Sans Unicode"
 
-#: functions.php:623
+#: functions.php:624
 msgid "Georgia (font stack)"
 msgstr "Georgia"
 
-#: functions.php:631
+#: functions.php:632
 msgid "Helvetica (font stack)"
 msgstr "Helvetica"
 
-#: functions.php:639
+#: functions.php:640
 msgid "Merriweather Sans"
 msgstr "Merriweather Sans"
 
-#: functions.php:649
+#: functions.php:650
 msgid "Roboto Condensed"
 msgstr "Roboto Condensed"
 
-#: functions.php:659
+#: functions.php:660
 msgid "Arvo"
 msgstr "Arvo"
 
-#: functions.php:669
+#: functions.php:670
 msgid "Muli"
 msgstr "Muli"
 
-#: functions.php:679
+#: functions.php:680
 msgid "Open Sans"
 msgstr "Open Sans"
 
-#: functions.php:689
+#: functions.php:690
 msgid "Open Sans Condensed (700)"
 msgstr "Open Sans Condensed (700)"
 
-#: functions.php:712
+#: functions.php:713
 msgid "Body Color"
 msgstr "Sivuston väri"
 
-#: functions.php:715
+#: functions.php:716
 msgid "Entry Color"
 msgstr "Sisällön väri"
 
-#: functions.php:718
+#: functions.php:719
 msgid "Link Color"
 msgstr "Linkin väri"
 
-#: functions.php:721
+#: functions.php:722
 msgid "Link Color Hover"
 msgstr "Vaalea väri \"hover\""
 
-#: functions.php:724
+#: functions.php:725
 msgid "Light Color"
 msgstr "Vaalea väri"
 
-#: functions.php:727
+#: functions.php:728
 msgid "Dark Color"
 msgstr "Tumma väri"
 
-#: functions.php:730
+#: functions.php:731
 msgid "Dark Color 1"
 msgstr "Tumma väri 1"
 
-#: functions.php:808
+#: functions.php:809
 msgid "Front Page Widget"
 msgstr "Etusivun vimpaimet."
 
-#: functions.php:809
+#: functions.php:810
 msgid "Front Page widget area."
 msgstr "Etusivun vimpainalue."
 
-#: functions.php:894
+#: functions.php:895
 msgid ""
 "No slider was selected. Please select a Slider under <a href=\"%s\"> "
 "Appearance &gt; Customize &gt; Layout</a>."
@@ -350,7 +354,7 @@ msgstr ""
 "Yhtäkään Slideria ei ole valittu. Anna Sliderin ID-numero tai valitse Slider "
 "kohdasta <a href=\"%s\"> Ulkoasu &gt; Mukauta &gt; Ulkoasu</a>."
 
-#: functions.php:932
+#: functions.php:933
 msgid "Visit site"
 msgstr "Vieraile sivulla"
 
