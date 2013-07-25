@@ -135,6 +135,9 @@ function eino_theme_setup() {
 	
 	/* Add theme support for theme color palette. */
 	add_theme_support( 'color-palette', array( 'callback' => 'eino_register_colors' ) );
+	
+	/* Add theme support for media grabber. */
+	add_theme_support( 'hybrid-core-media-grabber' );
 
 	/* Automatically add feed links to <head>. */
 	add_theme_support( 'automatic-feed-links' );
@@ -305,6 +308,7 @@ function eino_respond_html5shiv() {
 function eino_add_image_sizes() {
 
 	add_image_size( 'eino-thumbnail-download', 330, 330, true );
+	add_image_size( 'eino-bigger-image', 860, 9999 );
 	
 }
 
@@ -885,8 +889,10 @@ function eino_remove_theme_settings_submenu() {
  */
 function eino_soliloquy_no_id_string( $strings ) {
 
-	$strings['no_id'] = sprintf( __( 'No slider was selected. Please enter a slider ID or select a Slider under <a href="%s"> Appearance &gt; Customize &gt; Layout</a>.', 'eino' ), admin_url( 'customize.php' ) );
-		
+	$eino_current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+	$strings['no_id'] = sprintf( __( 'No slider was selected. Please select a Slider under <a href="%s"> Appearance &gt; Customize &gt; Layout</a>.', 'eino' ), add_query_arg( 'url', urlencode( $eino_current_url ), wp_customize_url() ) );
+
 	return $strings;
 }
 
