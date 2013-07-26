@@ -24,11 +24,11 @@
 
 	<?php } else { ?>
 	
-			<div class="entry-media">
-				<div class="audio-content">
-					<?php echo hybrid_media_grabber( array( 'type' => 'audio' ) ); ?>
-				</div><!-- .audio-content -->
-			</div><!-- .entry-media -->
+		<div class="entry-media">
+			<div class="audio-content">
+				<?php echo hybrid_media_grabber( array( 'type' => 'audio' ) ); ?>
+			</div><!-- .audio-content -->
+		</div><!-- .entry-media -->
 
 		<header class="entry-header">
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>

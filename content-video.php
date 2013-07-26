@@ -2,9 +2,9 @@
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
 	
-			<div class="entry-media">
-				<?php echo hybrid_media_grabber( array( 'split_media' => true, 'type' => 'video' ) ); ?>
-			</div><!-- .entry-media -->
+		<div class="entry-media">
+			<?php echo hybrid_media_grabber( array( 'split_media' => true, 'type' => 'video' ) ); ?>
+		</div><!-- .entry-media -->
 		
 		<header class="entry-header">
 			<h1 class="entry-title"><?php single_post_title(); ?></h1>
@@ -22,9 +22,9 @@
 
 	<?php } else { ?>
 		
-			<div class="entry-media">
-				<?php echo hybrid_media_grabber( array( 'type' => 'video' ) ); ?>
-			</div><!-- .entry-media -->
+		<div class="entry-media">
+			<?php echo hybrid_media_grabber( array( 'type' => 'video' ) ); ?>
+		</div><!-- .entry-media -->
 
 		<header class="entry-header">
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
