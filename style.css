@@ -1158,6 +1158,12 @@ div.menu li, nav.menu li {
 	padding-top: 1.5rem;
 }
 
+/* === Audio === */
+
+.format-audio .entry-media .audio-content {
+	text-align: center;
+}
+
 /* === Status updates === */
 
 .hentry.format-status .entry-header  {
