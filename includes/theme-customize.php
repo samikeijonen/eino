@@ -516,6 +516,41 @@ function eino_customize_register_stuff( $wp_customize ) {
 		)
 	);
 	
+	/* == When to show header image. == */
+	
+	/* Add setting for do you want to use full width header image or not. */
+	$wp_customize->add_setting(
+		'header_image_show',
+		array(
+			'default'           => 'always',
+			'type'              => 'theme_mod',
+			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'sanitize_html_class',
+			//'transport'         => 'postMessage'
+		)
+	);
+	
+	/* Add header image control. */
+	$wp_customize->add_control(
+		'header-image-show',
+		array(
+			'label'    => esc_html__( 'When to show header image?', 'eino' ),
+			'section'  => 'header_image',
+			'settings' => 'header_image_show',
+			'type'     => 'radio',
+			'priority' => 3,
+			'choices'  => array(
+				/* translators: When to show header image? */
+				'always'     => esc_html__( 'Always.', 'eino' ),
+				'home-page'  => esc_html__( 'Only on home (blog) page.', 'eino' ),
+				'front-page' => esc_html__( 'Only on front page.', 'eino' ),
+				'all-singular' => esc_html__( 'All singular.', 'eino' ),
+				'all-singular-posts' => esc_html__( 'All singular posts.', 'eino' ),
+				'all-singular-pages' => esc_html__( 'All singular pages.', 'eino' )
+			)
+		)
+	);
+	
 	/* == Add the Soliloque Slider setting. == */
 	
 	/* Get Slider choices. */

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-28 19:19:40+00:00\n"
-"PO-Revision-Date: 2013-07-28 22:20+0200\n"
+"POT-Creation-Date: 2013-07-28 21:15:37+00:00\n"
+"PO-Revision-Date: 2013-07-29 00:18+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -362,7 +362,7 @@ msgstr ""
 msgid "Visit site"
 msgstr "Vieraile sivulla"
 
-#: header.php:68
+#: header.php:84
 msgid "&#8764;"
 msgstr "&#8764;"
 
@@ -576,27 +576,56 @@ msgstr "Käytä koko sivun leveystä otsakekuvaa."
 msgid "Use header image below breadcrumb trail."
 msgstr "Käytä otsakekuvaa murupolun alapuolella."
 
-#: includes/theme-customize.php:539
+#: includes/theme-customize.php:537
+msgid "When to show header image?"
+msgstr "Milloin otsakekuva näytetään?"
+
+#. translators: When to show header image?
+#: includes/theme-customize.php:544
+msgid "Always."
+msgstr "Aina."
+
+#: includes/theme-customize.php:545
+msgid "Only on home (blog) page."
+msgstr "Vain blogisivulla."
+
+#: includes/theme-customize.php:546
+msgid "Only on front page."
+msgstr "Vain etusivulla."
+
+#: includes/theme-customize.php:547
+msgid "All singular."
+msgstr "Kaikilla yksittäisillä sivuilla."
+
+#: includes/theme-customize.php:548
+msgid "All singular posts."
+msgstr "Kaikilla yksittäisillä artikkeli-sivuilla."
+
+#: includes/theme-customize.php:549
+msgid "All singular pages."
+msgstr "Kaikilla yksittäisillä \"page\"-sivulla."
+
+#: includes/theme-customize.php:574
 msgid "Select Soliloquy Slider"
 msgstr "Valitse Soliloquy Slider"
 
-#: includes/theme-customize.php:553
+#: includes/theme-customize.php:588
 msgid "Front Page Callout"
 msgstr "Etusivun Callout-teksti"
 
-#: includes/theme-customize.php:575
+#: includes/theme-customize.php:610
 msgid "Callout URL"
 msgstr "Callout URL-linkki"
 
-#: includes/theme-customize.php:599
+#: includes/theme-customize.php:634
 msgid "Callout URL text"
 msgstr "Callout URL-linkin teksti"
 
-#: includes/theme-customize.php:624
+#: includes/theme-customize.php:659
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
 
-#: includes/theme-customize.php:702
+#: includes/theme-customize.php:737
 msgid "Select Slider"
 msgstr "Valitse Slider"
 
