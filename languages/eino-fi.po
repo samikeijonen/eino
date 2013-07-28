@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-28 17:53:00+00:00\n"
-"PO-Revision-Date: 2013-07-28 20:53+0200\n"
+"POT-Creation-Date: 2013-07-28 18:50:11+00:00\n"
+"PO-Revision-Date: 2013-07-28 21:51+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -557,8 +557,12 @@ msgid "Icon 4x"
 msgstr "Ikoni 4x"
 
 #: includes/theme-customize.php:506
-msgid "Choose whether to use full width header image or not."
-msgstr "Valitse käytätkö koko sivun levyistä otsakekuvaa vai et."
+msgid ""
+"Choose whether to use full width header image or not. Or use header image "
+"below breadcrumb trail."
+msgstr ""
+"Valitse käytätkö koko sivun levyistä otsakekuvaa vai et. Tai käytä "
+"otsakekuvaa murupolun alapuolella."
 
 #: includes/theme-customize.php:512
 msgid "Use Content width header image."
@@ -568,27 +572,31 @@ msgstr "Käytä sisällön leveystä otsakekuvaa."
 msgid "Use full width header image."
 msgstr "Käytä koko sivun leveystä otsakekuvaa."
 
-#: includes/theme-customize.php:538
+#: includes/theme-customize.php:514
+msgid "Use header below breadcrumb trail."
+msgstr "Käytä otsakekuvaa murupolun alapuolella."
+
+#: includes/theme-customize.php:539
 msgid "Select Soliloquy Slider"
 msgstr "Valitse Soliloquy Slider"
 
-#: includes/theme-customize.php:552
+#: includes/theme-customize.php:553
 msgid "Front Page Callout"
 msgstr "Etusivun Callout-teksti"
 
-#: includes/theme-customize.php:574
+#: includes/theme-customize.php:575
 msgid "Callout URL"
 msgstr "Callout URL-linkki"
 
-#: includes/theme-customize.php:598
+#: includes/theme-customize.php:599
 msgid "Callout URL text"
 msgstr "Callout URL-linkin teksti"
 
-#: includes/theme-customize.php:623
+#: includes/theme-customize.php:624
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
 
-#: includes/theme-customize.php:701
+#: includes/theme-customize.php:702
 msgid "Select Slider"
 msgstr "Valitse Slider"
 
