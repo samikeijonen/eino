@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin Name\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-28 19:19:40+00:00\n"
-"PO-Revision-Date: 2013-07-28 23:13+0100\n"
+"POT-Creation-Date: 2013-07-28 21:15:37+00:00\n"
+"PO-Revision-Date: 2013-07-28 23:30+0100\n"
 "Last-Translator: FxB <traductions@fxbenard.com>\n"
 "Language-Team: FxB | wp-translator <traductions@fxbenard.com>\n"
 "Language: fr_FR\n"
@@ -363,7 +363,7 @@ msgstr ""
 msgid "Visit site"
 msgstr "Aller sur le site"
 
-#: header.php:68
+#: header.php:84
 msgid "&#8764;"
 msgstr "&#8764;"
 
@@ -582,29 +582,58 @@ msgstr "Utiliser l'image d'en-tête sur toute la largeur."
 msgid "Use header image below breadcrumb trail."
 msgstr "Utiliser l'image d'en-tête sous le fil d'Ariane."
 
-#: includes/theme-customize.php:539
+#: includes/theme-customize.php:537
+msgid "When to show header image?"
+msgstr "Quand afficher l&rsquo;image.d&rsquo;en-tête ?"
+
+#. translators: When to show header image?
+#: includes/theme-customize.php:544
+msgid "Always."
+msgstr "Toujours."
+
+#: includes/theme-customize.php:545
+msgid "Only on home (blog) page."
+msgstr "Uniquement sur la page d'accueil (blog)."
+
+#: includes/theme-customize.php:546
+msgid "Only on front page."
+msgstr "Uniquement sur la page d&rsquo;accueil."
+
+#: includes/theme-customize.php:547
+msgid "All singular."
+msgstr "Tous les singuliers."
+
+#: includes/theme-customize.php:548
+msgid "All singular posts."
+msgstr "Tous les articles singuliers."
+
+#: includes/theme-customize.php:549
+msgid "All singular pages."
+msgstr "Toutes les pages singulières."
+
+#: includes/theme-customize.php:574
 msgid "Select Soliloquy Slider"
 msgstr "Selectionner le diaporama Soliloquy"
 
-#: includes/theme-customize.php:553
+#: includes/theme-customize.php:588
 msgid "Front Page Callout"
 msgstr "Légende de la page d&rsquo;accueil"
 
-#: includes/theme-customize.php:575
+#: includes/theme-customize.php:610
 msgid "Callout URL"
 msgstr "Url de la légende"
 
-#: includes/theme-customize.php:599
+#: includes/theme-customize.php:634
 msgid "Callout URL text"
 msgstr "Texte de l'url de la légende"
 
-#: includes/theme-customize.php:624
+#: includes/theme-customize.php:659
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr ""
 "Télécharger une image pour la légende. La largeur maximale recommandée est "
 "de 770px."
 
-#: includes/theme-customize.php:702
+#: includes/theme-customize.php:737
 msgid "Select Slider"
 msgstr "Sélectionner le diaporama"
 
