@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin Name\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-25 17:13:32+00:00\n"
-"PO-Revision-Date: 2013-07-28 17:10+0100\n"
+"POT-Creation-Date: 2013-07-28 19:19:40+00:00\n"
+"PO-Revision-Date: 2013-07-28 23:13+0100\n"
 "Last-Translator: FxB <traductions@fxbenard.com>\n"
 "Language-Team: FxB | wp-translator <traductions@fxbenard.com>\n"
 "Language: fr_FR\n"
@@ -31,14 +31,14 @@ msgstr ""
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
 #: content-aside.php:12 content-aside.php:23 content-attachment.php:12
-#: content-attachment.php:28 content-audio.php:12 content-chat.php:18
-#: content-chat.php:41 content-download.php:12 content-download.php:29
+#: content-attachment.php:28 content-audio.php:18 content-chat.php:18
+#: content-chat.php:41 content-download.php:12 content-download.php:33
 #: content-gallery.php:12 content-gallery.php:33 content-image.php:12
 #: content-link.php:12 content-link.php:31 content-page.php:11
 #: content-page.php:27 content-portfolio_item.php:17
 #: content-portfolio_item.php:31 content-quote.php:12 content-quote.php:23
-#: content-status.php:13 content-status.php:30 content-video.php:12
-#: content.php:12 content.php:29 page-templates/download-page.php:42
+#: content-status.php:13 content-status.php:30 content-video.php:16
+#: content.php:12 content.php:29 page-templates/download-page.php:46
 #: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
 msgid "Pages:"
@@ -122,7 +122,7 @@ msgid "% Responses"
 msgstr "% réponses"
 
 #: content-aside.php:7 content-gallery.php:7 content-image.php:7
-#: content-link.php:7 content-video.php:7
+#: content-link.php:7 content-video.php:11
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\" | \"]"
@@ -147,7 +147,7 @@ msgstr "Lire la suite &rarr;"
 msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
 msgstr "Publié le [entry-published] [entry-edit-link before=\"| \"]"
 
-#: content-audio.php:7
+#: content-audio.php:13
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\"| \"]"
@@ -155,9 +155,9 @@ msgstr ""
 "[post-format-link] fichier publié le [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-audio.php:16 content-chat.php:22 content-gallery.php:16
+#: content-audio.php:22 content-chat.php:22 content-gallery.php:16
 #: content-image.php:16 content-link.php:16 content-quote.php:16
-#: content-video.php:16
+#: content-video.php:20
 msgid ""
 "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
 "before=\"Tagged \"]"
@@ -165,7 +165,7 @@ msgstr ""
 "[entry-terms taxonomy=\"category\" before=\"Publié dans \"] [entry-terms "
 "before=\"Tagué \"]"
 
-#: content-audio.php:40
+#: content-audio.php:46
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -181,7 +181,7 @@ msgstr ""
 "[post-format-link] publié le [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-chat.php:47 content-gallery.php:42 content-image.php:36
+#: content-chat.php:47 content-gallery.php:42 content-image.php:47
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -189,8 +189,8 @@ msgstr ""
 "[post-format-link] publié le [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\" | \"]"
 
-#: content-download.php:7 content-download.php:28
-#: page-templates/download-page.php:41
+#: content-download.php:7 content-download.php:31
+#: page-templates/download-page.php:44
 msgid "Price:"
 msgstr "Prix :"
 
@@ -200,7 +200,7 @@ msgid_plural "This gallery contains %d images."
 msgstr[0] "Cette galerie contient %d image."
 msgstr[1] "Cette galerie contient %d images."
 
-#: content-link.php:37 content-quote.php:27 content-video.php:38
+#: content-link.php:37 content-quote.php:27 content-video.php:42
 msgid ""
 "[post-format-link] published on [entry-published] [entry-permalink before="
 "\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -239,115 +239,119 @@ msgstr ""
 "Publié par [entry-author] le [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\" | \"]"
 
-#: functions.php:322
+#: functions.php:266
+msgid "One Column, Wide"
+msgstr "Une colonne, large"
+
+#: functions.php:355
 msgid "Eino Download Thumbnail"
 msgstr "Eino miniature de téléchargement"
 
-#: functions.php:323
+#: functions.php:356
 msgid "Eino Bigger Image"
 msgstr "Eino image plus grande"
 
-#: functions.php:523
+#: functions.php:593
 msgid "Twitter Username"
 msgstr "Nom d'utilisateur Twitter"
 
-#: functions.php:526
+#: functions.php:596
 msgid "Google+ URL"
 msgstr "URL de Google+"
 
-#: functions.php:529 includes/theme-customize.php:329
+#: functions.php:599 includes/theme-customize.php:329
 msgid "Facebook URL"
 msgstr "URL de Facebook"
 
-#: functions.php:579
+#: functions.php:649
 msgid "Body Font"
 msgstr "Police du corps du texte"
 
-#: functions.php:589
+#: functions.php:659
 msgid "Headline Font"
 msgstr "Polices du gros titre"
 
-#: functions.php:600
+#: functions.php:670
 msgid "Trebuchet (font stack)"
 msgstr "Trebuchet (pile de polices)"
 
-#: functions.php:608
+#: functions.php:678
 msgid "Arial (font stack)"
 msgstr "Arial (pile de polices)"
 
-#: functions.php:616
+#: functions.php:686
 msgid "Lucida Sans Unicode (font stack)"
 msgstr "Lucida Sans Unicode (pile de polices)"
 
-#: functions.php:624
+#: functions.php:694
 msgid "Georgia (font stack)"
 msgstr "Georgia (pile de polices)"
 
-#: functions.php:632
+#: functions.php:702
 msgid "Helvetica (font stack)"
 msgstr "Helvetica (pile de polices)"
 
-#: functions.php:640
+#: functions.php:710
 msgid "Merriweather Sans"
 msgstr "Merriweather Sans"
 
-#: functions.php:650
+#: functions.php:720
 msgid "Roboto Condensed"
 msgstr "Roboto Condensed"
 
-#: functions.php:660
+#: functions.php:730
 msgid "Arvo"
 msgstr "Arvo"
 
-#: functions.php:670
+#: functions.php:740
 msgid "Muli"
 msgstr "Muli"
 
-#: functions.php:680
+#: functions.php:750
 msgid "Open Sans"
 msgstr "Open Sans"
 
-#: functions.php:690
+#: functions.php:760
 msgid "Open Sans Condensed (700)"
 msgstr "Open Sans Condensed (700)"
 
-#: functions.php:713
+#: functions.php:783
 msgid "Body Color"
 msgstr "Couleur du corps du texte"
 
-#: functions.php:716
+#: functions.php:786
 msgid "Entry Color"
 msgstr "Couleur du texte"
 
-#: functions.php:719
+#: functions.php:789
 msgid "Link Color"
 msgstr "Couleur des liens"
 
-#: functions.php:722
+#: functions.php:792
 msgid "Link Color Hover"
 msgstr "Couleur des liens survolés"
 
-#: functions.php:725
+#: functions.php:795
 msgid "Light Color"
 msgstr "Couleur claire"
 
-#: functions.php:728
+#: functions.php:798
 msgid "Dark Color"
 msgstr "Couleur foncée"
 
-#: functions.php:731
+#: functions.php:801
 msgid "Dark Color 1"
 msgstr "Couleur foncée 1"
 
-#: functions.php:809
+#: functions.php:879
 msgid "Front Page Widget"
 msgstr "Widget de la page d&rsquo;accueil"
 
-#: functions.php:810
+#: functions.php:880
 msgid "Front Page widget area."
 msgstr "Zone de widget de la page d&rsquo;accueil."
 
-#: functions.php:895
+#: functions.php:965
 msgid ""
 "No slider was selected. Please select a Slider under <a href=\"%s\"> "
 "Appearance &gt; Customize &gt; Layout</a>."
@@ -355,7 +359,7 @@ msgstr ""
 "Aucun diaporama n'a été séléctionné dans <a href=\"%s\"> Apparance &gt; "
 "Personnaliser &gt; Mise en page</a>."
 
-#: functions.php:933
+#: functions.php:1004
 msgid "Visit site"
 msgstr "Aller sur le site"
 
@@ -559,10 +563,12 @@ msgid "Icon 4x"
 msgstr "Icône 4x"
 
 #: includes/theme-customize.php:506
-msgid "Choose whether to use full width header image or not."
+msgid ""
+"Choose whether to use full width header image or not. Or use header image "
+"below breadcrumb trail."
 msgstr ""
 "Choisir si vous souhaitez utiliser l'image d'en-tête sur toute la largeur ou "
-"non."
+"non. Ou utiliser l'image d'en-tête sous le fil d'Ariane."
 
 #: includes/theme-customize.php:512
 msgid "Use Content width header image."
@@ -572,29 +578,33 @@ msgstr "Utiliser l'image d'en-tête sur la largeur du contenu."
 msgid "Use full width header image."
 msgstr "Utiliser l'image d'en-tête sur toute la largeur."
 
-#: includes/theme-customize.php:538
+#: includes/theme-customize.php:514
+msgid "Use header image below breadcrumb trail."
+msgstr "Utiliser l'image d'en-tête sous le fil d'Ariane."
+
+#: includes/theme-customize.php:539
 msgid "Select Soliloquy Slider"
 msgstr "Selectionner le diaporama Soliloquy"
 
-#: includes/theme-customize.php:552
+#: includes/theme-customize.php:553
 msgid "Front Page Callout"
 msgstr "Légende de la page d&rsquo;accueil"
 
-#: includes/theme-customize.php:574
+#: includes/theme-customize.php:575
 msgid "Callout URL"
 msgstr "Url de la légende"
 
-#: includes/theme-customize.php:598
+#: includes/theme-customize.php:599
 msgid "Callout URL text"
 msgstr "Texte de l'url de la légende"
 
-#: includes/theme-customize.php:623
+#: includes/theme-customize.php:624
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr ""
 "Télécharger une image pour la légende. La largeur maximale recommandée est "
 "de 770px."
 
-#: includes/theme-customize.php:701
+#: includes/theme-customize.php:702
 msgid "Select Slider"
 msgstr "Sélectionner le diaporama"
 
