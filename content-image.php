@@ -17,8 +17,19 @@
 		</footer><!-- .entry-footer -->
 
 	<?php } else { ?>
+	
+		<?php 
+		/* Define image size. */
+		if( '1c-w' == get_theme_mod( 'theme_layout', '1c' ) ) {
+			 $eino_image_size = 'full';
+		}
+		else {
+			$eino_image_size = 'eino-bigger-image';
+		}
+		
+		?>
 			
-		<?php if ( current_theme_supports( 'get-the-image' ) ) get_the_image( array( 'image_class' => 'aligncenter', 'size' => 'eino-bigger-image', 'meta_key' => false, 'image_scan' => true, 'before' => '<div class="entry-media">', 'after' => '</div>' ) ); ?>
+		<?php if ( current_theme_supports( 'get-the-image' ) ) get_the_image( array( 'image_class' => 'aligncenter', 'size' => $eino_image_size, 'meta_key' => false, 'image_scan' => true, 'before' => '<div class="entry-media">', 'after' => '</div>' ) ); ?>
 		
 		<header class="entry-header">
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>

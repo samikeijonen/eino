@@ -24,8 +24,12 @@
 
 		<div class="entry-summary">
 			<?php the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '">', '</a></h2>' ); ?>
-			<?php the_excerpt(); ?>
-			<p class="eino-download"><?php  echo __( 'Price:', 'eino' ) . ' ' . eino_edd_the_price( get_the_ID() ) ?></p>
+			<?php the_excerpt(); ?>     
+			<?php if ( function_exists( 'edd_download_info_purchase_demo_link' ) ) { ?>
+				<div class="eino-purchase-demo-link"><?php edd_download_info_purchase_demo_link(); ?></div>
+			<?php } else { ?>
+				<p class="eino-download"><?php  echo __( 'Price:', 'eino' ) . ' ' . eino_edd_the_price( get_the_ID() ) ?></p>
+			<?php } ?>
 			<?php wp_link_pages( array( 'before' => '<p class="page-links">' . '<span class="before">' . __( 'Pages:', 'eino' ) . '</span>', 'after' => '</p>' ) ); ?>
 		</div><!-- .entry-summary -->
 

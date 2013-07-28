@@ -66,3 +66,5 @@
 				<?php if ( get_header_image() && 'content-width' == get_theme_mod( 'header_image_width' ) ) echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>'; ?>
 
 				<?php if ( current_theme_supports( 'breadcrumb-trail' ) ) breadcrumb_trail( array( 'container' => 'nav', 'separator' => __( '&#8764;', 'eino' ) ) ); ?>
+				
+				<?php if ( get_header_image() && 'content-inside' == get_theme_mod( 'header_image_width' ) ) echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>'; ?>

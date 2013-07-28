@@ -78,7 +78,7 @@ function eino_theme_setup() {
 	/* Load styles. */
 	add_theme_support( 
 		'hybrid-core-styles', 
-		array( 'eino-color-scheme', 'parent', 'style' )
+		array( 'parent', 'eino-color-scheme', 'style' )
 	); 
 	
 	/* Add custom color scheme styles. */
@@ -105,9 +105,12 @@ function eino_theme_setup() {
 	/* Enable theme layouts (need to add stylesheet support). */
 	add_theme_support( 
 		'theme-layouts', 
-		array( '1c', '2c-l', '2c-r', '3c-l', '3c-r', '3c-c' ), 
+		array( '1c', '1c-w', '2c-l', '2c-r', '3c-l', '3c-r', '3c-c' ), 
 		array( 'default' => '1c', 'customizer' => true ) 
 	);
+	
+	/* Add 1c-wide string name. */
+	add_filter( 'theme_layouts_strings', 'eino_filter_layout_name' );
 
 	/* Allow per-post stylesheets. */
 	add_theme_support( 'post-stylesheets' );
@@ -174,6 +177,7 @@ function eino_theme_setup() {
 
 	/* Handle content width for embeds and images. */
 	hybrid_set_content_width( 800 );
+	add_filter( 'embed_defaults', 'eino_embed_defaults' );
 	
 	/* Add respond.js and  html5shiv.js for unsupported browsers. */
 	add_action( 'wp_head', 'eino_respond_html5shiv' );
@@ -189,6 +193,7 @@ function eino_theme_setup() {
 
 	/* Disable primary sidebar widgets when layout is one column. */
 	add_filter( 'sidebars_widgets', 'eino_disable_sidebars' );
+	add_filter( 'sidebars_widgets', 'eino_disable_sidebars_1' );
 	add_action( 'template_redirect', 'eino_one_column' );
 	
 	/* Add number of subsidiary and front page widgets to body_class. */
@@ -252,6 +257,18 @@ function eino_theme_setup() {
 }
 
 /**
+ * Name of 1c-wide layout.
+ *
+ * @since 0.1.0
+ */
+function eino_filter_layout_name( $strings  ) {
+	
+	$strings['1c-w'] = __( 'One Column, Wide', 'eino' );
+
+	return $strings ;
+}
+
+/**
  * Add Custom Color Scheme Styles.
  *
  * @since 0.1.0
@@ -280,6 +297,22 @@ function eino_color_scheme_body_class( $classes ) {
 	$classes[] = 'eino-color-scheme-' . $eino_color_scheme;
 
 	return $classes;
+}
+
+/**
+ * Overwrites the default widths for embeds. This function overwrites what the $content_width variable handles
+ * with context-based widths.
+ *
+ * @since  0.1.0
+ * @param  array  $args
+ * @return array
+ */
+function eino_embed_defaults( $args ) {
+
+	if ( current_theme_supports( 'theme-layouts' ) && '1c-w' == get_theme_mod( 'theme_layout' ) )
+		$args['width'] = 1300;
+
+	return $args;
 }
 
 /**
@@ -361,17 +394,43 @@ function eino_disable_sidebars( $sidebars_widgets ) {
 }
 
 /**
+ * Disables sidebars if viewing a one-column (1c-w) page.
+ *
+ * @since  0.1.0
+ */
+function eino_disable_sidebars_1( $sidebars_widgets ) {
+	global $wp_customize;
+
+	$customize = ( is_object( $wp_customize ) && $wp_customize->is_preview() ) ? true : false;
+
+	if ( !is_admin() && !$customize && '1c-w' == get_theme_mod( 'theme_layout', '1c' ) ) {
+	
+		$sidebars_widgets['primary'] = false;
+		$sidebars_widgets['secondary'] = false;
+		
+	}
+	
+	return $sidebars_widgets;
+}
+
+/**
  * Function for deciding which pages should have a one-column layout.
  *
  * @since  0.1.0
  */
 function eino_one_column() {
 
-	if ( !is_active_sidebar( 'primary' ) && !is_active_sidebar( 'secondary' ) )
+	if ( !is_active_sidebar( 'primary' ) && !is_active_sidebar( 'secondary' ) && '1c' == get_theme_mod( 'theme_layout' ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
+		
+	elseif ( !is_active_sidebar( 'primary' ) && !is_active_sidebar( 'secondary' ) && '1c-w' == get_theme_mod( 'theme_layout' ) )
+		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column_w' );
 	
 	elseif ( is_post_type_archive( array( 'download', 'portfolio_item' ) ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
+		
+	elseif ( is_post_type_archive( array( 'download', 'portfolio_item' ) ) && '1c-w' == get_theme_mod( 'theme_layout' ) )
+		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column_w' );
 		
 	elseif ( is_tax( array( 'portfolio', 'download_category', 'download_tag' ) ) )
 		add_filter( 'theme_mod_theme_layout', 'eino_theme_layout_one_column' );
@@ -396,6 +455,17 @@ function eino_one_column() {
  */
 function eino_theme_layout_one_column( $layout ) {
 	return '1c';
+}
+
+/**
+ * Filters 'get_theme_layout' by returning 'layout-1c-w'.
+ *
+ * @since 0.1.0
+ * @param string $layout The layout of the current page.
+ * @return string
+ */
+function eino_theme_layout_one_column_w( $layout ) {
+	return '1c-w';
 }
 
 /**
@@ -900,10 +970,11 @@ function eino_soliloquy_no_id_string( $strings ) {
 /**
  * Returns the URL from the post.
  *
- * @uses get_the_post_format_url() to get the URL in the post meta (if it exists) or
+ * @uses get_url_in_content() to get the URL in the post meta (if it exists) or
  * the first link found in the post content.
  *
  * Falls back to the post permalink if no URL is found in the post.
+ *
  * @note This idea is taken from Twenty Thirteen theme.
  * @author wordpressdotorg
  * @copyright Copyright (c) 2011, wordpressdotorg
@@ -914,7 +985,7 @@ function eino_get_link_url() {
 
 	$eino_content = get_the_content();
 
-	$eino_url = get_content_url( $eino_content );
+	$eino_url = get_url_in_content( $eino_content );
 
 	return ( $eino_url ) ? $eino_url : apply_filters( 'the_permalink', get_permalink() );
 
