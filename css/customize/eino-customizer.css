@@ -1,5 +1,7 @@
 /* One column. */
 .layout-1c #sidebar-primary, 
-.layout-1c #sidebar-secondary {
+.layout-1c #sidebar-secondary,
+.layout-1c-w #sidebar-primary, 
+.layout-1c-w #sidebar-secondary {
 	display:none;
 }
