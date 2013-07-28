@@ -503,14 +503,15 @@ function eino_customize_register_stuff( $wp_customize ) {
 	$wp_customize->add_control(
 		'header-image-width',
 		array(
-			'label'    => esc_html__( 'Choose whether to use full width header image or not.', 'eino' ),
+			'label'    => esc_html__( 'Choose whether to use full width header image or not. Or use header image below breadcrumb trail.', 'eino' ),
 			'section'  => 'layout',
 			'settings' => 'header_image_width',
 			'type'     => 'radio',
 			'priority' => 2,
 			'choices'  => array(
 				'content-width'   => esc_html__( 'Use Content width header image.', 'eino' ),
-				'full-width'      => esc_html__( 'Use full width header image.', 'eino' )
+				'full-width'      => esc_html__( 'Use full width header image.', 'eino' ),
+				'content-inside'  => esc_html__( 'Use header below breadcrumb trail.', 'eino' )
 			)
 		)
 	);
