@@ -57,14 +57,38 @@
 
 		</header><!-- #header -->
 		
-		<?php if ( get_header_image() && 'full-width' == get_theme_mod( 'header_image_width' ) ) echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>'; ?>
-
+		<?php 
+		/* When to show header image. */
+		if ( get_header_image() && 'full-width' == get_theme_mod( 'header_image_width' ) ) {
+				
+			if ( 'always' == get_theme_mod( 'header_image_show', 'always' ) || 'home-page' == get_theme_mod( 'header_image_show' ) && is_home() || 'front-page' == get_theme_mod( 'header_image_show' ) && is_front_page() || 'all-singular' == get_theme_mod( 'header_image_show' ) && is_singular() || 'all-singular-posts' == get_theme_mod( 'header_image_show' ) && is_singular( 'post' ) || 'all-singular-pages' == get_theme_mod( 'header_image_show' ) && is_singular( 'page' ) ) {
+				echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>';
+			}
+				
+		} ?>
+				
 		<div id="main">
 			
 			<div class="wrap">
 			
-				<?php if ( get_header_image() && 'content-width' == get_theme_mod( 'header_image_width' ) ) echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>'; ?>
-
+				<?php 
+				/* When to show header image. */
+				if ( get_header_image() && 'content-width' == get_theme_mod( 'header_image_width' ) ) {
+				
+					if ( 'always' == get_theme_mod( 'header_image_show', 'always' ) || 'home-page' == get_theme_mod( 'header_image_show' ) && is_home() || 'front-page' == get_theme_mod( 'header_image_show' ) && is_front_page() || 'all-singular' == get_theme_mod( 'header_image_show' ) && is_singular() || 'all-singular-posts' == get_theme_mod( 'header_image_show' ) && is_singular( 'post' ) || 'all-singular-pages' == get_theme_mod( 'header_image_show' ) && is_singular( 'page' ) ) {
+						echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>';
+					}
+				
+				} ?>
+				
 				<?php if ( current_theme_supports( 'breadcrumb-trail' ) ) breadcrumb_trail( array( 'container' => 'nav', 'separator' => __( '&#8764;', 'eino' ) ) ); ?>
 				
-				<?php if ( get_header_image() && 'content-inside' == get_theme_mod( 'header_image_width' ) ) echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>'; ?>
+				<?php 
+				/* When to show header image. */
+				if ( get_header_image() && 'content-inside' == get_theme_mod( 'header_image_width' ) ) {
+				
+					if ( 'always' == get_theme_mod( 'header_image_show', 'always' ) || 'home-page' == get_theme_mod( 'header_image_show' ) && is_home() || 'front-page' == get_theme_mod( 'header_image_show' ) && is_front_page() || 'all-singular' == get_theme_mod( 'header_image_show' ) && is_singular() || 'all-singular-posts' == get_theme_mod( 'header_image_show' ) && is_singular( 'post' ) || 'all-singular-pages' == get_theme_mod( 'header_image_show' ) && is_singular( 'page' ) ) {
+						echo '<div id="eino-header-image"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="" /></div>';
+					}
+				
+				} ?>
