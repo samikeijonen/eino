@@ -1618,6 +1618,15 @@ body #edd_checkout_form_wrap input[type="password"] {
 	padding: 8px;
 	padding: 0.5rem;
 }
+body #edd_checkout_form_wrap input.edd-input {
+	width: 100%;	
+}
+body #edd_checkout_form_wrap label {
+	font-size: 100%;
+}
+body #edd_checkout_form_wrap span.edd-description {
+	font-size: 95%;
+}
 
 
 /**
@@ -2396,6 +2405,7 @@ body.woocommerce-page ul.products li.product {
 .edd-download-info-purchase-link,
 .edd-download-info-demo-link {
 	display: inline-block;
+	vertical-align: top;
 }
 	
 }
