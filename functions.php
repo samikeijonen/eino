@@ -175,9 +175,8 @@ function eino_theme_setup() {
 	
 	add_theme_support( 'custom-header', $eino_header_args );
 
-	/* Handle content width for embeds and images. */
-	hybrid_set_content_width( 800 );
-	add_filter( 'embed_defaults', 'eino_embed_defaults' );
+	/* Handle content width for embeds and images. Make it big because of responsive design. */
+	hybrid_set_content_width( 9999 );
 	
 	/* Add respond.js and  html5shiv.js for unsupported browsers. */
 	add_action( 'wp_head', 'eino_respond_html5shiv' );
@@ -297,22 +296,6 @@ function eino_color_scheme_body_class( $classes ) {
 	$classes[] = 'eino-color-scheme-' . $eino_color_scheme;
 
 	return $classes;
-}
-
-/**
- * Overwrites the default widths for embeds. This function overwrites what the $content_width variable handles
- * with context-based widths.
- *
- * @since  0.1.0
- * @param  array  $args
- * @return array
- */
-function eino_embed_defaults( $args ) {
-
-	if ( current_theme_supports( 'theme-layouts' ) && '1c-w' == get_theme_mod( 'theme_layout' ) )
-		$args['width'] = 1300;
-
-	return $args;
 }
 
 /**
