@@ -153,7 +153,11 @@ body .gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield div.ginput_comple
 body .gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield select,
 body #gforms_confirmation_message,
 #bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
-body #edd_checkout_form_wrap #edd_final_total_wrap {
+body #edd_checkout_form_wrap #edd_show_discount, 
+body #edd_checkout_form_wrap #edd-discount-code-wrap,
+body #edd_checkout_form_wrap #edd_final_total_wrap,
+body #edd_checkout_form_wrap #edd-login-account-wrap,
+body #edd_checkout_form_wrap #edd-new-account-wrap {
 	background: #000;
 	background: rgba(0,0,0,0.88);
 }
