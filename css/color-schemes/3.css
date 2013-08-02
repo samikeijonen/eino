@@ -220,8 +220,7 @@ pre,
 #menu-primary ul li.iehover li.iehover li.iehover li.current-menu-item a,
 #menu-primary ul li:hover li:hover li:hover li a:hover, /* 4th Menu Hover */
 #menu-primary ul li.iehover li.iehover li.iehover li a:hover {
-	background: #222;
-	background: rgba(29,27,27,0.8);
+	background: #cf3f13;
 }
 
 /* 2nd Menu */
