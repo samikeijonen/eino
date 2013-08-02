@@ -78,7 +78,7 @@ function eino_theme_setup() {
 	/* Load styles. */
 	add_theme_support( 
 		'hybrid-core-styles', 
-		array( 'parent', 'eino-color-scheme', 'style' )
+		array( 'eino-color-scheme', 'parent', 'style' )
 	); 
 	
 	/* Add custom color scheme styles. */
