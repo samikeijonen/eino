@@ -1,3 +1,7 @@
+August 3, 2013 - version 0.1.1
+
+* Fix select overflow.
+
 June 15, 2013 - version 0.1
 
 * Everything is brand new.
