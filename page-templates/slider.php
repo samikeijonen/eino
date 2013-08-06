@@ -15,7 +15,7 @@ get_header(); // Loads the header.php template. ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
+				<article <?php hybrid_post_attributes(); ?>>
 				
 				<?php if ( function_exists( 'soliloquy_slider' ) ) { ?>
 							

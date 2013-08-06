@@ -29,7 +29,7 @@ get_header(); // Loads the header.php template. ?>
 
 			<?php while ( $eino_downloads->have_posts() ) : $eino_downloads->the_post(); ?>
 
-				<article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
+				<article <?php hybrid_post_attributes(); ?>>
 				
 					<header class="entry-header">
 						<?php if ( current_theme_supports( 'get-the-image' ) ) get_the_image( array( 'meta_key' => 'Thumbnail', 'size' => 'eino-thumbnail-download', 'image_class' => 'eino-download', 'width' => 330, 'height' => 330, 'default_image' => trailingslashit( get_template_directory_uri() ) . 'images/archive_default.png' ) ); ?>
