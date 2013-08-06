@@ -551,7 +551,7 @@ function eino_customize_register_stuff( $wp_customize ) {
 		)
 	);
 	
-	/* == Add the Soliloque Slider setting. == */
+	/* == Add the Soliloquy Slider setting. == */
 	
 	/* Get Slider choices. */
 	$eino_soliloquy_slider_choices = eino_get_soliloquy_slider_choices();
@@ -567,11 +567,18 @@ function eino_customize_register_stuff( $wp_customize ) {
 		)
 	);
 	
-	/* Add the Soliloque Slider control. */
+	/* Labels for Soliloquy slider control. */
+	if ( post_type_exists( 'soliloquy' ) ) {
+		$eino_soliloquy_slider_control_label = esc_html__( 'Select Soliloquy Slider for Slider Page Template', 'eino' );
+	} else {
+		$eino_soliloquy_slider_control_label = esc_html__( 'You need to install and activate Soliloquy Slider Plugin first for Slider Page Template.', 'eino' );
+	}
+	
+	/* Add the Soliloquy Slider control. */
 	$wp_customize->add_control(
 		'soliloquy-slider-control',
 		array(
-			'label'    => esc_html__( 'Select Soliloquy Slider', 'eino' ),
+			'label'    => $eino_soliloquy_slider_control_label,
 			'section'  => 'layout',
 			'settings' => 'soliloquy_slider',
 			'type'     => 'select',
@@ -726,7 +733,7 @@ function eino_font_size_cache_delete() {
 }
 
 /**
-* Return Soliloque Slider choices.
+* Return Soliloquy Slider choices.
 *
 * @since 0.1.0
 */
