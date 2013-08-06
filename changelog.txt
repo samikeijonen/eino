@@ -2,7 +2,7 @@ August 6, 2013 - version 0.1.3
 
 * Hybrid Core updated to version 1.6.
 * eino.pot file and eino-fi.* translations updated.
-* Use new hybrid_body_attributes(), hybrid_post_attributes() and hybrid_comment_attributes() functions.
+* Use new hybrid_post_attributes() and hybrid_comment_attributes() functions.
 * Better notice in customize when Soliloquy Plugin is not installed and activated. 
 
 
