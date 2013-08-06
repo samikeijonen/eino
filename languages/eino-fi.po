@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-07-28 21:15:37+00:00\n"
-"PO-Revision-Date: 2013-07-29 00:18+0200\n"
+"POT-Creation-Date: 2013-08-06 13:59:07+00:00\n"
+"PO-Revision-Date: 2013-08-06 17:04+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -180,7 +180,7 @@ msgstr ""
 "[post-format-link] julkaistu [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\"| \"]"
 
-#: content-chat.php:47 content-gallery.php:42 content-image.php:47
+#: content-chat.php:47 content-gallery.php:42 content-image.php:48
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
@@ -238,119 +238,119 @@ msgstr ""
 "[entry-author]  [entry-published] [entry-comments-link before=\" | \"] "
 "[entry-edit-link before=\" | \"]"
 
-#: functions.php:266
+#: functions.php:265
 msgid "One Column, Wide"
 msgstr "Yksi sarake, leveä"
 
-#: functions.php:355
+#: functions.php:338
 msgid "Eino Download Thumbnail"
 msgstr "Eino-teeman latauksien pikkukuva"
 
-#: functions.php:356
+#: functions.php:339
 msgid "Eino Bigger Image"
 msgstr "Eino-teeman isompi kuva"
 
-#: functions.php:593
+#: functions.php:576
 msgid "Twitter Username"
 msgstr "Twitterin käyttäjänimi"
 
-#: functions.php:596
+#: functions.php:579
 msgid "Google+ URL"
 msgstr "Google+ URL-linkki"
 
-#: functions.php:599 includes/theme-customize.php:329
+#: functions.php:582 includes/theme-customize.php:329
 msgid "Facebook URL"
 msgstr "Facebook URL-linkki"
 
-#: functions.php:649
+#: functions.php:632
 msgid "Body Font"
 msgstr "Fontti"
 
-#: functions.php:659
+#: functions.php:642
 msgid "Headline Font"
 msgstr "Otsikon fontti"
 
-#: functions.php:670
+#: functions.php:653
 msgid "Trebuchet (font stack)"
 msgstr "Trebuchet"
 
-#: functions.php:678
+#: functions.php:661
 msgid "Arial (font stack)"
 msgstr "Arial"
 
-#: functions.php:686
+#: functions.php:669
 msgid "Lucida Sans Unicode (font stack)"
 msgstr "Lucida Sans Unicode"
 
-#: functions.php:694
+#: functions.php:677
 msgid "Georgia (font stack)"
 msgstr "Georgia"
 
-#: functions.php:702
+#: functions.php:685
 msgid "Helvetica (font stack)"
 msgstr "Helvetica"
 
-#: functions.php:710
+#: functions.php:693
 msgid "Merriweather Sans"
 msgstr "Merriweather Sans"
 
-#: functions.php:720
+#: functions.php:703
 msgid "Roboto Condensed"
 msgstr "Roboto Condensed"
 
-#: functions.php:730
+#: functions.php:713
 msgid "Arvo"
 msgstr "Arvo"
 
-#: functions.php:740
+#: functions.php:723
 msgid "Muli"
 msgstr "Muli"
 
-#: functions.php:750
+#: functions.php:733
 msgid "Open Sans"
 msgstr "Open Sans"
 
-#: functions.php:760
+#: functions.php:743
 msgid "Open Sans Condensed (700)"
 msgstr "Open Sans Condensed (700)"
 
-#: functions.php:783
+#: functions.php:766
 msgid "Body Color"
 msgstr "Sivuston väri"
 
-#: functions.php:786
+#: functions.php:769
 msgid "Entry Color"
 msgstr "Sisällön väri"
 
-#: functions.php:789
+#: functions.php:772
 msgid "Link Color"
 msgstr "Linkin väri"
 
-#: functions.php:792
+#: functions.php:775
 msgid "Link Color Hover"
 msgstr "Vaalea väri \"hover\""
 
-#: functions.php:795
+#: functions.php:778
 msgid "Light Color"
 msgstr "Vaalea väri"
 
-#: functions.php:798
+#: functions.php:781
 msgid "Dark Color"
 msgstr "Tumma väri"
 
-#: functions.php:801
+#: functions.php:784
 msgid "Dark Color 1"
 msgstr "Tumma väri 1"
 
-#: functions.php:879
+#: functions.php:862
 msgid "Front Page Widget"
 msgstr "Etusivun vimpaimet."
 
-#: functions.php:880
+#: functions.php:863
 msgid "Front Page widget area."
 msgstr "Etusivun vimpainalue."
 
-#: functions.php:965
+#: functions.php:948
 msgid ""
 "No slider was selected. Please select a Slider under <a href=\"%s\"> "
 "Appearance &gt; Customize &gt; Layout</a>."
@@ -358,7 +358,7 @@ msgstr ""
 "Yhtäkään Slideria ei ole valittu. Anna Sliderin ID-numero tai valitse Slider "
 "kohdasta <a href=\"%s\"> Ulkoasu &gt; Mukauta &gt; Ulkoasu</a>."
 
-#: functions.php:1004
+#: functions.php:987
 msgid "Visit site"
 msgstr "Vieraile sivulla"
 
@@ -605,27 +605,35 @@ msgstr "Kaikilla yksittäisillä artikkeli-sivuilla."
 msgid "All singular pages."
 msgstr "Kaikilla yksittäisillä \"page\"-sivulla."
 
-#: includes/theme-customize.php:574
-msgid "Select Soliloquy Slider"
-msgstr "Valitse Soliloquy Slider"
+#: includes/theme-customize.php:572
+msgid "Select Soliloquy Slider for Slider Page Template"
+msgstr "Valitse Soliloquy kuvaslider Kuvaslider sivupohjaan"
 
-#: includes/theme-customize.php:588
+#: includes/theme-customize.php:574
+msgid ""
+"You need to install and activate Soliloquy Slider Plugin first for Slider "
+"Page Template."
+msgstr ""
+"Lataa ja aktivoi Soliloquy Slider -lisäosa ennen kuin voit käyttää sitä "
+"Kuvaslider sivupohjassa."
+
+#: includes/theme-customize.php:595
 msgid "Front Page Callout"
 msgstr "Etusivun Callout-teksti"
 
-#: includes/theme-customize.php:610
+#: includes/theme-customize.php:617
 msgid "Callout URL"
 msgstr "Callout URL-linkki"
 
-#: includes/theme-customize.php:634
+#: includes/theme-customize.php:641
 msgid "Callout URL text"
 msgstr "Callout URL-linkin teksti"
 
-#: includes/theme-customize.php:659
+#: includes/theme-customize.php:666
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
 
-#: includes/theme-customize.php:737
+#: includes/theme-customize.php:744
 msgid "Select Slider"
 msgstr "Valitse Slider"
 
@@ -1131,11 +1139,11 @@ msgid "View"
 msgstr "Näkymä"
 
 #: library/classes/widget-tags.php:177
-#: library/extensions/breadcrumb-trail.php:1115
-#: library/extensions/breadcrumb-trail.php:1151
-#: library/extensions/breadcrumb-trail.php:1168
-#: library/extensions/breadcrumb-trail.php:1199
-#: library/functions/shortcodes.php:272 library/functions/shortcodes.php:594
+#: library/extensions/breadcrumb-trail.php:1122
+#: library/extensions/breadcrumb-trail.php:1158
+#: library/extensions/breadcrumb-trail.php:1175
+#: library/extensions/breadcrumb-trail.php:1206
+#: library/functions/shortcodes.php:205 library/functions/shortcodes.php:527
 msgid "Edit"
 msgstr "Editoi"
 
@@ -1156,6 +1164,7 @@ msgid "Home"
 msgstr "Etusivu"
 
 #: library/extensions/breadcrumb-trail.php:177
+#: library/functions/context.php:582
 msgid "Search results for \"%s\""
 msgstr "Hakutulokset haulle: \"%s\""
 
@@ -1168,60 +1177,54 @@ msgstr "404 Sivua ei löytynyt"
 msgid "Page %d"
 msgstr "Sivu %d"
 
-#: library/extensions/breadcrumb-trail.php:700
+#: library/extensions/breadcrumb-trail.php:181
 #: library/functions/context.php:553
 msgid "g:i a"
 msgstr "G:i"
 
-#: library/extensions/breadcrumb-trail.php:717
-msgid "Minute %s"
-msgstr "Minuutti %s"
+#: library/extensions/breadcrumb-trail.php:182
+msgid "Minute %d"
+msgstr "Minuutti %d"
 
-#: library/extensions/breadcrumb-trail.php:734
+#: library/extensions/breadcrumb-trail.php:183
 #: library/functions/context.php:559
 msgid "g a"
 msgstr "g a"
 
-#: library/extensions/breadcrumb-trail.php:750
-#: library/extensions/breadcrumb-trail.php:779
-#: library/extensions/breadcrumb-trail.php:806
-#: library/extensions/breadcrumb-trail.php:833
-#: library/extensions/breadcrumb-trail.php:1020
+#: library/extensions/breadcrumb-trail.php:184
+msgid "d"
+msgstr "d"
+
+#: library/extensions/breadcrumb-trail.php:185
+msgid "Week %d"
+msgstr "Viikko %d"
+
+#: library/extensions/breadcrumb-trail.php:186
+msgid "F"
+msgstr "F"
+
+#: library/extensions/breadcrumb-trail.php:187
+#: library/extensions/breadcrumb-trail.php:1027
 #: library/functions/context.php:565 library/functions/context.php:571
-#: library/functions/core-seo.php:94 library/functions/shortcodes.php:137
+#: library/functions/core-seo.php:94 library/functions/shortcodes.php:70
 #: loop-meta.php:75
 msgid "Y"
 msgstr "Y"
 
-#: library/extensions/breadcrumb-trail.php:751
-#: library/extensions/breadcrumb-trail.php:807
-#: library/extensions/breadcrumb-trail.php:1024
-msgid "F"
-msgstr "F"
-
-#: library/extensions/breadcrumb-trail.php:752
-#: library/extensions/breadcrumb-trail.php:1028
-msgid "d"
-msgstr "d"
-
-#: library/extensions/breadcrumb-trail.php:780
-msgid "Week %s"
-msgstr "Viikko %s"
-
-#: library/extensions/breadcrumb-trail.php:1024
+#: library/extensions/breadcrumb-trail.php:1031
 #: library/functions/core-seo.php:90 loop-meta.php:73
 msgid "F Y"
 msgstr "F Y"
 
-#: library/extensions/breadcrumb-trail.php:1028
+#: library/extensions/breadcrumb-trail.php:1035
 msgid "F j, Y"
 msgstr "j.m.Y"
 
-#: library/extensions/breadcrumb-trail.php:1143
+#: library/extensions/breadcrumb-trail.php:1150
 msgid "Split"
 msgstr "Jaa"
 
-#: library/extensions/breadcrumb-trail.php:1147
+#: library/extensions/breadcrumb-trail.php:1154
 msgid "Merge"
 msgstr "Yhdistä"
 
@@ -1232,6 +1235,10 @@ msgstr "Samaan aihepiiriin liittyvät artikkelit"
 #: library/extensions/custom-field-series.php:212
 msgid "Series"
 msgstr "Tähän liittyvät artikkelit"
+
+#: library/extensions/featured-header.php:202
+msgid "Featured Header"
+msgstr "Otsake-kuva"
 
 #: library/extensions/post-stylesheets.php:286
 msgid "Stylesheet"
@@ -1330,12 +1337,12 @@ msgstr "Lähetä  kommentti"
 #: library/functions/context.php:553 library/functions/context.php:559
 #: library/functions/context.php:562 library/functions/context.php:568
 #: library/functions/context.php:571
-msgid "Archive for %1$s"
-msgstr "Arkisto: %1$s"
+msgid "Archive for %s"
+msgstr "Arkisto: %s"
 
 #: library/functions/context.php:556
-msgid "Archive for minute %1$s"
-msgstr "Minuuttiarkisto %1$s"
+msgid "Archive for minute %s"
+msgstr "Minuuttiarkisto %s"
 
 #: library/functions/context.php:556
 msgid "i"
@@ -1346,16 +1353,12 @@ msgid "F jS, Y"
 msgstr "F jS, Y"
 
 #: library/functions/context.php:565
-msgid "Archive for week %1$s of %2$s"
-msgstr "Viikkoarkisto %1$s of %2$s"
+msgid "Archive for week %s of %s"
+msgstr "Viikkoarkisto %s / %s"
 
 #: library/functions/context.php:565
 msgid "W"
 msgstr "W"
-
-#: library/functions/context.php:582
-msgid "Search results for &quot;%1$s&quot;"
-msgstr "Hakutulokset haulle: &quot;%1$s&quot;"
 
 #: library/functions/context.php:590
 msgid "%1$s Page %2$s"
@@ -1365,8 +1368,8 @@ msgstr "%1$s Sivu %2$s"
 msgid "Copyright (c) %1$s"
 msgstr "Copyright (c) %1$s"
 
-#: library/functions/core-seo.php:116 library/functions/shortcodes.php:304
-#: library/functions/shortcodes.php:518 library/functions/shortcodes.php:522
+#: library/functions/core-seo.php:116 library/functions/shortcodes.php:237
+#: library/functions/shortcodes.php:451 library/functions/shortcodes.php:455
 msgid "l, F jS, Y, g:i a"
 msgstr "l j.m.Y, G:i"
 
@@ -1445,73 +1448,73 @@ msgstr "Alustana [wp-link], [theme-link] ja [child-link]."
 msgid "Powered by [wp-link] and [theme-link]."
 msgstr "Alustana [wp-link] ja [theme-link]."
 
-#: library/functions/shortcodes.php:160
+#: library/functions/shortcodes.php:93
 msgid "State-of-the-art semantic personal publishing platform"
 msgstr "Henkilökohtainen julkaisujärjestelmä"
 
-#: library/functions/shortcodes.php:160
+#: library/functions/shortcodes.php:93
 msgid "WordPress"
 msgstr "WordPress"
 
-#: library/functions/shortcodes.php:173
+#: library/functions/shortcodes.php:106
 msgid "%s WordPress Theme"
 msgstr "%s WordPress teema"
 
-#: library/functions/shortcodes.php:201
+#: library/functions/shortcodes.php:134
 msgid "Log out"
 msgstr "Kirjaudu ulos"
 
-#: library/functions/shortcodes.php:203
+#: library/functions/shortcodes.php:136
 msgid "Log in"
 msgstr "Kirjaudu sisään"
 
-#: library/functions/shortcodes.php:218
+#: library/functions/shortcodes.php:151
 msgid "This page loaded in %1$s seconds with %2$s database queries."
 msgstr ""
 "Sivu ladattiin %1$s sekunnissa, aikaa meni %2$s tietokannan kyselyihin."
 
-#: library/functions/shortcodes.php:272 library/functions/shortcodes.php:594
+#: library/functions/shortcodes.php:205 library/functions/shortcodes.php:527
 msgid "Edit %1$s"
 msgstr "Editoi %1$s"
 
-#: library/functions/shortcodes.php:324
+#: library/functions/shortcodes.php:257
 msgid "Leave a response"
 msgstr "Jätä kommentti"
 
-#: library/functions/shortcodes.php:325
+#: library/functions/shortcodes.php:258
 msgid "%1$s Response"
 msgstr "%1$s Kommentti"
 
-#: library/functions/shortcodes.php:326
+#: library/functions/shortcodes.php:259
 msgid "%1$s Responses"
 msgstr "%1$s Kommenttia"
 
-#: library/functions/shortcodes.php:341 library/functions/shortcodes.php:343
-#: library/functions/shortcodes.php:345
+#: library/functions/shortcodes.php:274 library/functions/shortcodes.php:276
+#: library/functions/shortcodes.php:278
 msgid "Comment on %1$s"
 msgstr "Kommentti %1$s"
 
-#: library/functions/shortcodes.php:452
+#: library/functions/shortcodes.php:385
 msgid "Shortlink"
 msgstr "Pikalinkki"
 
-#: library/functions/shortcodes.php:477 library/functions/shortcodes.php:573
+#: library/functions/shortcodes.php:410 library/functions/shortcodes.php:506
 msgid "Permalink"
 msgstr "Pikalinkki"
 
-#: library/functions/shortcodes.php:522
+#: library/functions/shortcodes.php:455
 msgid "%1$s at %2$s"
 msgstr "%1$s / %2$s"
 
-#: library/functions/shortcodes.php:573
+#: library/functions/shortcodes.php:506
 msgid "Permalink to comment %1$s"
 msgstr "Pikalinkki kommenttiin %1$s"
 
-#: library/functions/shortcodes.php:613
+#: library/functions/shortcodes.php:546
 msgid "Reply"
 msgstr "Vastaa"
 
-#: library/functions/shortcodes.php:614
+#: library/functions/shortcodes.php:547
 msgid "Log in to reply."
 msgstr "Kirjaudu sisään vastataksesi."
 
@@ -1584,7 +1587,7 @@ msgstr ""
 "Ladataan yksittäisen sivun (artikkelin, kuvasivun jne.) jälkeen ennen "
 "kommenttialuetta."
 
-#: library/functions/utility.php:227
+#: library/functions/utility.php:197
 msgid "(Untitled)"
 msgstr "(Ei otsikkoa)"
 
@@ -1719,6 +1722,9 @@ msgstr "Portfolio sivu"
 #. Template Name of the plugin/theme
 msgid "Slider"
 msgstr "Kuvaslider"
+
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Hakutulokset haulle: &quot;%1$s&quot;"
 
 #~ msgid "You are here:"
 #~ msgstr "Olet täällä:"
