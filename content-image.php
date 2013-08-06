@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
+<article <?php hybrid_post_attributes(); ?>>
 
 	<?php if ( is_singular( get_post_type() ) ) { ?>
 	
@@ -18,7 +18,8 @@
 
 	<?php } else { ?>
 	
-		<?php 
+		<?php
+		
 		/* Define image size. */
 		if( '1c-w' == get_theme_mod( 'theme_layout', '1c' ) ) {
 			 $eino_image_size = 'full';
