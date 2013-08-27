@@ -145,7 +145,8 @@ function eino_customize_register_stuff( $wp_customize ) {
 				'3'       => esc_html__( 'Color Scheme 3', 'eino' ),
 				'4'       => esc_html__( 'Color Scheme 4', 'eino' ),
 				'5'       => esc_html__( 'Color Scheme 5', 'eino' ),
-				'6'       => esc_html__( 'Color Scheme 6', 'eino' )
+				'6'       => esc_html__( 'Color Scheme 6', 'eino' ),
+				'7'       => esc_html__( 'Color Scheme 7', 'eino' )
 			)
 		)
 	);

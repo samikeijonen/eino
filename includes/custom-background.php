@@ -49,7 +49,7 @@ function eino_custom_background_callback() {
 	if( $eino_use_color_scheme_bg ) {
 	
 		if( '1' == get_theme_mod( 'color_scheme') )
-			$color = '151515';
+			$color = '232323';
 	
 		if( '2' == get_theme_mod( 'color_scheme') )
 			$color = 'f2f2f2';
@@ -64,6 +64,9 @@ function eino_custom_background_callback() {
 			$color = 'eaf9cd';
 			
 		if( '6' == get_theme_mod( 'color_scheme') )
+			$color = 'fff';
+			
+		if( '7' == get_theme_mod( 'color_scheme') )
 			$color = 'fff';
 		
 	}
@@ -157,7 +160,7 @@ function eino_custom_background_callback() {
 	if( $eino_use_color_scheme_bg ) {
 	
 		if( '1' == get_theme_mod( 'color_scheme') )
-			$style = "background: #151515;";
+			$style = "background: #232323;";
 	
 		if( '2' == get_theme_mod( 'color_scheme') )
 			$style = "background: #f2f2f2;";
@@ -172,6 +175,9 @@ function eino_custom_background_callback() {
 			$style = "background: #eaf9cd;";
 			
 		if( '6' == get_theme_mod( 'color_scheme') )
+			$style = "background: #fff;";
+			
+		if( '7' == get_theme_mod( 'color_scheme') )
 			$style = "background: #fff;";
 	
 	}
