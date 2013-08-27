@@ -350,7 +350,8 @@ body #gforms_confirmation_message,
 .thumbnail,
 .avatar,
 .format-gallery .attachment-thumbnail,
-.attachment-meta .image-gallery .attachment-thumbnail  {
+.attachment-meta .image-gallery .attachment-thumbnail,
+.gallery .gallery-item .gallery-icon img {
 	border-radius: 50%;
 }
 
