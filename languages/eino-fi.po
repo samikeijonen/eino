@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eino Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
-"POT-Creation-Date: 2013-08-06 13:59:07+00:00\n"
-"PO-Revision-Date: 2013-08-06 17:04+0200\n"
+"POT-Creation-Date: 2013-08-27 16:53:08+00:00\n"
+"PO-Revision-Date: 2013-08-27 19:53+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -258,7 +258,7 @@ msgstr "Twitterin käyttäjänimi"
 msgid "Google+ URL"
 msgstr "Google+ URL-linkki"
 
-#: functions.php:582 includes/theme-customize.php:329
+#: functions.php:582 includes/theme-customize.php:330
 msgid "Facebook URL"
 msgstr "Facebook URL-linkki"
 
@@ -430,7 +430,11 @@ msgstr "Värivaihtoehto 5"
 msgid "Color Scheme 6"
 msgstr "Värivaihtoehto 6"
 
-#: includes/theme-customize.php:171
+#: includes/theme-customize.php:149
+msgid "Color Scheme 7"
+msgstr "Värivaihtoehto 7"
+
+#: includes/theme-customize.php:172
 msgid ""
 "Choose whether to use premade color schemes or custom ones. If you choose "
 "Custom Colors pick Default Color Scheme above. Then click Save/Publish and "
@@ -440,123 +444,123 @@ msgstr ""
 "käytät omia, niin valitse Oletus väriteema ylempää. Tämän jälkeen Tallenna "
 "ja virkistä sivu, jotta näet muutokset."
 
-#: includes/theme-customize.php:177
+#: includes/theme-customize.php:178
 msgid "Use premade color scheme"
 msgstr "Käytä valmiita värivaihtoehtoja"
 
-#: includes/theme-customize.php:178
+#: includes/theme-customize.php:179
 msgid "Use Custom Colors"
 msgstr "Käytä omia värejä"
 
-#: includes/theme-customize.php:201
+#: includes/theme-customize.php:202
 msgid "Choose whether to use full screen background or not."
 msgstr "Valitse haluatko käyttää koko ruudun taustakuvaa vai et."
 
-#: includes/theme-customize.php:207
+#: includes/theme-customize.php:208
 msgid "Use full screen background"
 msgstr "Käytä koko ruudun taustakuvaa"
 
-#: includes/theme-customize.php:208
+#: includes/theme-customize.php:209
 msgid "Do not use full screen background"
 msgstr "Älä käytä koko ruudun taustakuvaa"
 
-#: includes/theme-customize.php:231
+#: includes/theme-customize.php:232
 msgid "Choose whether to use random background or not."
 msgstr "Valitse haluatko käyttää satunnaista taustakuvaa vai et."
 
-#: includes/theme-customize.php:237
+#: includes/theme-customize.php:238
 msgid "Do not use random background"
 msgstr "Älä käytä satunnaista taustakuvaa"
 
-#: includes/theme-customize.php:238
+#: includes/theme-customize.php:239
 msgid "Use random background"
 msgstr "Käytä satunnaista taustakuvaa"
 
-#: includes/theme-customize.php:261
+#: includes/theme-customize.php:262
 msgid "Choose Body Font Size (pixels)"
 msgstr "Valitse fontin koko (px)"
 
-#: includes/theme-customize.php:266
+#: includes/theme-customize.php:267
 msgid "13"
 msgstr "13"
 
-#: includes/theme-customize.php:267
+#: includes/theme-customize.php:268
 msgid "14"
 msgstr "14"
 
-#: includes/theme-customize.php:268
+#: includes/theme-customize.php:269
 msgid "15"
 msgstr "15"
 
-#: includes/theme-customize.php:269
+#: includes/theme-customize.php:270
 msgid "16"
 msgstr "16"
 
-#: includes/theme-customize.php:270
+#: includes/theme-customize.php:271
 msgid "17"
 msgstr "17"
 
-#: includes/theme-customize.php:271
+#: includes/theme-customize.php:272
 msgid "18"
 msgstr "18"
 
-#: includes/theme-customize.php:272
+#: includes/theme-customize.php:273
 msgid "19"
 msgstr "19"
 
-#: includes/theme-customize.php:283
+#: includes/theme-customize.php:284
 msgid "Social Links"
 msgstr "Sosiaalisen median linkit"
 
-#: includes/theme-customize.php:305
+#: includes/theme-customize.php:306
 msgid "Twitter URL"
 msgstr "Twitter URL-linkki"
 
-#: includes/theme-customize.php:353
+#: includes/theme-customize.php:354
 msgid "RSS URL"
 msgstr "RSS URL-linkki"
 
-#: includes/theme-customize.php:377
+#: includes/theme-customize.php:378
 msgid "Linkedin URL"
 msgstr "Linkedin URL-linkki"
 
-#: includes/theme-customize.php:401
+#: includes/theme-customize.php:402
 msgid "Google Plus URL"
 msgstr "Google Plus URL-linkki"
 
-#: includes/theme-customize.php:425
+#: includes/theme-customize.php:426
 msgid "Github URL"
 msgstr "Github URL-linkki"
 
-#: includes/theme-customize.php:449
+#: includes/theme-customize.php:450
 msgid "Pinterest URL"
 msgstr "Pinterest URL-linkki"
 
-#: includes/theme-customize.php:473
+#: includes/theme-customize.php:474
 msgid "Choose icon size"
 msgstr "Valitse ikonin koko"
 
-#: includes/theme-customize.php:479
+#: includes/theme-customize.php:480
 msgid "Normal"
 msgstr "Normaali"
 
-#: includes/theme-customize.php:480
+#: includes/theme-customize.php:481
 msgid "Icon large"
 msgstr "Isompi ikoni"
 
-#: includes/theme-customize.php:481
+#: includes/theme-customize.php:482
 msgid "Icon 2x"
 msgstr "Ikoni 2x"
 
-#: includes/theme-customize.php:482
+#: includes/theme-customize.php:483
 msgid "Icon 3x"
 msgstr "Ikoni 3x"
 
-#: includes/theme-customize.php:483
+#: includes/theme-customize.php:484
 msgid "Icon 4x"
 msgstr "Ikoni 4x"
 
-#: includes/theme-customize.php:506
+#: includes/theme-customize.php:507
 msgid ""
 "Choose whether to use full width header image or not. Or use header image "
 "below breadcrumb trail."
@@ -564,52 +568,52 @@ msgstr ""
 "Valitse käytätkö koko sivun levyistä otsakekuvaa vai et. Tai käytä "
 "otsakekuvaa murupolun alapuolella."
 
-#: includes/theme-customize.php:512
+#: includes/theme-customize.php:513
 msgid "Use Content width header image."
 msgstr "Käytä sisällön leveystä otsakekuvaa."
 
-#: includes/theme-customize.php:513
+#: includes/theme-customize.php:514
 msgid "Use full width header image."
 msgstr "Käytä koko sivun leveystä otsakekuvaa."
 
-#: includes/theme-customize.php:514
+#: includes/theme-customize.php:515
 msgid "Use header image below breadcrumb trail."
 msgstr "Käytä otsakekuvaa murupolun alapuolella."
 
-#: includes/theme-customize.php:537
+#: includes/theme-customize.php:538
 msgid "When to show header image?"
 msgstr "Milloin otsakekuva näytetään?"
 
 #. translators: When to show header image?
-#: includes/theme-customize.php:544
+#: includes/theme-customize.php:545
 msgid "Always."
 msgstr "Aina."
 
-#: includes/theme-customize.php:545
+#: includes/theme-customize.php:546
 msgid "Only on home (blog) page."
 msgstr "Vain blogisivulla."
 
-#: includes/theme-customize.php:546
+#: includes/theme-customize.php:547
 msgid "Only on front page."
 msgstr "Vain etusivulla."
 
-#: includes/theme-customize.php:547
+#: includes/theme-customize.php:548
 msgid "All singular."
 msgstr "Kaikilla yksittäisillä sivuilla."
 
-#: includes/theme-customize.php:548
+#: includes/theme-customize.php:549
 msgid "All singular posts."
 msgstr "Kaikilla yksittäisillä artikkeli-sivuilla."
 
-#: includes/theme-customize.php:549
+#: includes/theme-customize.php:550
 msgid "All singular pages."
 msgstr "Kaikilla yksittäisillä \"page\"-sivulla."
 
-#: includes/theme-customize.php:572
+#: includes/theme-customize.php:573
 msgid "Select Soliloquy Slider for Slider Page Template"
 msgstr "Valitse Soliloquy kuvaslider Kuvaslider sivupohjaan"
 
-#: includes/theme-customize.php:574
+#: includes/theme-customize.php:575
 msgid ""
 "You need to install and activate Soliloquy Slider Plugin first for Slider "
 "Page Template."
@@ -617,23 +621,23 @@ msgstr ""
 "Lataa ja aktivoi Soliloquy Slider -lisäosa ennen kuin voit käyttää sitä "
 "Kuvaslider sivupohjassa."
 
-#: includes/theme-customize.php:595
+#: includes/theme-customize.php:596
 msgid "Front Page Callout"
 msgstr "Etusivun Callout-teksti"
 
-#: includes/theme-customize.php:617
+#: includes/theme-customize.php:618
 msgid "Callout URL"
 msgstr "Callout URL-linkki"
 
-#: includes/theme-customize.php:641
+#: includes/theme-customize.php:642
 msgid "Callout URL text"
 msgstr "Callout URL-linkin teksti"
 
-#: includes/theme-customize.php:666
+#: includes/theme-customize.php:667
 msgid "Upload image for Callout. Recommended max width is 770px."
 msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
 
-#: includes/theme-customize.php:744
+#: includes/theme-customize.php:745
 msgid "Select Slider"
 msgstr "Valitse Slider"
 
