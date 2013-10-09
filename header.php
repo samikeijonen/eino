@@ -16,7 +16,7 @@
 
 </head>
 
-<body <?php hybrid_body_attributes(); ?>>
+<body class="<?php hybrid_body_class(); ?>">
 
 	<?php get_template_part( 'menu', 'secondary' ); // Loads the menu-secondary.php template. ?>
 
