@@ -3,7 +3,7 @@
  * Theme URI: https://foxnet-themes.fi/downloads/eino
  * Description: Some kind of Franter.
  * Tags: sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-width, custom-background, custom-header, featured-images, flexible-header, post-formats, translation-ready, dark, white, light
- * Version: 0.1.4
+ * Version: 0.1.5
  * Author: Sami Keijonen
  * Author URI: https://foxnet-themes.fi/
  * Text Domain: eino
@@ -888,7 +888,8 @@ img.header-image {
 .menu-toggle,
 input[type="submit"],
 #respond #submit,
-body .edd-submit.button {
+body .edd-submit.button,
+body #edd-purchase-button {
 	border: none;
 	padding: 16px 20px;
 	padding: 1rem 1.42857143rem;
