@@ -9,9 +9,13 @@ add_filter( 'edd_button_colors', 'eino_add_button_color' );
  * @since 0.1.0
  */
 function eino_add_button_color( $button_style  ) {
-	
-	if ( function_exists( 'edd_get_button_colors' ) ) 
-		$button_style['eino-theme-color'] = __( 'Eino Theme Color', 'eino' ) ;
+		
+	if ( function_exists( 'edd_get_button_colors' ) ) {
+		$button_style['eino-theme-color'] = array( 
+			'label' => __( 'Eino Theme Color', 'eino' ),
+			'hex'   => ''
+		);
+	}
 
 	return $button_style;
 	
