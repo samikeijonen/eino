@@ -1,4 +1,4 @@
-	<article id="post-0" class="<?php hybrid_entry_class(); ?>">
+	<article id="post-0" class="<?php hybrid_post_class(); ?>">
 
 		<header class="entry-header">
 			<h1 class="entry-title"><?php _e( 'Nothing found', 'eino' ); ?></h1>
