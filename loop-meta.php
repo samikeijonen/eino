@@ -1,12 +1,12 @@
 <?php
-/* If viewing a singular page, return. */
-if ( is_singular() || is_front_page() )
+/* If viewing a singular page, front page or 404 page, return. */
+if ( is_singular() || is_front_page() || is_404() )
 	return;
 ?>
 
 <div class="loop-meta">
 
-	<?php if ( is_home() && !is_front_page() ) { ?>
+	<?php if ( is_home() ) { ?>
 
 		<h1 class="loop-title"><?php echo get_post_field( 'post_title', get_queried_object_id() ); ?></h1>
 
