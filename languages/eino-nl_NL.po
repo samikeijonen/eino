@@ -1,32 +1,32 @@
-# Translation of Trunk in Finnish
-# This file is distributed under the same license as the Trunk package.
+# Copyright (C) 2013 Sami Keijonen
+# This file is distributed under the GNU General Public License v2.0.
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Eino Theme in Finnish\n"
+"Project-Id-Version: Eino\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/eino\n"
 "POT-Creation-Date: 2013-08-27 16:53:08+00:00\n"
-"PO-Revision-Date: 2014-01-29 14:14+0200\n"
+"PO-Revision-Date: 2013-11-21 17:26+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
-"Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
-"Language: fi\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/wp-"
+"translations/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
-"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
-"_x;_x:1,2c;_n:1,2\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 404.php:22
 msgid "What happened!?"
-msgstr "Mitä tapahtui!?"
+msgstr "Wat is er gebeurd?"
 
 #: 404.php:28
 msgid ""
 "You tried going to %s, which doesn't exist. You can try navigate or search."
 msgstr ""
-"Yritit mennä sivulle %s mutta sitä ei enää ole. Koita navigoida tai etsiä "
-"haluamasi sivu."
+"Je probeerde naar %2 te gaan, dat niet bestaat. Probeer te navigeren of "
+"gebruik Zoek."
 
 #: attachment-image.php:28 bbpress.php:29 buddypress.php:29
 #: content-aside.php:12 content-aside.php:23 content-attachment.php:12
@@ -41,84 +41,84 @@ msgstr ""
 #: page-templates/members.php:30 page-templates/portfolio-page.php:42
 #: page-templates/slider.php:34
 msgid "Pages:"
-msgstr "Sivut:"
+msgstr "Pagina&#39;s:"
 
 #: attachment-image.php:39
 msgid "Gallery"
-msgstr "Kuvagalleria"
+msgstr "Galerij"
 
 #: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
 #: library/classes/widget-pages.php:157
 msgid "Author"
-msgstr "Tekijä"
+msgstr "Auteur"
 
 #: bbpress/loop-replies.php:32 bbpress/loop-replies.php:62
 msgid "Replies"
-msgstr "Vastauksia"
+msgstr ""
 
 #: bbpress/loop-single-forum.php:38
 msgid "Topics: "
-msgstr "Aiheet:"
+msgstr ""
 
 #: bbpress/loop-single-forum.php:40 bbpress/loop-single-topic.php:84
 msgid "Posts: "
-msgstr "Viestejä:"
+msgstr ""
 
 #: bbpress/loop-single-forum.php:46 bbpress/loop-single-topic.php:90
 msgid "Last post: "
-msgstr "Viimeisin "
+msgstr ""
 
 #: bbpress/loop-single-forum.php:54 bbpress/loop-single-topic.php:94
 msgid " by "
-msgstr "&middot;"
+msgstr ""
 
 #: bbpress/loop-single-reply.php:19
 msgid "in reply to: "
-msgstr "vastauksena:"
+msgstr ""
 
 #: bbpress/loop-single-topic.php:60
 msgid "Started by: %1$s"
-msgstr "Kirjoittaja: %1$s"
+msgstr ""
 
 #: bbpress/loop-single-topic.php:68
 msgid "in: <a href=\"%1$s\">%2$s</a>"
-msgstr "Foorumi: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
 
 #: bbpress/loop-single-topic.php:82
 msgid "Voices: "
-msgstr "Osallistujia:"
+msgstr ""
 
 #: comments-loop-error.php:4
 msgid ""
 "Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
 "\">trackbacks</a> and pingbacks are open."
 msgstr ""
-"Kommentointi on suljettu, mutta <a href=\"%s\" title=\"Paluuviitteen URL "
-"tähän artikkeliin\">paluuviitteet</a> ja päivitysilmoitukset ovat avoinna."
+"Je kunt geen reactie plaatsen, maar <a href=\"%s\" title=\"Trackback URL for "
+"this post\">trackbacks</a> en pingbacks zijn beschikbaar."
 
 #: comments-loop-error.php:10
 msgid "Comments are closed."
-msgstr "Kommentointi on suljettu."
+msgstr "Reacties plaatsen niet mogelijk."
 
 #: comments-loop-nav.php:4
 msgid "&larr; Previous"
-msgstr "&larr; Edellinen"
+msgstr "&larr; Vorige"
 
 #: comments-loop-nav.php:5
 msgid "Page %1$s of %2$s"
-msgstr "Sivu %1$s / %2$s"
+msgstr "Pagina %1$s van %2$s"
 
 #: comments-loop-nav.php:6
 msgid "Next &rarr;"
-msgstr "Seuraava &rarr;"
+msgstr "Volgende &rarr;"
 
 #: comments-loop.php:3
 msgid "One Response"
-msgstr "Yksi Kommentti"
+msgstr "Één reactie"
 
 #: comments-loop.php:3
 msgid "% Responses"
-msgstr "% Kommenttia"
+msgstr "% reacties"
 
 #: content-aside.php:7 content-gallery.php:7 content-image.php:7
 #: content-link.php:7 content-video.php:11
@@ -126,33 +126,29 @@ msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\" | \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
-"\" | \"] [entry-edit-link before=\" | \"]"
+"[post-format-link] geplaatst op [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
 
 #: content-aside.php:16 content-download.php:16 content.php:16 content.php:33
 msgid ""
 "[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms "
 "before=\"| Tagged \"]"
 msgstr ""
-"[entry-terms before=\"Artikkeli kategoriassa \" taxonomy=\"category\"] "
-"[entry-terms before=\"| Avainsanat \"]"
 
 #: content-aside.php:22 content-chat.php:40 content-link.php:30
 #: content-quote.php:22 content-status.php:29
 msgid "Read more &rarr;"
-msgstr "Lue lisää &rarr;"
+msgstr "Lees verder &rarr;"
 
 #: content-attachment.php:16
 msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
-msgstr "Julkaistu [entry-published] [entry-edit-link before=\"| \"]"
+msgstr "Geplaatst op [entry-published] [entry-edit-link before=\"| \"]"
 
 #: content-audio.php:13
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
-"\" | \"] [entry-edit-link before=\"| \"]"
 
 #: content-audio.php:22 content-chat.php:22 content-gallery.php:16
 #: content-image.php:16 content-link.php:16 content-quote.php:16
@@ -161,56 +157,50 @@ msgid ""
 "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
 "before=\"Tagged \"]"
 msgstr ""
-"[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
-"[entry-terms before=\"Avainsanat \"]"
+"[entry-terms taxonomy=\"category\" before=\"Geplaatst in \"] [entry-terms "
+"before=\"Tagged \"]"
 
 #: content-audio.php:46
 msgid ""
 "[post-format-link] file published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
-"\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-chat.php:7 content-quote.php:7
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\" | \"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
-"\" | \"] [entry-edit-link before=\"| \"]"
 
 #: content-chat.php:47 content-gallery.php:42 content-image.php:48
 msgid ""
 "[post-format-link] published on [entry-published] [entry-comments-link "
 "before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-comments-link before="
-"\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-download.php:7 content-download.php:31
 #: page-templates/download-page.php:44
 msgid "Price:"
-msgstr "Hinta:"
+msgstr ""
 
 #: content-gallery.php:37
 msgid "This gallery contains %d image."
 msgid_plural "This gallery contains %d images."
-msgstr[0] "Kuvagalleriassa on %d kuva."
-msgstr[1] "Kuvagalleriassa on %d kuvaa."
+msgstr[0] ""
+msgstr[1] ""
 
 #: content-link.php:37 content-quote.php:27 content-video.php:42
 msgid ""
 "[post-format-link] published on [entry-published] [entry-permalink before="
 "\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-permalink before=\"| "
-"\"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
+"[post-format-link] geplaatst op [entry-published] [entry-permalink before="
+"\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 
 #: content-portfolio_item.php:10 content-portfolio_item.php:30
 #: page-templates/portfolio-page.php:41
 msgid "Work:"
-msgstr "Tehdyt työt:"
+msgstr ""
 
 #: content-status.php:17
 msgid ""
@@ -218,149 +208,145 @@ msgid ""
 "\"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-"
 "terms before=\"Tagged \"]"
 msgstr ""
-"[post-format-link] julkaistu [entry-published] [entry-edit-link before=\"| "
-"\"]<br />[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa "
-"\"] [entry-terms before=\"Avainsanat \"]"
+"[post-format-link] bijgewrkt op [entry-published] [entry-edit-link before="
+"\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"geplaatst in \"] "
+"[entry-terms before=\"Tagged \"]"
 
 #: content-status.php:34
 msgid ""
 "[post-format-link] updated on [entry-published] [entry-permalink before=\"| "
 "\"] [entry-edit-link before=\"| \"]"
 msgstr ""
-"[post-format-link] päivitetty [entry-published] [entry-permalink before=\"| "
-"\"] [entry-edit-link before=\"| \"]"
 
 #: content.php:7 content.php:23
 msgid ""
 "Published by [entry-author] on [entry-published] [entry-comments-link before="
 "\" | \"] [entry-edit-link before=\" | \"]"
 msgstr ""
-"[entry-author]  [entry-published] [entry-comments-link before=\" | \"] "
-"[entry-edit-link before=\" | \"]"
+"Geplaatst door [entry-author] op [entry-published] [entry-comments-link "
+"before=\" | \"] [entry-edit-link before=\" | \"]"
 
 #: functions.php:265
 msgid "One Column, Wide"
-msgstr "Yksi sarake, leveä"
+msgstr ""
 
 #: functions.php:338
 msgid "Eino Download Thumbnail"
-msgstr "Eino-teeman latauksien pikkukuva"
+msgstr ""
 
 #: functions.php:339
 msgid "Eino Bigger Image"
-msgstr "Eino-teeman isompi kuva"
+msgstr ""
 
 #: functions.php:576
 msgid "Twitter Username"
-msgstr "Twitterin käyttäjänimi"
+msgstr "Twitter gebruikersnaam"
 
 #: functions.php:579
 msgid "Google+ URL"
-msgstr "Google+ URL-linkki"
+msgstr ""
 
 #: functions.php:582 includes/theme-customize.php:330
 msgid "Facebook URL"
-msgstr "Facebook URL-linkki"
+msgstr ""
 
 #: functions.php:632
 msgid "Body Font"
-msgstr "Fontti"
+msgstr ""
 
 #: functions.php:642
 msgid "Headline Font"
-msgstr "Otsikon fontti"
+msgstr ""
 
 #: functions.php:653
 msgid "Trebuchet (font stack)"
-msgstr "Trebuchet"
+msgstr ""
 
 #: functions.php:661
 msgid "Arial (font stack)"
-msgstr "Arial"
+msgstr ""
 
 #: functions.php:669
 msgid "Lucida Sans Unicode (font stack)"
-msgstr "Lucida Sans Unicode"
+msgstr ""
 
 #: functions.php:677
 msgid "Georgia (font stack)"
-msgstr "Georgia"
+msgstr ""
 
 #: functions.php:685
 msgid "Helvetica (font stack)"
-msgstr "Helvetica"
+msgstr ""
 
 #: functions.php:693
 msgid "Merriweather Sans"
-msgstr "Merriweather Sans"
+msgstr ""
 
 #: functions.php:703
 msgid "Roboto Condensed"
-msgstr "Roboto Condensed"
+msgstr ""
 
 #: functions.php:713
 msgid "Arvo"
-msgstr "Arvo"
+msgstr ""
 
 #: functions.php:723
 msgid "Muli"
-msgstr "Muli"
+msgstr ""
 
 #: functions.php:733
 msgid "Open Sans"
-msgstr "Open Sans"
+msgstr ""
 
 #: functions.php:743
 msgid "Open Sans Condensed (700)"
-msgstr "Open Sans Condensed (700)"
+msgstr ""
 
 #: functions.php:766
 msgid "Body Color"
-msgstr "Sivuston väri"
+msgstr ""
 
 #: functions.php:769
 msgid "Entry Color"
-msgstr "Sisällön väri"
+msgstr ""
 
 #: functions.php:772
 msgid "Link Color"
-msgstr "Linkin väri"
+msgstr "Linkkleur"
 
 #: functions.php:775
 msgid "Link Color Hover"
-msgstr "Vaalea väri \"hover\""
+msgstr ""
 
 #: functions.php:778
 msgid "Light Color"
-msgstr "Vaalea väri"
+msgstr ""
 
 #: functions.php:781
 msgid "Dark Color"
-msgstr "Tumma väri"
+msgstr ""
 
 #: functions.php:784
 msgid "Dark Color 1"
-msgstr "Tumma väri 1"
+msgstr ""
 
 #: functions.php:862
 msgid "Front Page Widget"
-msgstr "Etusivun vimpaimet."
+msgstr ""
 
 #: functions.php:863
 msgid "Front Page widget area."
-msgstr "Etusivun vimpainalue."
+msgstr ""
 
 #: functions.php:948
 msgid ""
 "No slider was selected. Please select a Slider under <a href=\"%s\"> "
 "Appearance &gt; Customize &gt; Layout</a>."
 msgstr ""
-"Yhtäkään Slideria ei ole valittu. Anna Sliderin ID-numero tai valitse Slider "
-"kohdasta <a href=\"%s\"> Ulkoasu &gt; Mukauta &gt; Ulkoasu</a>."
 
 #: functions.php:987
 msgid "Visit site"
-msgstr "Vieraile sivulla"
+msgstr ""
 
 #: header.php:84
 msgid "&#8764;"
@@ -368,71 +354,71 @@ msgstr "&#8764;"
 
 #: includes/edd-functions.php:14
 msgid "Eino Theme Color"
-msgstr "Eino-teeman väri"
+msgstr ""
 
 #: includes/theme-customize.php:32
 msgid "Logo Upload"
-msgstr "Logon lataus"
+msgstr ""
 
 #: includes/theme-customize.php:55
 msgid "Upload custom logo. Recommended max width is 300px."
-msgstr "Lataa logo. Suositeltu maksimileveys on 300px."
+msgstr ""
 
 #: includes/theme-customize.php:81
 msgid "Choose whether to show Logo or Avatar in Header?"
-msgstr "Valitse käytätkö logoa vai avatar-kuvaa?"
+msgstr ""
 
 #: includes/theme-customize.php:87
 msgid "Show Logo"
-msgstr "Näytä logo"
+msgstr ""
 
 #: includes/theme-customize.php:88
 msgid "Show Avatar"
-msgstr "Näytä avatar-kuva"
+msgstr ""
 
 #: includes/theme-customize.php:89
 msgid "Do not show Logo nor Avatar"
-msgstr "Älä näytä logoa, eikä myöskään avatar-kuvaa"
+msgstr ""
 
 #: includes/theme-customize.php:110
 msgid "Avatar Email"
-msgstr "Avatar sähköposti"
+msgstr ""
 
 #: includes/theme-customize.php:136
 msgid "Choose Color Scheme"
-msgstr "Valitse värivaihtoehto"
+msgstr ""
 
 #: includes/theme-customize.php:142 library/extensions/theme-layouts.php:337
 msgid "Default"
-msgstr "Oletus"
+msgstr "Standaard"
 
 #: includes/theme-customize.php:143
 msgid "Color Scheme 1"
-msgstr "Värivaihtoehto 1"
+msgstr ""
 
 #: includes/theme-customize.php:144
 msgid "Color Scheme 2"
-msgstr "Värivaihtoehto 2"
+msgstr ""
 
 #: includes/theme-customize.php:145
 msgid "Color Scheme 3"
-msgstr "Värivaihtoehto 3"
+msgstr ""
 
 #: includes/theme-customize.php:146
 msgid "Color Scheme 4"
-msgstr "Värivaihtoehto 4"
+msgstr ""
 
 #: includes/theme-customize.php:147
 msgid "Color Scheme 5"
-msgstr "Värivaihtoehto 5"
+msgstr ""
 
 #: includes/theme-customize.php:148
 msgid "Color Scheme 6"
-msgstr "Värivaihtoehto 6"
+msgstr ""
 
 #: includes/theme-customize.php:149
 msgid "Color Scheme 7"
-msgstr "Värivaihtoehto 7"
+msgstr ""
 
 #: includes/theme-customize.php:172
 msgid ""
@@ -440,251 +426,244 @@ msgid ""
 "Custom Colors pick Default Color Scheme above. Then click Save/Publish and "
 "refresh this page to see live preview."
 msgstr ""
-"Valitse haluatko käyttää valmiiksi tehtyjä värivaihtoehtoja vai omia. Jos "
-"käytät omia, niin valitse Oletus väriteema ylempää. Tämän jälkeen Tallenna "
-"ja virkistä sivu, jotta näet muutokset."
 
 #: includes/theme-customize.php:178
 msgid "Use premade color scheme"
-msgstr "Käytä valmiita värivaihtoehtoja"
+msgstr ""
 
 #: includes/theme-customize.php:179
 msgid "Use Custom Colors"
-msgstr "Käytä omia värejä"
+msgstr ""
 
 #: includes/theme-customize.php:202
 msgid "Choose whether to use full screen background or not."
-msgstr "Valitse haluatko käyttää koko ruudun taustakuvaa vai et."
+msgstr ""
 
 #: includes/theme-customize.php:208
 msgid "Use full screen background"
-msgstr "Käytä koko ruudun taustakuvaa"
+msgstr ""
 
 #: includes/theme-customize.php:209
 msgid "Do not use full screen background"
-msgstr "Älä käytä koko ruudun taustakuvaa"
+msgstr ""
 
 #: includes/theme-customize.php:232
 msgid "Choose whether to use random background or not."
-msgstr "Valitse haluatko käyttää satunnaista taustakuvaa vai et."
+msgstr ""
 
 #: includes/theme-customize.php:238
 msgid "Do not use random background"
-msgstr "Älä käytä satunnaista taustakuvaa"
+msgstr ""
 
 #: includes/theme-customize.php:239
 msgid "Use random background"
-msgstr "Käytä satunnaista taustakuvaa"
+msgstr ""
 
 #: includes/theme-customize.php:262
 msgid "Choose Body Font Size (pixels)"
-msgstr "Valitse fontin koko (px)"
+msgstr ""
 
 #: includes/theme-customize.php:267
 msgid "13"
-msgstr "13"
+msgstr ""
 
 #: includes/theme-customize.php:268
 msgid "14"
-msgstr "14"
+msgstr ""
 
 #: includes/theme-customize.php:269
 msgid "15"
-msgstr "15"
+msgstr ""
 
 #: includes/theme-customize.php:270
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #: includes/theme-customize.php:271
 msgid "17"
-msgstr "17"
+msgstr ""
 
 #: includes/theme-customize.php:272
 msgid "18"
-msgstr "18"
+msgstr ""
 
 #: includes/theme-customize.php:273
 msgid "19"
-msgstr "19"
+msgstr ""
 
 #: includes/theme-customize.php:284
 msgid "Social Links"
-msgstr "Sosiaalisen median linkit"
+msgstr ""
 
 #: includes/theme-customize.php:306
 msgid "Twitter URL"
-msgstr "Twitter URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:354
 msgid "RSS URL"
-msgstr "RSS URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:378
 msgid "Linkedin URL"
-msgstr "Linkedin URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:402
 msgid "Google Plus URL"
-msgstr "Google Plus URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:426
 msgid "Github URL"
-msgstr "Github URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:450
 msgid "Pinterest URL"
-msgstr "Pinterest URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:474
 msgid "Choose icon size"
-msgstr "Valitse ikonin koko"
+msgstr ""
 
 #: includes/theme-customize.php:480
 msgid "Normal"
-msgstr "Normaali"
+msgstr ""
 
 #: includes/theme-customize.php:481
 msgid "Icon large"
-msgstr "Isompi ikoni"
+msgstr ""
 
 #: includes/theme-customize.php:482
 msgid "Icon 2x"
-msgstr "Ikoni 2x"
+msgstr ""
 
 #: includes/theme-customize.php:483
 msgid "Icon 3x"
-msgstr "Ikoni 3x"
+msgstr ""
 
 #: includes/theme-customize.php:484
 msgid "Icon 4x"
-msgstr "Ikoni 4x"
+msgstr ""
 
 #: includes/theme-customize.php:507
 msgid ""
 "Choose whether to use full width header image or not. Or use header image "
 "below breadcrumb trail."
 msgstr ""
-"Valitse käytätkö koko sivun levyistä otsakekuvaa vai et. Tai käytä "
-"otsakekuvaa murupolun alapuolella."
 
 #: includes/theme-customize.php:513
 msgid "Use Content width header image."
-msgstr "Käytä sisällön leveystä otsakekuvaa."
+msgstr ""
 
 #: includes/theme-customize.php:514
 msgid "Use full width header image."
-msgstr "Käytä koko sivun leveystä otsakekuvaa."
+msgstr ""
 
 #: includes/theme-customize.php:515
 msgid "Use header image below breadcrumb trail."
-msgstr "Käytä otsakekuvaa murupolun alapuolella."
+msgstr ""
 
 #: includes/theme-customize.php:538
 msgid "When to show header image?"
-msgstr "Milloin otsakekuva näytetään?"
+msgstr ""
 
 #. translators: When to show header image?
 #: includes/theme-customize.php:545
 msgid "Always."
-msgstr "Aina."
+msgstr ""
 
 #: includes/theme-customize.php:546
 msgid "Only on home (blog) page."
-msgstr "Vain blogisivulla."
+msgstr ""
 
 #: includes/theme-customize.php:547
 msgid "Only on front page."
-msgstr "Vain etusivulla."
+msgstr ""
 
 #: includes/theme-customize.php:548
 msgid "All singular."
-msgstr "Kaikilla yksittäisillä sivuilla."
+msgstr ""
 
 #: includes/theme-customize.php:549
 msgid "All singular posts."
-msgstr "Kaikilla yksittäisillä artikkeli-sivuilla."
+msgstr ""
 
 #: includes/theme-customize.php:550
 msgid "All singular pages."
-msgstr "Kaikilla yksittäisillä \"page\"-sivulla."
+msgstr ""
 
 #: includes/theme-customize.php:573
 msgid "Select Soliloquy Slider for Slider Page Template"
-msgstr "Valitse Soliloquy kuvaslider Kuvaslider sivupohjaan"
+msgstr ""
 
 #: includes/theme-customize.php:575
 msgid ""
 "You need to install and activate Soliloquy Slider Plugin first for Slider "
 "Page Template."
 msgstr ""
-"Lataa ja aktivoi Soliloquy Slider -lisäosa ennen kuin voit käyttää sitä "
-"Kuvaslider sivupohjassa."
 
 #: includes/theme-customize.php:596
 msgid "Front Page Callout"
-msgstr "Etusivun Callout-teksti"
+msgstr ""
 
 #: includes/theme-customize.php:618
 msgid "Callout URL"
-msgstr "Callout URL-linkki"
+msgstr ""
 
 #: includes/theme-customize.php:642
 msgid "Callout URL text"
-msgstr "Callout URL-linkin teksti"
+msgstr ""
 
 #: includes/theme-customize.php:667
 msgid "Upload image for Callout. Recommended max width is 770px."
-msgstr "Lataa Callout-kuva. Suositeltu maksimileveys on 770px."
+msgstr ""
 
 #: includes/theme-customize.php:745
 msgid "Select Slider"
-msgstr "Valitse Slider"
+msgstr ""
 
 #: library/admin/meta-box-post-seo.php:39
 msgid "SEO"
-msgstr "Hakukoneoptimointi (SEO)"
+msgstr "SEO"
 
 #: library/admin/meta-box-post-seo.php:72
 msgid "Document Title:"
-msgstr "Dokumentin otsikko:"
+msgstr "Document titel:"
 
 #: library/admin/meta-box-post-seo.php:78
 msgid "Meta Description:"
-msgstr "Meta kuvaus:"
+msgstr "Meta beschrijving:"
 
 #: library/admin/meta-box-post-seo.php:84
 msgid "Meta Keywords:"
-msgstr "Meta avainsanat:"
+msgstr "Meta Keywords:"
 
 #: library/admin/meta-box-post-template.php:45
 msgid "Template"
-msgstr "Sivupohja"
+msgstr "Sjabloon"
 
 #: library/admin/meta-box-theme-about.php:31
 #: library/admin/meta-box-theme-about.php:36
 msgid "About %s"
-msgstr "Tiedot %s"
+msgstr "Over %s"
 
 #: library/admin/meta-box-theme-about.php:61
 msgid "Theme:"
-msgstr "Teema:"
+msgstr "Thema:"
 
 #: library/admin/meta-box-theme-about.php:69
 msgid "Version:"
-msgstr "Versio:"
+msgstr "Versie:"
 
 #: library/admin/meta-box-theme-about.php:77
 msgid "Author:"
-msgstr "Tekijä:"
+msgstr "Auteur:"
 
 #: library/admin/meta-box-theme-about.php:85
 msgid "Description:"
-msgstr "Kuvaus:"
+msgstr "Beschrijving:"
 
 #: library/admin/meta-box-theme-footer.php:29
 msgid "Footer settings"
-msgstr "Alapalkin asetukset"
+msgstr "Footer instellingen"
 
 #: library/admin/meta-box-theme-footer.php:52
 msgid ""
@@ -692,89 +671,92 @@ msgid ""
 "acronym> and/or shortcodes, which will be automatically inserted into your "
 "theme."
 msgstr ""
-"Voit lisätä omaa <acronym title=\"Hypertext Markup Language\">HTML-koodia</"
-"acronym> ja/tai lyhytkoodeja, jotka lisätään automaattisesti teemaan."
+"Je kan aangepaste/custom <acronym title=\"Hypertext Markup Language\">HTML</"
+"acronym> en/of shortcodes toevoegen, die automatisch in je theme worden "
+"geïntegreerd."
 
 #: library/admin/theme-settings.php:47 library/admin/theme-settings.php:171
 msgid "%s Theme Settings"
-msgstr "%s  Teeman asetukset"
+msgstr "%s theme instellingen"
 
 #: library/admin/theme-settings.php:48
 msgid "Theme Settings"
-msgstr "Teeman asetukset"
+msgstr "Thema instellingen"
 
 #: library/admin/theme-settings.php:172
 msgid "Customize"
-msgstr "Kustomoi"
+msgstr "Aanpassen"
 
 #: library/admin/theme-settings.php:205
 msgid "Update Settings"
-msgstr "Päivitä asetukset"
+msgstr "Bijwerk instellingen"
 
 #: library/admin/theme-settings.php:262
 msgid "Documentation"
-msgstr "Dokumentaatio"
+msgstr "Documentatie"
 
 #: library/admin/theme-settings.php:266
 msgid "Support"
-msgstr "Tuki"
+msgstr "Help"
 
 #: library/classes/widget-archives.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "archives."
-msgstr "Vimpain, jolla hallitaan arkistoja."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je "
+"archieven."
 
 #: library/classes/widget-archives.php:44
 #: library/classes/widget-archives.php:142
 #: library/extensions/breadcrumb-trail.php:180
 #: library/functions/context.php:576 loop-meta.php:86
 msgid "Archives"
-msgstr "Arkistot"
+msgstr "Archieven"
 
 #: library/classes/widget-archives.php:79
 msgid "Select Year"
-msgstr "Valitse vuosi"
+msgstr "Selecteer jaar"
 
 #: library/classes/widget-archives.php:82
 msgid "Select Month"
-msgstr "Valitse kuukausi"
+msgstr "Maand selecteren"
 
 #: library/classes/widget-archives.php:85
 msgid "Select Week"
-msgstr "Valitse viikko"
+msgstr "Selecteer week"
 
 #: library/classes/widget-archives.php:88
 msgid "Select Day"
-msgstr "Valitse päivä"
+msgstr "Selecteer week"
 
 #: library/classes/widget-archives.php:91
 msgid "Select Post"
-msgstr "Valitse artikkeli"
+msgstr "Selecteer artikel"
 
 #: library/classes/widget-archives.php:157
 msgid "Alphabetical"
-msgstr "Aakkosellinen"
+msgstr "Alfabetisch"
 
 #: library/classes/widget-archives.php:158
 msgid "Daily"
-msgstr "Päivittäiset"
+msgstr "Dagelijks"
 
 #: library/classes/widget-archives.php:159
 msgid "Monthly"
-msgstr "Kuukausittainen"
+msgstr "Maandelijks"
 
 #: library/classes/widget-archives.php:160
 msgid "Post By Post"
-msgstr "Artikkeli artikkelilta"
+msgstr "Artikel bij artikel"
 
 #: library/classes/widget-archives.php:161
 msgid "Weekly"
-msgstr "Viikottainen"
+msgstr "Wekelijks"
 
 #: library/classes/widget-archives.php:162
 msgid "Yearly"
-msgstr "Vuosittainen"
+msgstr "Jaarlijks"
 
 #: library/classes/widget-archives.php:167
 #: library/classes/widget-authors.php:141
@@ -783,7 +765,7 @@ msgstr "Vuosittainen"
 #: library/classes/widget-categories.php:171
 #: library/classes/widget-pages.php:152 library/classes/widget-tags.php:186
 msgid "Ascending"
-msgstr "Nouseva"
+msgstr "Oplopend"
 
 #: library/classes/widget-archives.php:168
 #: library/classes/widget-authors.php:142
@@ -792,11 +774,11 @@ msgstr "Nouseva"
 #: library/classes/widget-categories.php:172
 #: library/classes/widget-pages.php:153 library/classes/widget-tags.php:187
 msgid "Descending"
-msgstr "Laskeva"
+msgstr "Aflopend"
 
 #: library/classes/widget-archives.php:173
 msgid "Custom"
-msgstr "Kustomoitu"
+msgstr "Aangepast"
 
 #: library/classes/widget-archives.php:174
 msgid "HTML"
@@ -804,7 +786,7 @@ msgstr "HTML"
 
 #: library/classes/widget-archives.php:175
 msgid "Option"
-msgstr "Valinta"
+msgstr "Keuze"
 
 #: library/classes/widget-archives.php:181
 #: library/classes/widget-authors.php:160
@@ -815,31 +797,33 @@ msgstr "Valinta"
 #: library/classes/widget-pages.php:178 library/classes/widget-search.php:144
 #: library/classes/widget-tags.php:207
 msgid "Title:"
-msgstr "Otsikko:"
+msgstr "Titel:"
 
 #: library/classes/widget-archives.php:225
 #: library/classes/widget-authors.php:208
 msgid "Show post count?"
-msgstr "Näytä artikkeleiden lukumäärä?"
+msgstr "Laat Artikel Teller zien"
 
 #: library/classes/widget-authors.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "author lists."
-msgstr "Vimpain, jolla hallitaan käyttäjälistaa."
+msgstr ""
+"Een advanced widget die je totale controle geeft over de output van je "
+"auteurlijst"
 
 #: library/classes/widget-authors.php:44
 #: library/classes/widget-authors.php:123
 msgid "Authors"
-msgstr "Tekijät"
+msgstr "Auteurs"
 
 #: library/classes/widget-authors.php:146
 msgid "Display Name"
-msgstr "Näytä nimi"
+msgstr "Laat Naam zien"
 
 #: library/classes/widget-authors.php:147 library/functions/comments.php:188
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: library/classes/widget-authors.php:148
 #: library/classes/widget-bookmarks.php:188
@@ -851,15 +835,15 @@ msgstr "ID"
 
 #: library/classes/widget-authors.php:149
 msgid "Nice Name"
-msgstr "Kutsumanimi"
+msgstr "Mooie naam"
 
 #: library/classes/widget-authors.php:150
 msgid "Post Count"
-msgstr "Artikkeleiden lukumäärä"
+msgstr "Artikel telling"
 
 #: library/classes/widget-authors.php:151
 msgid "Registered"
-msgstr "Rekisteröitynyt"
+msgstr "Geregistreerd"
 
 #: library/classes/widget-authors.php:152
 #: library/classes/widget-bookmarks.php:211
@@ -868,18 +852,18 @@ msgstr "URL"
 
 #: library/classes/widget-authors.php:153
 msgid "Login"
-msgstr "Kirjaudu sisään"
+msgstr "Inloggen"
 
 #: library/classes/widget-authors.php:186
 #: library/classes/widget-categories.php:166
 #: library/classes/widget-tags.php:182
 msgid "List"
-msgstr "Lista"
+msgstr "Lijst"
 
 #: library/classes/widget-authors.php:186
 #: library/classes/widget-categories.php:167
 msgid "None"
-msgstr "Ei yhtään"
+msgstr "Geen"
 
 #: library/classes/widget-authors.php:204
 msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
@@ -887,73 +871,75 @@ msgstr "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
 
 #: library/classes/widget-authors.php:212
 msgid "Exclude admin?"
-msgstr "Poislukien admin?"
+msgstr "Admin uitsluiten?"
 
 #: library/classes/widget-authors.php:216
 msgid "Show full name?"
-msgstr "Näytä koko nimi?"
+msgstr "Laat volle naam zien?"
 
 #: library/classes/widget-authors.php:220
 #: library/classes/widget-categories.php:298
 #: library/classes/widget-tags.php:318
 msgid "Hide empty?"
-msgstr "Piilota tyhjät?"
+msgstr "Leeg verbergen?"
 
 #: library/classes/widget-bookmarks.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "bookmarks (links)."
-msgstr "Vimpain, jolla hallitaan linkkejä."
+msgstr ""
+"Een advanced widget die je totale controle geeft over de output van je "
+"bladwijzers (links)."
 
 #: library/classes/widget-bookmarks.php:44
 #: library/classes/widget-bookmarks.php:86
 #: library/classes/widget-bookmarks.php:150
 msgid "Bookmarks"
-msgstr "Linkit"
+msgstr "Bladwijzers"
 
 #: library/classes/widget-bookmarks.php:187
 #: library/classes/widget-categories.php:176
 #: library/classes/widget-tags.php:192
 msgid "Count"
-msgstr "Lukumäärä"
+msgstr "Telling"
 
 #: library/classes/widget-bookmarks.php:189
 #: library/classes/widget-bookmarks.php:202
 #: library/classes/widget-categories.php:178
 #: library/classes/widget-tags.php:193 library/functions/comments.php:187
 msgid "Name"
-msgstr "Nimi"
+msgstr "Naam"
 
 #: library/classes/widget-bookmarks.php:190
 #: library/classes/widget-categories.php:179
 #: library/classes/widget-pages.php:162
 msgid "Slug"
-msgstr "Polkutunnus"
+msgstr "Slug"
 
 #: library/classes/widget-bookmarks.php:200
 msgid "Description"
-msgstr "Kuvaus"
+msgstr "Beschrijving"
 
 #: library/classes/widget-bookmarks.php:201
 msgid "Length"
-msgstr "Pituus"
+msgstr "Lengte"
 
 #: library/classes/widget-bookmarks.php:203
 msgid "Notes"
-msgstr "Muistiinpanot"
+msgstr "Notities"
 
 #: library/classes/widget-bookmarks.php:204
 msgid "Owner"
-msgstr "Omistaja"
+msgstr "Eigenaar"
 
 #: library/classes/widget-bookmarks.php:205
 #: library/classes/widget-tags.php:188
 msgid "Random"
-msgstr "Satunnainen"
+msgstr "Willekeurig"
 
 #: library/classes/widget-bookmarks.php:206
 msgid "Rating"
-msgstr "Arvostelu"
+msgstr "Waardering"
 
 #: library/classes/widget-bookmarks.php:207
 msgid "Rel"
@@ -966,73 +952,77 @@ msgstr "RSS"
 
 #: library/classes/widget-bookmarks.php:209
 msgid "Target"
-msgstr "Kohde"
+msgstr "Doel"
 
 #: library/classes/widget-bookmarks.php:210
 msgid "Updated"
-msgstr "Päivitetty"
+msgstr "Bijgewerkt"
 
 #: library/classes/widget-bookmarks.php:319
 msgid "Categorize?"
-msgstr "Kategorisoi?"
+msgstr "Categoriseren?"
 
 #: library/classes/widget-bookmarks.php:323
 msgid "Show description?"
-msgstr "Näytä kuvaus?"
+msgstr "Omschrijving laten zien?"
 
 #: library/classes/widget-bookmarks.php:327
 msgid "Hide invisible?"
-msgstr "Piilota näkymätön?"
+msgstr "Onzichtbaar verbergen?"
 
 #: library/classes/widget-bookmarks.php:331
 msgid "Show rating?"
-msgstr "Näytä luokitus?"
+msgstr "Beoordeling laten zien?"
 
 #: library/classes/widget-bookmarks.php:335
 msgid "Show updated?"
-msgstr "Näytä päivitys?"
+msgstr "Bijgwerkt laten zien?"
 
 #: library/classes/widget-bookmarks.php:339
 msgid "Show images?"
-msgstr "Näytä kuvat?"
+msgstr "Afbeeldingen laten zien?"
 
 #: library/classes/widget-bookmarks.php:343
 msgid "Show name?"
-msgstr "Näytä nimi?"
+msgstr "Naam laten zien?"
 
 #: library/classes/widget-bookmarks.php:347
 msgid "Show private?"
-msgstr "Näytä yksityiset?"
+msgstr "Privaat laten zien?"
 
 #: library/classes/widget-calendar.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "calendar."
-msgstr "Vimpain, jolla hallitaan kalenteria."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je "
+"kalender."
 
 #: library/classes/widget-calendar.php:44
 #: library/classes/widget-calendar.php:99
 msgid "Calendar"
-msgstr "Kalenteri"
+msgstr "Kalender"
 
 #: library/classes/widget-calendar.php:113
 msgid "One-letter abbreviation?"
-msgstr "Yksikirjaiminen lyhenne?"
+msgstr "Één-letter afkortingen?"
 
 #: library/classes/widget-categories.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "category links."
-msgstr "Vimpain, jolla hallitaan kategorialinkkejä."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je "
+"category links."
 
 #: library/classes/widget-categories.php:44
 #: library/classes/widget-categories.php:136
 msgid "Categories"
-msgstr "Kategoriat"
+msgstr "Categorie&#235;n"
 
 #: library/classes/widget-categories.php:180
 msgid "Term Group"
-msgstr "Termien ryhmä"
+msgstr "Term Groep"
 
 #: library/classes/widget-categories.php:185
 msgid "Atom"
@@ -1049,98 +1039,105 @@ msgstr "RSS 2.0"
 #: library/classes/widget-categories.php:286
 #: library/classes/widget-pages.php:277
 msgid "Hierarchical?"
-msgstr "Hierarkinen?"
+msgstr "Hierarchisch"
 
 #: library/classes/widget-categories.php:290
 msgid "Use description?"
-msgstr "Käytä kuvausta?"
+msgstr "Omschrijving gebruiken?"
 
 #: library/classes/widget-categories.php:294
 msgid "Show count?"
-msgstr "Näytä lukumäärä?"
+msgstr "Telling laten zien?"
 
 #: library/classes/widget-nav-menu.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "menus."
-msgstr "Vimpain, jolla hallitaan menuvalikkoja."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je "
+"menu's."
 
 #: library/classes/widget-nav-menu.php:44
 msgid "Navigation Menu"
-msgstr "Navigaatiomenu"
+msgstr "Navigatiemenu"
 
 #: library/classes/widget-nav-menu.php:108
 msgid "Navigation"
-msgstr "Navigaatio"
+msgstr "Navigatie"
 
 #: library/classes/widget-pages.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your page "
 "links."
-msgstr "Vimpain, jolla hallitaan sivujen linkkejä."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je "
+"pagina links."
 
 #: library/classes/widget-pages.php:44 library/classes/widget-pages.php:125
 msgid "Pages"
-msgstr "Sivut"
+msgstr "Pagina&#39;s"
 
 #: library/classes/widget-pages.php:158
 msgid "Date"
-msgstr "Päivä"
+msgstr "Datum"
 
 #: library/classes/widget-pages.php:160
 msgid "Menu Order"
-msgstr "Menun järjestys"
+msgstr "Menu rankschikking"
 
 #: library/classes/widget-pages.php:161 library/classes/widget-pages.php:169
 msgid "Modified"
-msgstr "Muokattu"
+msgstr "Aangepast"
 
 #: library/classes/widget-pages.php:163
 msgid "Title"
-msgstr "Otsikko"
+msgstr "Titel"
 
 #: library/classes/widget-pages.php:168
 msgid "Created"
-msgstr "Luotu"
+msgstr "gecreëerd"
 
 #: library/classes/widget-search.php:33
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "search form."
-msgstr "Vimpain, jolla hallitaan hakulomaketta."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je zoek "
+"formulier."
 
 #: library/classes/widget-search.php:45 library/classes/widget-search.php:132
 msgid "Search"
-msgstr "Etsi"
+msgstr "Zoeken"
 
 #: library/classes/widget-search.php:148
 msgid "Search Label:"
-msgstr "Etsi nimike:"
+msgstr "Zoek label:"
 
 #: library/classes/widget-search.php:152
 msgid "Search Text:"
-msgstr "Etsi teksti:"
+msgstr "Zoek tekst:"
 
 #: library/classes/widget-search.php:159
 msgid "Search Submit:"
-msgstr "Etsi lähetä:"
+msgstr "Zoek voorstel:"
 
 #: library/classes/widget-search.php:164
 msgid "Use theme's <code>searchform.php</code>?"
-msgstr "Käytä teeman <code>searchform.php</code> tiedostoa?"
+msgstr "Gebruik dit thema's <code>searchform.php</code>?"
 
 #: library/classes/widget-tags.php:32
 msgid ""
 "An advanced widget that gives you total control over the output of your tags."
-msgstr "Vimpain, jolla hallitaan avainsanoja."
+msgstr ""
+"Een advanced widget dat je totale controle geeft over de output van je tags"
 
 #: library/classes/widget-tags.php:44 library/classes/widget-tags.php:146
 msgid "Tags"
-msgstr "Avainsanat"
+msgstr "Tags"
 
 #: library/classes/widget-tags.php:176
 msgid "View"
-msgstr "Näkymä"
+msgstr "Bekijken"
 
 #: library/classes/widget-tags.php:177
 #: library/extensions/breadcrumb-trail.php:1122
@@ -1149,46 +1146,46 @@ msgstr "Näkymä"
 #: library/extensions/breadcrumb-trail.php:1206
 #: library/functions/shortcodes.php:205 library/functions/shortcodes.php:527
 msgid "Edit"
-msgstr "Editoi"
+msgstr "Bewerken"
 
 #: library/classes/widget-tags.php:181
 msgid "Flat"
-msgstr "Tyhjä"
+msgstr "Plat"
 
 #: library/classes/widget-tags.php:314
 msgid "Pad counts?"
-msgstr "Pad lukumäärä?"
+msgstr "Aantal pads"
 
 #: library/extensions/breadcrumb-trail.php:175
 msgid "Browse:"
-msgstr "Olet täällä:"
+msgstr "Browse:"
 
 #: library/extensions/breadcrumb-trail.php:176
 msgid "Home"
-msgstr "Etusivu"
+msgstr "Home"
 
 #: library/extensions/breadcrumb-trail.php:177
 #: library/functions/context.php:582
 msgid "Search results for \"%s\""
-msgstr "Hakutulokset haulle: \"%s\""
+msgstr "Zoekresultaten voor \"%s\""
 
 #: library/extensions/breadcrumb-trail.php:178
 #: library/functions/context.php:586
 msgid "404 Not Found"
-msgstr "404 Sivua ei löytynyt"
+msgstr "404 Niet gevonden"
 
 #: library/extensions/breadcrumb-trail.php:179
 msgid "Page %d"
-msgstr "Sivu %d"
+msgstr "Pagina %d"
 
 #: library/extensions/breadcrumb-trail.php:181
 #: library/functions/context.php:553
 msgid "g:i a"
-msgstr "G:i"
+msgstr "H:i "
 
 #: library/extensions/breadcrumb-trail.php:182
 msgid "Minute %d"
-msgstr "Minuutti %d"
+msgstr "Minuut %d"
 
 #: library/extensions/breadcrumb-trail.php:183
 #: library/functions/context.php:559
@@ -1201,7 +1198,7 @@ msgstr "d"
 
 #: library/extensions/breadcrumb-trail.php:185
 msgid "Week %d"
-msgstr "Viikko %d"
+msgstr "Week %d"
 
 #: library/extensions/breadcrumb-trail.php:186
 msgid "F"
@@ -1222,73 +1219,75 @@ msgstr "F Y"
 
 #: library/extensions/breadcrumb-trail.php:1035
 msgid "F j, Y"
-msgstr "j.m.Y"
+msgstr "j F, Y"
 
 #: library/extensions/breadcrumb-trail.php:1150
 msgid "Split"
-msgstr "Jaa"
+msgstr "Verdeel"
 
 #: library/extensions/breadcrumb-trail.php:1154
 msgid "Merge"
-msgstr "Yhdistä"
+msgstr "Samenvoegen"
 
 #: library/extensions/custom-field-series.php:86
 msgid "Articles in this series"
-msgstr "Samaan aihepiiriin liittyvät artikkelit"
+msgstr "Artikelen in deze serie"
 
 #: library/extensions/custom-field-series.php:212
 msgid "Series"
-msgstr "Tähän liittyvät artikkelit"
+msgstr "Serie"
 
 #: library/extensions/featured-header.php:202
 msgid "Featured Header"
-msgstr "Otsake-kuva"
+msgstr "Te tonen header"
 
 #: library/extensions/post-stylesheets.php:286
 msgid "Stylesheet"
-msgstr "Tyylitiedosto"
+msgstr "Stylesheet"
 
 #: library/extensions/theme-fonts.php:401
 msgid "Fonts"
-msgstr "Fontit"
+msgstr "Lettertypen"
 
 #: library/extensions/theme-layouts.php:338
 msgid "One Column"
-msgstr "Yksi sarake"
+msgstr "Een kolom"
 
 #: library/extensions/theme-layouts.php:339
 msgid "Two Columns, Left"
-msgstr "Kaksi saraketta, sisältö vasemmalla"
+msgstr "Twee kolommen, links"
 
 #: library/extensions/theme-layouts.php:340
 msgid "Two Columns, Right"
-msgstr "Kaksi saraketta, sisältö oikealla"
+msgstr "Twee kolommen, rechts"
 
 #: library/extensions/theme-layouts.php:341
 msgid "Three Columns, Left"
-msgstr "Kolme saraketta, sisältö vasemmalla"
+msgstr "Drie kolommen, links"
 
 #: library/extensions/theme-layouts.php:342
 msgid "Three Columns, Right"
-msgstr "Kolme  saraketta, sisältö oikealla"
+msgstr "Drie kolommen, rechts"
 
 #: library/extensions/theme-layouts.php:343
 msgid "Three Columns, Center"
-msgstr "Kolme saraketta, sisältö keskellä"
+msgstr "Drie kolommen, gecentreerd"
 
 #: library/extensions/theme-layouts.php:428
 #: library/extensions/theme-layouts.php:538
 #: library/extensions/theme-layouts.php:623
 msgid "Layout"
-msgstr "Ulkoasu"
+msgstr "Layout"
 
 #: library/extensions/theme-layouts.php:454
 msgid "Layout is a theme-specific structure for the single view of the post."
-msgstr "Tällä voi vaihtaa yksittäisen sivun tai artikkelin ulkoasua."
+msgstr ""
+"Lay-out is een thema-specifieke structuur voor de enkele view van het "
+"artikel."
 
 #: library/extensions/theme-layouts.php:656
 msgid "Global Layout"
-msgstr "Globaali ulkoasu"
+msgstr "Globale lay-out"
 
 #: library/functions/comments.php:182
 msgid "*"
@@ -1296,57 +1295,57 @@ msgstr "*"
 
 #: library/functions/comments.php:189
 msgid "Website"
-msgstr "Kotisivu"
+msgstr "Site"
 
 #: library/functions/comments.php:195
 msgid "Comment"
-msgstr "Kommentti"
+msgstr "Reactie"
 
 #: library/functions/comments.php:196
 msgid ""
 "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
 "comment."
 msgstr ""
-"Sinun pitää olla <a href=\"%1$s\" title=\"Log in\">kirjautuneena</a> "
-"kirjoittaaksesi kommentin."
+"Je moet <a href=\"%1$s\" title=\"Log in\">ingelogd zijn</a> om een reactie "
+"te geven."
 
 #: library/functions/comments.php:197
 msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
-msgstr "Kirjautuneena nimellä <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "Ingelogd als <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 
 #: library/functions/comments.php:197
 msgid "Log out of this account"
-msgstr "Kirjaudu ulos tästä tilistä"
+msgstr "Dit account uitloggen"
 
 #: library/functions/comments.php:197
 msgid "Log out &raquo;"
-msgstr "Kirjaudu ulos &raquo;"
+msgstr "Uitloggen &raquo;"
 
 #: library/functions/comments.php:202
 msgid "Leave a Reply"
-msgstr "Jätä kommentti"
+msgstr "Geef een reactie"
 
 #: library/functions/comments.php:203
 msgid "Leave a Reply to %s"
-msgstr "Jätä kommentti %s"
+msgstr "Laat een reactie achter bij %s"
 
 #: library/functions/comments.php:204
 msgid "Click here to cancel reply."
-msgstr "Klikkaa tästä peruuttaaksesi vastauksen."
+msgstr "Klik hier om je antwoord te annuleren."
 
 #: library/functions/comments.php:205
 msgid "Post Comment"
-msgstr "Lähetä  kommentti"
+msgstr "Reactie plaatsen"
 
 #: library/functions/context.php:553 library/functions/context.php:559
 #: library/functions/context.php:562 library/functions/context.php:568
 #: library/functions/context.php:571
 msgid "Archive for %s"
-msgstr "Arkisto: %s"
+msgstr "Archief van %s"
 
 #: library/functions/context.php:556
 msgid "Archive for minute %s"
-msgstr "Minuuttiarkisto %s"
+msgstr "Maak archief voor minuut %s"
 
 #: library/functions/context.php:556
 msgid "i"
@@ -1358,7 +1357,7 @@ msgstr "F jS, Y"
 
 #: library/functions/context.php:565
 msgid "Archive for week %s of %s"
-msgstr "Viikkoarkisto %s / %s"
+msgstr "Maak archief voor week %s of %s"
 
 #: library/functions/context.php:565
 msgid "W"
@@ -1366,47 +1365,47 @@ msgstr "W"
 
 #: library/functions/context.php:590
 msgid "%1$s Page %2$s"
-msgstr "%1$s Sivu %2$s"
+msgstr "%1$s Pagina %2$s"
 
 #: library/functions/core-seo.php:97
 msgid "Copyright (c) %1$s"
-msgstr "Copyright (c) %1$s"
+msgstr "Copyright © %1$s"
 
 #: library/functions/core-seo.php:116 library/functions/shortcodes.php:237
 #: library/functions/shortcodes.php:451 library/functions/shortcodes.php:455
 msgid "l, F jS, Y, g:i a"
-msgstr "l j.m.Y, G:i"
+msgstr "l, F jS, Y, g:i a"
 
 #: library/functions/customize.php:63 library/functions/customize.php:88
 msgid "Footer"
-msgstr "Alapalkki"
+msgstr "Voettekst"
 
 #: library/functions/deprecated.php:684
 msgid ""
 "<code>%1$s</code> &mdash; This function has been removed or replaced by "
 "another function."
 msgstr ""
-"<code>%1$s</code> &mdash; Tämä funktio on poistettu tai korvattu toisella "
-"funktiolla."
+"<code>%1$s</code> &mdash; Deze functie is verwijderd of vervangen door een "
+"andere functie."
 
 #: library/functions/menus.php:38
 msgctxt "nav menu location"
 msgid "Primary"
-msgstr "Päämenu"
+msgstr "Primair"
 
 #: library/functions/menus.php:42
 msgctxt "nav menu location"
 msgid "Secondary"
-msgstr "Toinen menu"
+msgstr "Secondair"
 
 #: library/functions/menus.php:46
 msgctxt "nav menu location"
 msgid "Subsidiary"
-msgstr "Kolmas menu"
+msgstr "Subsidiary"
 
 #: library/functions/post-formats.php:111
 msgid "Asides"
-msgstr "Sivuhuomautukset"
+msgstr "Asides"
 
 #: library/functions/post-formats.php:112
 msgid "Audio"
@@ -1414,31 +1413,31 @@ msgstr "Audio"
 
 #: library/functions/post-formats.php:113
 msgid "Chats"
-msgstr "Keskustelut"
+msgstr "Chats"
 
 #: library/functions/post-formats.php:114
 msgid "Images"
-msgstr "Kuvat"
+msgstr "Afbeeldingen"
 
 #: library/functions/post-formats.php:115
 msgid "Galleries"
-msgstr "Galleriat"
+msgstr "Fotogalerijen"
 
 #: library/functions/post-formats.php:116
 msgid "Links"
-msgstr "Linkit"
+msgstr "Links"
 
 #: library/functions/post-formats.php:117
 msgid "Quotes"
-msgstr "Lainaukset"
+msgstr "Quotes"
 
 #: library/functions/post-formats.php:118
 msgid "Status Updates"
-msgstr "Tilapäivitykset"
+msgstr "Bijgewerkte status"
 
 #: library/functions/post-formats.php:119
 msgid "Videos"
-msgstr "Videot"
+msgstr "Videos"
 
 #: library/functions/settings.php:83 library/functions/settings.php:87
 msgid "Copyright &#169; [the-year] [site-link]."
@@ -1446,15 +1445,15 @@ msgstr "Copyright &#169; [the-year] [site-link]."
 
 #: library/functions/settings.php:83
 msgid "Powered by [wp-link], [theme-link], and [child-link]."
-msgstr "Alustana [wp-link], [theme-link] ja [child-link]."
+msgstr "Aangedreven door [wp-link], [theme-link], en [child-link]."
 
 #: library/functions/settings.php:87
 msgid "Powered by [wp-link] and [theme-link]."
-msgstr "Alustana [wp-link] ja [theme-link]."
+msgstr "Draait op [wp-link] and [theme-link]."
 
 #: library/functions/shortcodes.php:93
 msgid "State-of-the-art semantic personal publishing platform"
-msgstr "Henkilökohtainen julkaisujärjestelmä"
+msgstr "State-of-the-art semantisch persoonlijk publicatie platform "
 
 #: library/functions/shortcodes.php:93
 msgid "WordPress"
@@ -1462,186 +1461,187 @@ msgstr "WordPress"
 
 #: library/functions/shortcodes.php:106
 msgid "%s WordPress Theme"
-msgstr "%s WordPress teema"
+msgstr "%s WordPress Theme"
 
 #: library/functions/shortcodes.php:134
 msgid "Log out"
-msgstr "Kirjaudu ulos"
+msgstr "Uitloggen"
 
 #: library/functions/shortcodes.php:136
 msgid "Log in"
-msgstr "Kirjaudu sisään"
+msgstr "Inloggen"
 
 #: library/functions/shortcodes.php:151
 msgid "This page loaded in %1$s seconds with %2$s database queries."
-msgstr ""
-"Sivu ladattiin %1$s sekunnissa, aikaa meni %2$s tietokannan kyselyihin."
+msgstr "Dezze pagina laadde in %1$s seconden met %2$s database zoekopdrachten."
 
 #: library/functions/shortcodes.php:205 library/functions/shortcodes.php:527
 msgid "Edit %1$s"
-msgstr "Editoi %1$s"
+msgstr "Bewerk %1$s"
 
 #: library/functions/shortcodes.php:257
 msgid "Leave a response"
-msgstr "Jätä kommentti"
+msgstr "Laat een reactie achter"
 
 #: library/functions/shortcodes.php:258
 msgid "%1$s Response"
-msgstr "%1$s Kommentti"
+msgstr "%1$s reactie"
 
 #: library/functions/shortcodes.php:259
 msgid "%1$s Responses"
-msgstr "%1$s Kommenttia"
+msgstr "%1$s reacties"
 
 #: library/functions/shortcodes.php:274 library/functions/shortcodes.php:276
 #: library/functions/shortcodes.php:278
 msgid "Comment on %1$s"
-msgstr "Kommentti %1$s"
+msgstr "reageer op %1$s"
 
 #: library/functions/shortcodes.php:385
 msgid "Shortlink"
-msgstr "Pikalinkki"
+msgstr "Verkorte link"
 
 #: library/functions/shortcodes.php:410 library/functions/shortcodes.php:506
 msgid "Permalink"
-msgstr "Pikalinkki"
+msgstr "Permalink"
 
 #: library/functions/shortcodes.php:455
 msgid "%1$s at %2$s"
-msgstr "%1$s / %2$s"
+msgstr "%1$s om %2$s"
 
 #: library/functions/shortcodes.php:506
 msgid "Permalink to comment %1$s"
-msgstr "Pikalinkki kommenttiin %1$s"
+msgstr "Permalink om te reagereren %1$s"
 
 #: library/functions/shortcodes.php:546
 msgid "Reply"
-msgstr "Vastaa"
+msgstr "Reageer"
 
 #: library/functions/shortcodes.php:547
 msgid "Log in to reply."
-msgstr "Kirjaudu sisään vastataksesi."
+msgstr "Log in om te antwoorden"
 
 #: library/functions/sidebars.php:87
 msgctxt "sidebar"
 msgid "Primary"
-msgstr "Päävimpain"
+msgstr "Primair"
 
 #: library/functions/sidebars.php:88
 msgid "The main (primary) widget area, most often used as a sidebar."
-msgstr "Päävimpainalue, yleisesti käytetty sivupalkissa."
+msgstr "Het belangrijkste (primaire) widget gebied, vaak gebruikt als sidebar."
 
 #: library/functions/sidebars.php:91
 msgctxt "sidebar"
 msgid "Secondary"
-msgstr "Toinen vimpain"
+msgstr "Secondair"
 
 #: library/functions/sidebars.php:92
 msgid ""
 "The second most important widget area, most often used as a secondary "
 "sidebar."
-msgstr "Toiseksi tärkein vimpainalue, yleisesti käytetty sivupalkissa."
+msgstr ""
+"Het tweede meest belangrijke widget gebied, vaak gebruikt als secondaire "
+"sidebar."
 
 #: library/functions/sidebars.php:95
 msgctxt "sidebar"
 msgid "Subsidiary"
-msgstr "Kolmas vimpain"
+msgstr "Subsidiary"
 
 #: library/functions/sidebars.php:96
 msgid "A widget area loaded in the footer of the site."
-msgstr "Vimpainalue, joka ladataan sivun alaplakkiin."
+msgstr "Een widget gebied geladen in de footer van de site."
 
 #: library/functions/sidebars.php:99
 msgctxt "sidebar"
 msgid "Header"
-msgstr "Yläpalkin vimpain"
+msgstr "Header"
 
 #: library/functions/sidebars.php:100
 msgid "Displayed within the site's header area."
-msgstr "Näytetään sivun otsakkeessa."
+msgstr "Getoond in de site's header gebied."
 
 #: library/functions/sidebars.php:103
 msgctxt "sidebar"
 msgid "Before Content"
-msgstr "Ennen sisältöä"
+msgstr "Voor Content"
 
 #: library/functions/sidebars.php:104
 msgid "Loaded before the page's main content area."
-msgstr "Ladataan ennen sivun sisältöä."
+msgstr "Geladen voor het belangrijkste content gebied van de pagina."
 
 #: library/functions/sidebars.php:107
 msgctxt "sidebar"
 msgid "After Content"
-msgstr "Sisällön jälkeen"
+msgstr "Na content"
 
 #: library/functions/sidebars.php:108
 msgid "Loaded after the page's main content area."
-msgstr "Ladataan sivun sisällön jälkeen."
+msgstr "Geladen na het belangrijkste content gebied van de pagina"
 
 #: library/functions/sidebars.php:111
 msgctxt "sidebar"
 msgid "After Singular"
-msgstr "Yksittäisen artikkelin jälkeen"
+msgstr "Na Singular"
 
 #: library/functions/sidebars.php:112
 msgid ""
 "Loaded on singular post (page, attachment, etc.) views before the comments "
 "area."
 msgstr ""
-"Ladataan yksittäisen sivun (artikkelin, kuvasivun jne.) jälkeen ennen "
-"kommenttialuetta."
+"Geladen in singular post (page, attachment, etc.) views voor het comments "
+"gebied"
 
 #: library/functions/utility.php:197
 msgid "(Untitled)"
-msgstr "(Ei otsikkoa)"
+msgstr "(Ongetiteld)"
 
 #: loop-error.php:4
 msgid "Nothing found"
-msgstr "Mitään ei löytynyt"
+msgstr ""
 
 #: loop-error.php:8
 msgid "Apologies, but no entries were found."
-msgstr "Pahoittelut, mutta yhtään artikkelia ei löytynyt."
+msgstr "Excuses, maar er is geen input gevonden"
 
 #: loop-meta.php:54
 msgid "You are browsing the search results for \"%s\""
-msgstr "Hakutulokset haulle  \"%s\""
+msgstr "Je bent de zoekresultaten aan het browsen voor \"%s\""
 
 #: loop-meta.php:71
 msgid "F d, Y"
-msgstr "d.j.Y"
+msgstr ""
 
 #: loop-meta.php:81
 msgid "You are browsing the site archives for %s."
-msgstr "Sivun arkistot %s."
+msgstr ""
 
 #: loop-meta.php:89
 msgid "You are browsing the site archives."
-msgstr "Sivun arkistot."
+msgstr "Je bent aan browsen in de archieven van de site."
 
 #: loop-nav.php:4
 msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
-msgstr "<span class=\"meta-nav\">&larr;</span> Palaa takaisin"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ga terug naar invoer"
 
 #: loop-nav.php:10 loop-nav.php:14 loop-nav.php:16
 msgid "<span class=\"meta-nav\"></span> Previous"
-msgstr "<span class=\"meta-nav\"></span> Edellinen"
+msgstr ""
 
 #: loop-nav.php:11 loop-nav.php:14 loop-nav.php:16
 msgid "Next <span class=\"meta-nav\"></span>"
-msgstr "Seuraava <span class=\"meta-nav\"></span>"
+msgstr ""
 
 #: members-loop.php:21
 msgid "%s on Twitter"
-msgstr "%s Twitter"
+msgstr ""
 
 #: members-loop.php:21
 msgid "Twitter"
-msgstr "Twitter"
+msgstr ""
 
 #: members-loop.php:25
 msgid "%s on Facebook"
-msgstr "%s Facebook"
+msgstr ""
 
 #: members-loop.php:25
 msgid "Facebook"
@@ -1649,55 +1649,55 @@ msgstr "Facebook"
 
 #: members-loop.php:29
 msgid "%s on Google+"
-msgstr "%s Google+"
+msgstr ""
 
 #: members-loop.php:29
 msgid "Google+"
-msgstr "Google+"
+msgstr ""
 
 #: members-loop.php:32
 msgid "Subscribe to the feed for %s"
-msgstr "Tilaa RSS-syöte %s"
+msgstr ""
 
 #: members-loop.php:32
 msgid "Subscribe"
-msgstr "Liity"
+msgstr ""
 
 #: menu-primary.php:12 menu-secondary.php:13
 msgid "Skip to content"
-msgstr "Hyppää sisältöön"
+msgstr "Spring naar de inhoud"
 
 #: menu-primary.php:12
 msgid "Menu"
-msgstr "Valikko"
+msgstr "Menu"
 
 #: page-templates/download-page.php:24
 msgid "Latest Downloads"
-msgstr "Viimeisimmät lataukset"
+msgstr ""
 
 #: page-templates/download-page.php:26 page-templates/portfolio-page.php:26
 msgid "%1$s"
-msgstr "%1$s"
+msgstr ""
 
 #: page-templates/portfolio-page.php:24
 msgid "Latest Portfolios"
-msgstr "Viimeisimmät portfoliot"
+msgstr ""
 
 #: search.php:22
 msgid "[entry-published] &mdash; <code>%s</code>"
-msgstr "[entry-published] &mdash; <code>%s</code>"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Eino"
-msgstr "Eino"
+msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid "https://foxnet-themes.fi/downloads/eino"
-msgstr "https://foxnet-themes.fi/downloads/eino"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid "Some kind of Franter."
-msgstr "Monipuolinen teema, joka tukee monia lisäosia. Lempinimi Franter."
+msgstr ""
 
 #. Author of the plugin/theme
 msgid "Sami Keijonen"
@@ -1705,106 +1705,24 @@ msgstr "Sami Keijonen"
 
 #. Author URI of the plugin/theme
 msgid "https://foxnet-themes.fi/"
-msgstr "https://foxnet-themes.fi/"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Download Page"
-msgstr "Latauksien sivu"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Front Page"
-msgstr "Etusivu"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Members"
-msgstr "Jäsenet"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Portfolio Page"
-msgstr "Portfolio sivu"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Slider"
-msgstr "Kuvaslider"
-
-#~ msgid "Search results for &quot;%1$s&quot;"
-#~ msgstr "Hakutulokset haulle: &quot;%1$s&quot;"
-
-#~ msgid "You are here:"
-#~ msgstr "Olet täällä:"
-
-#~ msgid "View Details"
-#~ msgstr "Näytä lisää"
-
-#~ msgid "Checkout"
-#~ msgstr "Kassalle"
-
-#~ msgid "%d topic"
-#~ msgid_plural "%d topics"
-#~ msgstr[0] "%d aihe"
-#~ msgstr[1] "%d aihetta"
-
-#~ msgid "%d post"
-#~ msgid_plural "%d posts"
-#~ msgstr[0] "%d viesti"
-#~ msgstr[1] "%d viestiä"
-
-#~ msgid "Last post %s"
-#~ msgstr "Viimeisin vastaus %s"
-
-#~ msgid "%d voice"
-#~ msgid_plural "%d voices"
-#~ msgstr[0] "%d kirjoittaja"
-#~ msgstr[1] "%d kirjoittajaa"
-
-#, fuzzy
-#~ msgid "Header Upload"
-#~ msgstr "Yläpalkin vimpain"
-
-#~ msgid "Background"
-#~ msgstr "Taustakuva"
-
-#, fuzzy
-#~ msgid "Customize:"
-#~ msgstr "Kustomoi"
-
-#~ msgid "Custom Header:"
-#~ msgstr "Otsake:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Copyright &copy; [the-year] [site-link]. Powered by [wp-link] and [theme-"
-#~ "link]."
-#~ msgstr "Alustana [wp-link] ja [theme-link]."
-
-#~ msgid "No templates exist for this post type."
-#~ msgstr "Tälle artikkelityypille ei löytynyt sivupohjaa."
-
-#~ msgid "Title used for search engines and the browser title bar."
-#~ msgstr "Otsikko hakukoneille ja selaimen otsikolle."
-
-#~ msgid "Keywords"
-#~ msgstr "Avainsanat"
-
-#~ msgid "Meta keywords to represent the content of the single post."
-#~ msgstr "Meta avainsanat yksittäiselle artikkelille."
-
-#~ msgid "Meta description that describes the post."
-#~ msgstr "Metakuvaus, joka lyhyesti kertoo artikkelista."
-
-#~ msgid "Show last update?"
-#~ msgstr "Näytä viimeisin päivitys?"
-
-#~ msgid "Automatically add paragraphs"
-#~ msgstr "Lisää kappaleet automaattisesti"
-
-#~ msgid ""
-#~ "An advanced widget that gives you total control over the output of your "
-#~ "users."
-#~ msgstr "Vimpain, jolla hallitaan käyttäjiä."
-
-#~ msgid "Users"
-#~ msgstr "Käyttäjät"
-
-#~ msgid "Log into this account"
-#~ msgstr "Kirjaudu tähän tiliin"
+msgstr "Slider"
