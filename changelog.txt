@@ -1,3 +1,8 @@
+March 31, 2014 - version 0.1.6
+
+* Loop meta css bug fixed.
+* Hybrid Core updated to version 1.6.2.
+
 October (rust) 9, 2013 - version 0.1.5
 
 * Edd buttons updated.
