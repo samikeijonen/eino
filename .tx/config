@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[eino.eino]
+file_filter = languages/eino-<lang>.po
+source_file = languages/eino.pot
+source_lang = en_US
+type = PO
